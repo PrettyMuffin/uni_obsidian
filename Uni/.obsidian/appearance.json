@@ -1,4 +1,7 @@
 {
   "cssTheme": "",
-  "accentColor": ""
+  "accentColor": "",
+  "enabledCssSnippets": [
+    "snippets"
+  ]
 }

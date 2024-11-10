@@ -61,8 +61,7 @@ mezzanotte.Minuti()
 mezzanotte.Ore()
 ```
 
-
->[!important]- Oggetto di invocazione #Definizione 
+>[!def]- Oggetto di invocazione #Definizione 
 >L'oggetto di invocazione sarebbe la variabile dell'oggetto che effettua la chiamata al metodo della classe.
 >All'interno del metodo viene definito tramite un parametro implicito `*this`, che appunto fa riferimento all'oggetto che ha invocato tale metodo, in quanto in memoria i metodi vengono salvati una sola volta e non una volta per oggetto. ^76e1c5
 
@@ -200,6 +199,8 @@ Dunque scrivere: `orario o = orario(12, 33, 25)` è come fare `int a = 4` in qua
 >> orario copia2(adesso); // costruttore di copia
 >> ```
 
+^cae878
+
 ### Costruttori come convertitori di tipo
 I costruttori ad **un solo parametro**. Come:
 ```cpp
@@ -216,3 +217,34 @@ x = 8;
 
 >[!info]
 >La conversione implicita avviene a run-time mediante un'invocazione al costruttore ad un argomento che costruisce un [oggetto temporaneo](#^cd9d7d).
+
+#### Explicit keyword
+In qualche caso possiamo non volere che un costruttore ad un parametro sia richiamato implicitamente come convertitore di tipo.
+Basta allora usare la keyword `explicit`:
+```cpp
+class orario{
+public:
+	explicit orario(int); // costruttore esplicito 1 parametro
+	...
+};
+
+```
+>[!error]
+>Con `orario` definita come sopra, abbiamo errore di compilazione:
+> ```cpp
+> orario x = 8;
+> ```
+
+>È anche possibile definire in una classe C una conversione implicita dal tipo *C* al tipo *T* tramite degli **operatori espliciti di conversione**. #Definizione 
+
+>[!example]- orario -> int
+>```cpp
+>class orario {
+>public:
+>	operator int() { return sec; }
+>	...
+>};
+>orario o(14, 37);
+>int x = o; // OK: viene chiamato implicitamente l'operatore int() di o
+>```
+
