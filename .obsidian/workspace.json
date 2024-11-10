@@ -1,25 +1,20 @@
 {
   "main": {
-    "id": "3a2f89ef75937c70",
+    "id": "0bad936811953270",
     "type": "split",
     "children": [
       {
-        "id": "fdd79495b78319c1",
+        "id": "95ed89c9fc169bbf",
         "type": "tabs",
         "children": [
           {
-            "id": "91861e09aff7721b",
+            "id": "2d80849fa800da45",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Classi.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Classi"
+              "title": "New tab"
             }
           }
         ]
@@ -28,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "41ff92f1d7ace9b2",
+    "id": "de2670786b92f0d7",
     "type": "split",
     "children": [
       {
-        "id": "405c7aa571cbe416",
+        "id": "4ae1fc5afd739360",
         "type": "tabs",
         "children": [
           {
-            "id": "140b31c651f4bd7b",
+            "id": "0e136057aa57ebb6",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +43,7 @@
             }
           },
           {
-            "id": "1945ef0b14746c95",
+            "id": "0b928bb439e59bd3",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +60,7 @@
             }
           },
           {
-            "id": "c7dbc94c366c16c6",
+            "id": "59fbc6cc40b7bdab",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,23 +73,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "53e7b442ff53f276",
+    "id": "73f54a40baaa97e0",
     "type": "split",
     "children": [
       {
-        "id": "8fd1538800c729c4",
+        "id": "1ff302c7836bfbbb",
         "type": "tabs",
         "children": [
           {
-            "id": "bb8e870e1ac747e2",
+            "id": "b77efc5bcfb3d47b",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Benvenuto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +98,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Riferimenti a Benvenuto"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "01fc7098b704209a",
+            "id": "dfb18b38cd46cceb",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Classi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Classi"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "31148549201666e2",
+            "id": "45b610aecff237a7",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -135,33 +128,21 @@
             }
           },
           {
-            "id": "20ac371123cac2a2",
+            "id": "8406658ae7b10aa1",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Classi.md"
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Classi"
-            }
-          },
-          {
-            "id": "8bcea40682e09863",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-list",
+              "title": "Outline"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -170,33 +151,9 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false,
-      "obsidian-git:Open Git source control": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "91861e09aff7721b",
-  "lastOpenFiles": [
-    "Const.md",
-    "Classi.md",
-    "References.md",
-    "Namespace.md",
-    "P.A.O]] [[Essenziali.md",
-    "Tags/P.A.O.md",
-    "Programmazione Ad Oggetti.md",
-    "Untitled.canvas",
-    "2024-11-09.md",
-    "Costruttori.md",
-    "Tags/Essenziali.md",
-    "Tags/ciao.md",
-    "Tags/Introduzione.md",
-    "fasfks.md",
-    "().md",
-    "alias.md",
-    "Canvas/PAO_C.canvas",
-    "Canvas",
-    "Tags",
-    "Prova.md",
-    "Benvenuto.md"
-  ]
+  "active": "2d80849fa800da45",
+  "lastOpenFiles": []
 }
