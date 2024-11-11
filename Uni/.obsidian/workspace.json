@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "91861e09aff7721b",
+            "id": "a4502a5beb823dbc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Classi.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               },
@@ -175,12 +175,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "91861e09aff7721b",
+  "active": "a4502a5beb823dbc",
   "lastOpenFiles": [
     "Const.md",
     "Classi.md",
-    "References.md",
     "Namespace.md",
+    "Static.md",
+    "References.md",
     "P.A.O]] [[Essenziali.md",
     "Tags/P.A.O.md",
     "Programmazione Ad Oggetti.md",
