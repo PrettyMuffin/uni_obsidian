@@ -168,10 +168,23 @@ Nel 3° caso lo standard propone un'ottimizzazione, sebbene sia sottile, in quan
 >[!def] Lista di inizializzazione
 >Una esplicita *lista di inizializzazione* consiste in una lista di invocazioni a costruttori, possibilmente di [copia](#Costruttore%20di%20Copia%20Standard).
 
-In una classe C con lista di campi dati
+In una classe C con lista di campi dati $x_1 ... x_k$, un costruttore con lista di inizializzazione per i campi dati è definito tramite la seguente sintassi:
+```cpp
+C(T1,...,Tn) : xi(...), ..., xj(...) { // codice }
+```
 
 Il comportamento è il seguente:
 1. Ordinatamente per ogni campo dati $x_i (1 \leq i \leq k)$ dove $k$ è il numero di campi dati della classe viene chiamato il rispettivo costruttore
    - o esplicitamente tramite una chiamata ad un costruttore $x_i$ definita nella lista di inizializzazione
    - o implicitamente (cioè non appare nella lista di inizializzazione) tramite una chiamata al [costruttore di default](#^a16ac4) di $x_i$.
+2. Quindi viene eseguito il codice del costruttore
+   - Naturalmente parliamo di costruttori e costruttori di copia anche per i campi dati di tipo non classe
+   - La chiamata implicita al costruttore di default per un campo dati di tipo non classe, alloca lo spazio in memoria ma lascia indefinito il valore.
+   - ==L'ordine in cui vengono invocati i costruttori, esplicitamente o implicitamente  è sempre determinato dalla lista ordinata dei campi dati==
 
+
+>[!info]- Campi dati di tipo riferimento
+>Analogamente ai campi dati dichiarati costanti, questo campo dati deve essere obbligatoriamente inizializzato tramite una chiamata al costruttore di copia inclusa nella lista di inizializzazione.
+
+>[!info]- Costruttori Standard
+>pag-54
