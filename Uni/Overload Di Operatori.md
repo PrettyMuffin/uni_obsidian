@@ -1,5 +1,5 @@
 Vogliamo ora aggiungere alla classe `orario` una operazione che permetta di sommare le ore di una durata temporale di un orario.
-### Perché?
+## Perché?
 Per sommare possiamo usare il metodo
 ```cpp
 orario orario::Somma(const orario& o){
@@ -66,3 +66,55 @@ Questo è vero per tutti gli operatori ad eccezione di:
 - & (operatore di indirizzo);
 - , (operatore virgola);
 Per questi operatori C++ fornisce una definizione standard per ogni classe.
+
+
+## Overload con funzioni Esterne
+### Perché?
+Il motivo appare evidente quando vogliamo fare overloading dell'operatore di output `<<` 
+```cpp
+#include <iostream>
+std::ostream& orario::operator<<(ostream& os) const {
+	return os << Ore() << ':' << Minuti() << ':' << Secondi();
+}
+```
+
+>[!attention] N.B:
+>Il primo parametro implicito di un operatore binario con 1 solo parametro è l'oggetto di invocazione, posto solitamente come primo operando, mentre il parametro passato e il secondo operando
+
+Notando e seguendo questo dunque abbiamo:
+```cpp
+le_quattro << cout;
+le_tre << cout;
+```
+
+mentre noi vorremmo:
+```cpp
+cout << le_tre << " vengono prima delle " << le_quattro;
+```
+
+per far questo il parametro di tipo `ostream` deve avere la posizione dell'oggetto di invocazione e ciò non è possibile se specifichiamo l'overloading dell'operator << all'interno della classe.
+Siamo dunque costretti ad andare fuori.
+### Sintassi
+La sintassi è abbastanza semplice e "intuitiva", per quanto C++ possa essere intuitivo:
+```cpp
+ostream& operator<<(ostream& os, const orario& o) {
+	return os << o.Ore() << ':' << o.Minuti() << ':' << o.Secondi();
+}
+```
+
+>[!warning] Problema
+>1. Il fatto che andiamo fuori dalla classe significa che non abbiamo accesso alla parte `private` della classe
+>2.  Non abbiamo più la commutatività valida se come primo operando abbiamo un oggetto senza l-valore ([oggetto anonimo](Costruttori#^cd9d7d))
+>   >[!failure]- Es
+>   >```cpp
+>   >orario x(12,23);
+>   >orario y = 4 + y; // oppure
+>   >orario y = orario(2) + y;
+>   >```
+>
+> Questi problemi nascono dal fatto che queste funzioni dovrebbero essere del tutto interne alla classe, ma per un bad design del linguaggio siamo costretti ad andare fuori.
+> Questo problema si risolve con la keyword [`friend`](Friend).
+
+
+
+[^1]:cioè ridefinizione di un metodo

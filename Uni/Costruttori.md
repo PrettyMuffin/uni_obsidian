@@ -1,5 +1,5 @@
 ### Perché?
-Prendiamo come esempio orario. Quando creiamo un nuovo oggetto i valori dei campi dati non vengono inizializzati, dunque assumono dei valori di default, chee non necessariamente sono quelli che vogliamo noi.
+Prendiamo come esempio orario. Quando creiamo un nuovo oggetto i valori dei campi dati non vengono inizializzati, dunque assumono dei valori di default, che non necessariamente sono quelli che vogliamo noi.
 Tuttavia se proviamo a inizializzarlo:
 >[!error] Sec è un campo privato => errore di compilazione
 > ```cpp
@@ -10,7 +10,7 @@ Tuttavia se proviamo a inizializzarlo:
 Si devono dunque usare i cosiddetti *costruttori*:
 >[!important] Costruttore #Definizione 
 >Metodo con lo stesso nome della classe e senza tipo di ritorno che vengono invocati automaticamente quando viene dichiarano, quindi costruito, un oggetto.
->Solitamente stanno nella parte [pubblica](#Public) della classe.
+>Solitamente stanno nella parte [pubblica](Classi#Public) della classe.
 
 >[!example]- Esempio
 > ```cpp 		
@@ -30,9 +30,8 @@ Si devono dunque usare i cosiddetti *costruttori*:
 > ```
 
 
-
 Si posso definire più costruttori purché differiscano nella lista dei parametri.
-Il costruttore senza parametri viene detto di ==default o standard==.
+Il costruttore senza parametri viene detto di ==default o standard==. ^a16ac4
 ```cpp 
 class orario {
 public:
@@ -164,3 +163,15 @@ Nel 3° caso lo standard propone un'ottimizzazione, sebbene sia sottile, in quan
 > Il costruttore di copia standard *crea* un nuovo oggetto inizializzandolo da un altro oggetto dello stesso tipo.
 > ##### Assegnazione standard
 > L'assegnazione standard invece *modifica* un oggetto già esistente cambiandone i campi dati
+
+## Liste di Inizializzazione
+>[!def] Lista di inizializzazione
+>Una esplicita *lista di inizializzazione* consiste in una lista di invocazioni a costruttori, possibilmente di [copia](#Costruttore%20di%20Copia%20Standard).
+
+In una classe C con lista di campi dati
+
+Il comportamento è il seguente:
+1. Ordinatamente per ogni campo dati $x_i (1 \leq i \leq k)$ dove $k$ è il numero di campi dati della classe viene chiamato il rispettivo costruttore
+   - o esplicitamente tramite una chiamata ad un costruttore $x_i$ definita nella lista di inizializzazione
+   - o implicitamente (cioè non appare nella lista di inizializzazione) tramite una chiamata al [costruttore di default](#^a16ac4) di $x_i$.
+

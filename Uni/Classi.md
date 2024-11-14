@@ -121,5 +121,3 @@ In questa parte mettiamo a disposizione le funzioni e i servizi che vogliamo dar
 
 
 
-
-[^1]:cioè ridefinizione di un metodo
