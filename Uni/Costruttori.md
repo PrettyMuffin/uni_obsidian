@@ -1,3 +1,4 @@
+Tags: [[Essenziali]] [[P.A.O]]
 ### Perché?
 Prendiamo come esempio orario. Quando creiamo un nuovo oggetto i valori dei campi dati non vengono inizializzati, dunque assumono dei valori di default, che non necessariamente sono quelli che vogliamo noi.
 Tuttavia se proviamo a inizializzarlo:
@@ -42,7 +43,7 @@ public:
 ```
 
 Quindi per utilizzare il costruttore si fa così:
-```cpp
+```cpp 
 orario o(); // default
 orario o(12, 22);
 orario o(12, 45, 22);
@@ -124,8 +125,13 @@ Dunque scrivere: `orario o = orario(12, 33, 25)` è come fare `int a = 4` in qua
 >> orario copia2(adesso); // costruttore di copia
 >> ```
 
+^afd301
+
 ^cae878
 ### Costruttore di Copia Standard
+
+^eb6713
+
 Il *costruttore di copia* viene invocato automaticamente nei seguenti casi:
 - Quando un oggetto viene invocato e inizializzato:
   >[!example]- es
@@ -165,7 +171,7 @@ Nel 3° caso lo standard propone un'ottimizzazione, sebbene sia sottile, in quan
 > L'assegnazione standard invece *modifica* un oggetto già esistente cambiandone i campi dati
 
 ## Liste di Inizializzazione
->[!def] Lista di inizializzazione
+>[!def] Lista di inizializzazione #Definizione 
 >Una esplicita *lista di inizializzazione* consiste in una lista di invocazioni a costruttori, possibilmente di [copia](#Costruttore%20di%20Copia%20Standard).
 
 In una classe C con lista di campi dati $x_1 ... x_k$, un costruttore con lista di inizializzazione per i campi dati è definito tramite la seguente sintassi:
@@ -186,5 +192,57 @@ Il comportamento è il seguente:
 >[!info]- Campi dati di tipo riferimento
 >Analogamente ai campi dati dichiarati costanti, questo campo dati deve essere obbligatoriamente inizializzato tramite una chiamata al costruttore di copia inclusa nella lista di inizializzazione.
 
->[!info]- Costruttori Standard
->pag-54
+>[!info] Costruttori Standard
+>Il comportamento dei costruttori standard di [default](#^a16ac4) e di [copia](#^afd301) è:
+>- Una chiamata `C()` al [costruttore di default](#^a16ac4) standard di una classe `C` invoca ordinatamente per ogni campo dati *x* di `C` il corrispondente costruttore di default.
+>  ==Dove per i tipi non classe tale "costruttore di default standard" semplicemente alloca la memoria per il campo dati *x*==.
+>- Una chiamata `C(obj)` al [costruttore di copia](#^afd301) standard di una classe `C` invoca ordinatamente per ogni campo dati *x* di `C` il corrispondente costruttore di copia sul relativo campo dati `obj.x` dell'oggetto-parametro attuale `obj`.
+
+```cpp 
+class C {
+public:
+	C() { cout << "C0"; }
+	C(const C&)  { cout << "Cc "; }
+};
+
+class D {
+public:
+	C c;
+	D() { cout << "D0 " ;}
+};
+
+int main() {
+	D x;
+	cout << endl;
+	// stampa C0 D0
+	D y(x);
+	cout << endl;
+	// stampa Cc
+}
+```
+
+```cpp 
+class C {
+public:
+	C() { cout << "C0"; }
+	C(const C&)  { cout << "Cc "; }
+};
+
+class D {
+public:
+	C c;
+	D() { cout << "D0 " ;}
+	D(const D&) { count << "Dc "; } 
+};
+
+int main() {
+	D x;
+	cout << endl;
+	// stampa C0 D0
+	D y(x);
+	cout << endl;
+	// stampa C0 Dc
+}
+```
+
+>Si noti attentamente che la differenza in linea *19 e 20* è spiegata dal fatto che il [costruttore di copia](#^afd301) standard di una classe `D` (primo esempio) non è stato ridefinito, dunque invoca ordinatamente per ogni campo dati *x* di `D` il corrispondente [costruttore di copia](#^afd301) del tipo di *x*.

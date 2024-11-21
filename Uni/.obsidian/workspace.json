@@ -8,18 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "22b67a9a81d862bf",
+            "id": "dde7b29a7d98f19e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Costruttori.md",
-                "mode": "preview",
+                "file": "Classi.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Costruttori"
+              "title": "Classi"
             }
           }
         ]
@@ -175,20 +175,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8bcea40682e09863",
+  "active": "dde7b29a7d98f19e",
   "lastOpenFiles": [
-    "Const.md",
+    "21-11-2024.md",
+    "Friend.md",
+    "Problema dell'interferenza.md",
+    "Copie, Assegnazione, Distruzioni Profonde.md",
+    "Overload Di Operatori.md",
+    "Namespace.md",
+    "Costruttori.md",
+    "Distruzione Profonda.md",
+    "Distruttore.md",
     "Classi.md",
+    "Classi Annidate.md",
+    "Untitled 2.md",
+    "Untitled 1.md",
     "Static.md",
+    "References.md",
+    "Const.md",
     "Tags/ASD.md",
     "Tags/Essenziali.md",
-    "Untitled.md",
-    "Costruttori.md",
-    "Overload Di Operatori.md",
-    "Friend.md",
-    "Distruttore.md",
-    "References.md",
-    "Namespace.md",
     "P.A.O]] [[Essenziali.md",
     "Tags/P.A.O.md",
     "Programmazione Ad Oggetti.md",
@@ -198,11 +204,8 @@
     "Tags/Introduzione.md",
     "fasfks.md",
     "().md",
-    "alias.md",
     "Canvas/PAO_C.canvas",
     "Canvas",
-    "Tags",
-    "Prova.md",
-    "Benvenuto.md"
+    "Tags"
   ]
 }
