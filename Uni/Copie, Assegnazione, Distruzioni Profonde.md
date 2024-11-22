@@ -67,4 +67,10 @@ bolletta::bolletta(const bolletta& b): first(copia(b.first)) {}
 
 
 ## Distruzione Profonda
-
+La *distruzione profonda* è analoga alla copia profonda in quando logica. Fa uso del [distruttore](Distruttore) per eliminare gli oggetti puntati dal puntatore.
+In questo caso invoco `distruggi` su first
+```cpp title:bolletta.cpp
+bolletta::~bolletta() {
+	distruggi(first);
+}
+```

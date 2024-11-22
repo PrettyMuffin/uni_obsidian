@@ -4,7 +4,7 @@ Come per i [[Costruttori]] anche per i **distruttori** è previsto un *distrutto
 
 >[!warning] Distruttore su oggetti con puntatori
 >Se l'oggetto `x` include dei campi dati puntatore allora il distruttore standard si limita solo a rilasciare la memoria occupata dai campi dati puntatore, **ma non dealloca la memoria a cui puntano i campi dati puntatore** di `x` e questo comportamento del distruttore standard non è corretto.
->Per risolvere questo problema si fa uso della [distruzione profonda](Copie, Assegnazione, Distruzioni Profonde#Distruzione Profonda).
+>Per risolvere questo problema si fa uso della [distruzione profonda](Copie,%20Assegnazione,%20Distruzioni%20Profonde#Distruzione%20Profonda).
 ###### Sintassi
 Il distruttore è un metodo senza parametri e senza tipo di ritorno.
 Identificato da:
