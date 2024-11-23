@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Classi.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               },
@@ -177,9 +177,9 @@
   },
   "active": "91861e09aff7721b",
   "lastOpenFiles": [
+    "References.md",
     "Const.md",
     "Classi.md",
-    "References.md",
     "Namespace.md",
     "P.A.O]] [[Essenziali.md",
     "Tags/P.A.O.md",
