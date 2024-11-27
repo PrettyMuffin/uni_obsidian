@@ -115,6 +115,17 @@ In questa parte mettiamo a disposizione le funzioni e i servizi che vogliamo dar
 >[!question]- E se non si specifica nulla?
 >Allora sono di default membri della parte [privata](#Private)
 
+### Protected
+È individuata dalla parola chiave `protected`, i cui membri risultano accessibili alle [classi derivate](Ereditarietà) da `B` ma non risultano accessibili alle classi esterne a `B`.
+>[!example] Esempio Protected
+>```cpp
+>class orario {
+>...
+>protected:
+>	int sec;
+>};
+>```
+
 ## [[Costruttori]]
 
 ## [[Overload Di Operatori]]

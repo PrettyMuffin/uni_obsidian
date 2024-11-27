@@ -2,3 +2,8 @@
     --callout-color: 255, 117, 20;
     --callout-icon: lucide-book-a;
 }
+
+div.mermaid {
+  text-align: center;
+}
+
