@@ -138,7 +138,237 @@ Questo perché permette di realizzare la relazione [is-a](#^9ec7639) => ==Un ogg
 >Significa "essere implementati in termini di".
 >De `D` deriva privatamente da `B` significa che in `D` si è interessati ad alcune funzionalità di `B` e non si è invece interessati ad una relazione concettuale di subtyping tra `D` e `B`.
 
+>==L'ereditarietà privata eredita l'implementazione di `B` ma non l'interfaccia di `B`==
+
+>[!example] Esempio Has-A
+>```cpp
+>class Motore {
+>private:
+>	int nCilindri;
+>public
+>	Motore(int nc): nCilindri(nc) {}
+>	int getCilindri() const { return nCilindri; }
+>	void accendi() const {
+>		cout << "Motore a " << getCilindri() << " cilindri accesso " << endl;
+>	}
+>};
+>```
+>Relazione Has-A
+>```cpp
+> class Auto {
+> private:
+> 	Motore mot; // Auto has-a Motore come campo dati
+> public:
+> 	Auto(int nc = 4): mot(nc) {}
+> 	void accendi() const {
+> 		mot.accendi();
+>		cout << "Auto con motore a " << mot.getCilindri() << " cilindri accessa " << endl;
+> 	} 	
+> };
+>```
+
+>[!example] Ereditarietà privata
+>```cpp
+>class Motore {
+>
+>	int nCilindri;
+>public
+>	Motore(int nc): nCilindri(nc) {}
+>	int getCilindri() const { return nCilindri; }
+>	void accendi() const {
+>		cout << "Motore a " << getCilindri() << " cilindri accesso " << endl;
+>	}
+>};
+>```
+>Ereditarietà privata
+>```cpp
+>class Auto: private Motore { // Auto has-a motore come sottooggetto
+>public:
+> 	Auto(int nc = 4): Motore(nc) {}
+> 	void accendi() const {
+> 		mot.accendi();
+>		cout << "Auto con motore a " << getCilindri() << " cilindri accessa " << endl;
+> 	} 	
+>};
+>```
+
+###### Similarità
+- In entrambi i casi un oggetto `Motore` "contenuto" in ogni oggetto `Auto`.
+- In entrambi i casi, per gli utenti esterni, `Auto*` non è convertibile a a `Motore*`
+###### Differenze
+- La composizione è necessaria se servono più motori in un auto (a meno di usi limite di ereditarietà multipla).
+- Ereditarietà privata può introdurre ereditarietà Multipla non necessaria
+- Ereditarietà privata permette ad `Auto` di convertire `Auto*` a `Motore*`
+- Ereditarietà privata permetta l'accesso alla parte protetta della base
+
 
 
 [^1]:si riferisce al fatto che il tipo è staticamente derivabile dal codice sorgente, ossia viene determinato dal compilatore.
 [^2]:si riferisce al fatto che il tipo è deducibile solamente a run-time.
+##### Significato inaccessibile
+Supponiamo di avere una  classe `B` il cui campo dati `b` risulta inaccessibile ad una sua sottoclasse `D`.
+L'oggetto `d` di tipo `D` comunque ha `b` come campo dati.
+>[!example]- Ecco come
+>```cpp
+>class C {
+>private:
+>	int i;
+>public:
+>	C(): i(1) {}
+>	void print() const { cout << ' ' << i; }
+>};
+>
+>class D: public C {
+>private:
+>	double z;
+>public:
+>	D(): z(3.14) {}
+>	void print() const {
+>		C::print() // l'oggetto di invocazione di C::print() è il
+>				// sottooggetto di tipo C dell'oggetto di invocazione
+>		cout << ' ' << z;
+>	}
+>};
+>```
+>```cpp title:main.cpp
+>int main() {
+>	C c; D d;
+>	c.print(); cout << endl; // stampa 1
+>	d.print(); cout << endl; // stampa 1 3.14
+>}
+>```
+
+##### Significato di protected
+Abbiamo `D` sottoclasse `B` che eredita `b` come membro protetto: il caso più comune è quello che `b` sia protetto in `B` e `D` è derivata direttamente e pubblicamente.
+> Questo permette a `D` di **accedere solo ai `b` dei sottooggetti appartenenti alla classe `D`**. 
+> Ma **non** di accedere al membro `b` di oggetti che invece appartengono alla classe `B` passata magari come parametro o usata come campo dati.
+>>[!example] Esempio
+>>```cpp error:14,16 ok:15,17-19
+>>class B {
+>>protected:
+>>	int i;
+>>	void protected_printB() const { cout << ' ' << i; }
+>>public:
+>>	void printB() const { cout << ' ' << i; }
+>>};
+>>a
+>>class D: public B {
+>>private:
+>>	double z;
+>>public:
+>>	static void stampa(const B& b, const D& d) {
+>>		cout << ' ' << b.i;
+>>		b.printB();
+>>		b.protected_printB();
+>>		coud << ' ' << d.i;
+>>		d.printB();
+>>		d.protected_printB();
+>>	}
+>>};
+>>```
+>>
+
+##### Ereditarietà ed [Amicizie](Friend)
+==Una sottoclasse non eredità in alcun modo alcun tipo di [amicizie](friend) dalla classe base==.
+>[!failure] No, z private in this context
+>```cpp error:19
+>class C {
+>private:
+>	int i;
+>public:
+>	C(): i(1) {}
+>	friend void print(C);
+>};
+>a
+>class D: public C {
+>private:
+>	double z;
+>public:
+>	D(): z(3.14) {}
+>};
+>
+>void print(C x) {
+>	cout << x.i << endl;
+>	D d;
+>	cout << d.z;
+>}
+>```
+
+>[!success] Giusto
+>```cpp
+>class C {
+>private:
+>	int i;
+>public:
+>	C(): i(1) {}
+>	friend void print(C);
+>};
+>a
+>class D: public C {
+>private:
+>	double z;
+>public:
+>	D(): z(3.14) {}
+>};
+>
+>void print(C x) {
+>	cout << x.i << endl;
+>}
+>void print(D x) { cout << x.z << endl; }
+>
+>int main() {
+>	C c; D d;
+>	print(c); // 1
+>	print(d); // 3.14
+>}
+>```
+
+##### Conversioni Esplicite (static_cast) non ancora dynamic
+È sempre possibile effettuare una conversione esplicita tramite uno `static_cast` per convertire un puntatore ad una classe base `B` ad una qualsiasi classe derivata `D`.
+Si dovrà però garantire la correttezza di queste conversioni, cioè prima di effettuare queste conversioni esplicite si dovrà essere sicuri che il tipo dinamico del puntatore o riferimento oggetto della conversione esplicita sia `D*` o `D&`.
+==Si tratta di testi dinamici fatti a run-time e la responsabilità della correttezza di queste conversioni è lasciata al programmatore.==
+
+## Ridefinizione di metodi e campi dati
+In `D`, sottoclasse di `B`, è possibile *ridefinire*, i campi dati ed i metodi ereditati da `B`.
+>[!def] Ridefinizione #Definizione 
+>Ciò significa che nella classe derivata `D` si ridefinisce il significato di un membro `b` ereditato da `B` tramite una nuova definizione che nasconde quella ereditata da `Bc`.
+>In `D` è possibile usare l'operatore di [scoping](Namespace#^11f9a8) `B::b` per accedere al membro `b` definito in `B`.
+>Questa azione di dice *"to ridefine"*.
+
+Sia sempre `D` una classe derivata di `B`. Sia `m()` un metodo, possibilmente sovraccaricato, nella classe `B` che sia accessibile in `D`.
+Allora una ridefinizione in `D` di `m()` nasconde sempre **tutte** le versioni sovraccaricate (dunque anche overload in `B`) disponibili in `B`.
+Questa regola è  nota come la *name-hiding* rule. #Definizione e appunto vale per ogni ridefinizione di `m()`, che può essere di 3 tipologie.
+- Stessa segnatura;
+- Stessa lista dei parametri ma diverso tipo di ritorno;
+- Diversa lista di parametri.
+
+> Overloading e ridefinizione sono concetti diversi.
+
+Infatti:
+>[!example]
+>```cpp
+>class B {
+>public:
+>	// overloading di m()
+>	void m(int x) { cout << "B::m(int)"; }
+>	void m(int x, int y) { cout << "B::m(int, int)"; }
+>};
+>class D: public B {
+>public:
+>	// dichiarazione d'uso di B::m
+>	using B::m;
+>	//ridefinizione di m
+>	void m(int x) { cout << "D::m(int)"; }
+>	void m() { cout << "D::m()"; }
+>};
+>int main() {
+>	D d;
+>	d.m(3); // Compila e stampa: D::m(int)
+>	d.m(3); // Compila e stampa: D::m()
+>	d.m(3, 5); // Compila e stampa: D::m(int, int)
+>	d.B::m(4); // Compila e stampa: B::m(int)
+>}
+>```
+
+>[!info]
+==Per altri esempi per capire bene guarda pagine da 187-191==

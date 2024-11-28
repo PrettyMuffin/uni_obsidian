@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Ereditarietà.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               },
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "scoping",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -190,11 +190,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "140b31c651f4bd7b",
+  "active": "18be168494dfe55f",
   "lastOpenFiles": [
-    "Template.md",
-    "Ereditarietà.md",
     "Classi.md",
+    "Overload Di Operatori.md",
+    "Ereditarietà.md",
+    "Template.md",
     "Untitled 1.md",
     "Problema dell'interferenza.md",
     "Untitled.md",
@@ -212,7 +213,6 @@
     "Friend.md",
     "Cast.md",
     "21-11-2024.md",
-    "Overload Di Operatori.md",
     "Namespace.md",
     "Classi Annidate.md",
     "Untitled 2.md",
