@@ -372,3 +372,72 @@ Infatti:
 
 >[!info]
 ==Per altri esempi per capire bene guarda pagine da 187-191==
+## [[Costruttori]], Assegnazione e [[Distruttore]]
+### Costruttori
+Naturalmente i costruttori, l'assegnazione e il distruttore della classe base **non** sono ereditati
+dalla classe derivata, ma c'è la possibilità per costruttori, assegnazione, distruttori di invocare quelli della classe base.
+>[!note] Richiamo sottooggetto
+> Ogni oggetto di una classe derivata `D`, contiene un sottooggetto della classe base `B`.
+> Dunque quando si istanzia un oggetto `d` di tipo `D` occorrerà chiamare, esplicitamente o implicitamente, nel costruttore di `D` il costruttore di `B`.
+>  -*Invocazione Esplicita*: è possibile inserire nella [lista di inizializzazione](Costruttori#Liste%20di%20Inizializzazione) del costruttore `D` un'invocazione esplicita di un qualunque costruttore di `B`.
+>  >[!example]- Es.
+>  >```cpp
+>  >D::D(): B() {}
+>  >```
+>  a
+>  -*Invocazione Implicita*: se la [lista di inizializzazione](Costruttori#Liste%20di%20Inizializzazione) del costruttore di `D` non contiene costruttori espliciti di `B`, allora viene implicitamente ed automaticamente invocato il [costruttore di default](#^a16ac4) di `B`.
+
+>Quindi la [lista di inizializzazione](Costruttori#Liste%20di%20Inizializzazione) di un costruttore di una classe `D` derivata direttamente da `B` in generale può contenere invocazioni di costruttori per campi dati di `D` e l'invocazione di un costruttore della classe base `B`.
+>==La [lista di inizializzazione](Costruttori#Liste%20di%20Inizializzazione) di `D` non può contenere invocazioni di costruttori per i campi dati della classe base `B`.==
+
+La costruzione di un oggetto `D` avviene in 2 fasi:
+1. Viene prima costruito la base `B` tramite il suo costruttore
+2. Viene costruita la parte specifica di `D`, secondo il comportamento noto del costruttore.
+
+>[!example] Esempio:
+>```cpp
+>class Z {
+>public:
+>	Z() { cout << "Z0"; }
+>	Z(double d) { cout << "Z1"; }
+>};
+>a
+>class C { 
+>private:
+>	int x;
+>	Z w;
+>public:
+>	C(): w(6.28), x(8) { cout << x << "C0"; }
+>	C(int z): x(z) { cout << x << "C1"; }
+>};
+>a
+>class D: public C {
+>private:
+>	int y;
+>	Z z;
+>public:
+>	D(): y(0) { cout << "D0"; }
+>	D(int a): y(a), z(3.14), C(a) { cout << "D1"; }
+>};
+>a
+>int main() {
+>	D d; // Stampa: Z1 8 C0 Z0 D0
+>	cout << endl;
+>	D e(4); // Stampa: Z0 4 C1 Z1 D1
+>}
+>```
+#### Costruttori di Copia
+Il costruttore di copia può essere *ridefinito* in `D`: esso può provocare esplicitamente il costruttore di copia di `B` o qualsiasi altro costruttore di `B`.
+In mancanza di conversioni esplicite, ==viene automaticamente invocato il costruttore di default e non quello di copia di `B`==.
+
+### Assegnazione
+L'assegnazione standard di una classe `D` derivata direttamente da una classe `B` invoca preventivamente l'assegnazione della classe base `B` sul sottooggetto e successivamente esegue l'assegnazione ordinatamente membro a membro dei campi dati propri di `D` invocando le corrispondenti assegnazioni.
+>[!example] Esempi a pag 197-198
+>
+
+### Distruttore
+Il distruttore standard di una classe `D` derivata direttamente da `B` richiama implicitamente il distruttore della classe base `B` per distruggere il sottooggetto di `B` soltanto dopo l'azione di distruzione standard propria di `D`, cioè la distruzione dei campi dati propri di `D` nell'ordine inverso a quello di costruzione tramite l'invocazione dei corrispondenti distruttori.
+Se il distruttore viene ridefinito => viene eseguito il codice di tale distruttore prima di qualunque altra distruzione.
+
+## ==Metodi Virtuali==
+

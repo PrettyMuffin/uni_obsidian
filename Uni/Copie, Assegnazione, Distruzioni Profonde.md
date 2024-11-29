@@ -59,7 +59,7 @@ Usando `copia` e `distruggi` possiamo provare a fare un tentativo di definizione
 >```
 >
 ## Copia Profonda
-Per la copia profonda non c'è molto da dire: basta che una volta invocato il [costruttore di copia](Costruttori#^eb6713) nella sua [lista di inizializzazione](Costruttori#Liste di Inizializzazione) quando costruisco first invoco `copia`
+Per la copia profonda non c'è molto da dire: basta che una volta invocato il [costruttore di copia](Costruttori#^eb6713) nella sua [lista di inizializzazione](Costruttori#Liste%20di%20Inizializzazione) quando costruisco first invoco `copia`
 
 ```cpp title:bolletta.cpp
 bolletta::bolletta(const bolletta& b): first(copia(b.first)) {}
