@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Iteratori.md",
-                "mode": "source",
+                "file": "Ereditarietà.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Iteratori"
+              "title": "Ereditarietà"
             }
           }
         ]
@@ -55,9 +55,9 @@
               "state": {
                 "query": "",
                 "matchingCase": false,
-                "explainSearch": true,
+                "explainSearch": false,
                 "collapseAll": false,
-                "extraContext": true,
+                "extraContext": false,
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
@@ -177,33 +177,33 @@
   },
   "active": "91861e09aff7721b",
   "lastOpenFiles": [
-    "Classi Annidate.md",
+    "Overload Di Operatori.md",
+    "Problema dell'interferenza.md",
+    "References.md",
+    "Static.md",
     "Template.md",
+    "Ereditarietà.md",
+    "Untitled.md",
+    "conflict-files-obsidian-git.md",
+    "Iteratori.md",
+    "Untitled 1.md",
+    "Classi Annidate.md",
     "Classi.md",
     "Dichiarazioni Incomplete.md",
     "Costruttori.md",
     "Cast.md",
     "Programmazione Ad Oggetti.md",
-    "conflict-files-obsidian-git.md",
-    "Untitled.md",
-    "Untitled 1.md",
     "Tags/ASD.md",
-    "Static.md",
     "Programmazione.md",
-    "Problema dell'interferenza.md",
-    "Overload Di Operatori.md",
-    "Iteratori.md",
     "Friend.md",
     "Distruttore.md",
     "Copie, Assegnazione, Distruzioni Profonde.md",
-    "References.md",
     "Const.md",
     "Namespace.md",
     "P.A.O]] [[Essenziali.md",
     "Tags/P.A.O.md",
     "Untitled.canvas",
     "2024-11-09.md",
-    "Tags/Essenziali.md",
     "Canvas/PAO_C.canvas",
     "Canvas",
     "Tags"

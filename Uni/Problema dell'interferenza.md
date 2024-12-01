@@ -62,7 +62,6 @@ n5["b2"] -- first --> n6["n6"]
 
 ```
 Dopo però che ho fatto `b2 = b1`, in quanto faccio l'assegnazione standard, dunque `b1.first` sarà copiato in `b2.first` facendo si che ci siano 2 puntatori che puntano alla stessa lista.
-
 ```mermaid
 flowchart TD
 

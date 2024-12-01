@@ -1,0 +1,551 @@
+Tags: [[P.A.O]] [[Essenziali]]
+## SottoClassi
+Possiamo usare la classe `orario` per definire una nuova classe `dataora` che eredita da essa tutte le proprietà di `orario` ed a cui attribuiamo le ulteriori proprietà che ci interessano per modellare il concetto di orario con data.
+```cpp title:dataora.h
+class dataora: public orario {
+public:
+	int Giorno() const;
+	int Mese() const;
+	int Anno() const;
+private:
+	int giorno, mese, anno;
+};
+```
+diciamo dunque che la classe `dataora` è *derivata* della classe `orario`.
+
+>[!def] Terminologie analoghe #Definizione 
+>Diremo che `orario` è una \__ e `dataora` è una \_\_:
+>- classe base; classe derivata;
+>- superclasse; sottoclasse;
+>- supertipo(diretto); sottotipo (diretto)
+
+La parola chiave `public` si tratta di uno specificatore di accesso che precede il nome della classe base, ed indica una *derivazione pubblica*.
+ ==Ciò significa che tutti i membri della classe base vengono implicitamente ereditati dalla classe derivata, che li può usare liberamente e direttamente come fossero membri propri.==
+ Nella maggior parte dei casi la *classe derivata* avrà ulteriori membri propri oltre a quelli ereditati. ^8c15ae
+
+>[!def] **Caratteristica fondamentale dell'ereditarietà** #Definizione 
+>Ogni oggetto della classe derivata è utilizzabile anche come oggetto della classe base.
+In altri termini, ogni oggetto di una classe derivata può essere convertito implicitamente in un oggetto di una classe base.
+
+>[!def] Relazione **is-a** #Definizione 
+> Un oggetto di un sottotipo di `T`, è *in particolare* anche di tipo `T`.
+
+^9ec763
+
+>[!def] Gerarchia di classi #Definizione 
+Dalla relazione *is-a* si può dedurre anche che una classe `D` derivata direttamente da una classe base `B` può a sua volta agire da classe base per qualche classe `E` che derivi direttamente da `D`.
+
+>[!note] Conversioni implicite
+>In ogni [gerarchia di classi](#Gerarchie%20di%20classi), le conversioni implicite da sottotipo a supertipo valgono lungo tutta la gerachia:
+>Dato `B`: supertipo, `D`: sottotipo
+>- [D ==> B](#^9ec763) (tra oggetti);
+>- D& ==> B&;
+>- D* ==> B*;
+>==Il viceversa non vale==.
+
+Se `D` sottotipo di `b`, `b` è un oggetto di tipo `B` e `d` un oggetto di tipo `D` allora l'assegnazione `b = d`; estrae da `d` il sottooggetto di tipo `B` che esso contiene ingorando quindi l'ulteriore informazione contenuta in `d` specifica della sottoclasse `D`.
+==D'altronde, la parte di `d` specifica della classe `D`, ovvero quella non ereditata da `B`, non può essere contenuta nella memoria allocata per contenere l'oggetto `b`.==
+Quindi, in C++, quando si parla di polimorfismo si intende principalmente la capacità di un puntatore o riferimento ad una classe base `B` di riferirsi a una qualsiasi classe derivata da `B`.
+### Tipo Statico e Tipo dinamico
+Supponiamo che `D` è sottoclasse di `B`.
+```cpp
+D d; B b;
+D* pd = &d; 
+B* pb = &b;
+pb = pd;
+```
+
+>Il tipo `B*` viene anche detto *il tipo statico*[^1] del puntatore `pb`. #Definizione 
+
+Dopo l'assegnazione `pb = pd`; che è legale per polimorfismo, `pb` punta all'oggetto `d` della classe `D`: di dice quindi che il *tipo dinamico*[^2] di `pb` dopo una tale assegnazione è `D*`.
+
+Mentre il tipo statico è determinato dalla dichiarazione del puntatore e non cambia, il tipo dinamico di un puntatore può quindi variare a run-time.
+
+>[!info]
+>La notazione di tipo dinamico è un mero concetto astratto che si usa per ragionare logicamente sull'evoluzione dinamica del tipo degli oggetti a cui puntano le variabili puntatore.
+>==Sia per il compilatore che per il sistema run-time che gestisce l'esecuzione di un programma, ogni puntatore ha solo e solamente il tipo con cui è stato dichiarato nel programma, ovvero il suo tipo statico.==
+
+> Concetti e terminologia sono analoghi per i riferimenti
+
+```cpp
+D d;
+B b;
+D& rd = d;
+B& rb = d;
+```
+
+### Gerarchie di classi
+Abbiamo già osservato che una classe derivata può a sua volta essere usata come classe base per un ulteriore passo di derivazione.
+>[!example]
+>```cpp
+>// tpo enumerazione settimana
+>enum settimana { lun, mar, mer, gio, ven, sab, dom};
+>class dataorasett : public dataora {
+>public:
+>	settimana GiornoSettimana() const;
+>private:
+>	settimana giornosettimana;
+>};
+>```
+>In questo modo abbiamo definito una semplice gerarchia di tre classi, che rappresentiamo tramite la seguenti figura: detta *diagramma della gerarchia* #Definizione 
+>```mermaid
+>
+>flowchart TD
+>
+>n1["dataorasett"] --> n2["dataora"] --> n3["orario"]
+>
+>```
+
+### Accessibilità
+>[!question] Una classe derivata ha accesso alla parte [privata](Classi#Private) di una sua classe base?
+>NO.
+>La parte privata di una qualsiasi classe `B` è inaccessibile alle classi derivate da `B` come lo è per ogni altra classe diversa da `B`.
+>```cpp error:2
+>dataora::set2000() {
+>sec = 0; // NO, illegale!
+>giorno = 1;
+>mese = 1;
+>anno = 200;
+>}
+>```
+
+Questo si risolve ponendo [protected](Classi#Protected) il sec. 
+Dunque la classe `dataora` è ottenuta per [derivazione pubblica](#^8c15ae): `class dataora : public orario`.
+Con la derivazione pubblica i campi [protetti](Classi#Protected) e [pubblici](Classi#Public) della classe base mantengono lo stesso livello di accessibilità anche nella classe derivata.
+
+> Oltre alla derivazione pubblica:
+> - *Derivazione Privata*: utilizza `private`, rende privati nella classe derivata i membri protetti e pubblici della classe base.
+> - *Derivazione Protetta*: utilizza `protected`, rende protetti nella classe derivata i mebri pubblici e protetti della classe base.
+> >[!info] N.B:
+> >Entrambe le derivazioni non hanno effetto sui campi e metodi [privati](Classi#Private).
+> a
+> 
+|Membro / Derivazione| public |  protected | private |
+| --- | --- | --- | --- |
+|`private` | inaccessibile | inaccessibile | inaccessibile|
+|`protected`| protetto | protetto | privato |
+|`public`| pubblico | protetto | privato |
+
+La forma senz'altro più diffusa è quella `public`, detta anche **ereditarietà di tipo**. 
+Questo perché permette di realizzare la relazione [is-a](#^9ec7639) => ==Un oggetto di classe derivata è anche un oggetto di classe base==.
+
+>[!important] Concetti di membro protetto
+>È importante osservare che il concetto di membro protetto di una classe va contro il [principio dell'information hiding](Programmazione%20Ad%20Oggetti#^f42cc0) (perché la modifica di un membro privato potenzialmente potrebbe richiedere la successiva modifica di tutte le classi derivate).
+>Dunque il l'attributo *protected* va usato con parsimonia ==> la prassi generale è quella di dichiarare campi dati privati.
+
+##### Ereditarietà privata vs Relazione has-a
+>[!def] Ereditarietà Privata
+>Significa "essere implementati in termini di".
+>De `D` deriva privatamente da `B` significa che in `D` si è interessati ad alcune funzionalità di `B` e non si è invece interessati ad una relazione concettuale di subtyping tra `D` e `B`.
+
+>==L'ereditarietà privata eredita l'implementazione di `B` ma non l'interfaccia di `B`==
+
+>[!example] Esempio Has-A
+>```cpp
+>class Motore {
+>private:
+>	int nCilindri;
+>public
+>	Motore(int nc): nCilindri(nc) {}
+>	int getCilindri() const { return nCilindri; }
+>	void accendi() const {
+>		cout << "Motore a " << getCilindri() << " cilindri accesso " << endl;
+>	}
+>};
+>```
+>Relazione Has-A
+>```cpp
+> class Auto {
+> private:
+> 	Motore mot; // Auto has-a Motore come campo dati
+> public:
+> 	Auto(int nc = 4): mot(nc) {}
+> 	void accendi() const {
+> 		mot.accendi();
+>		cout << "Auto con motore a " << mot.getCilindri() << " cilindri accessa " << endl;
+> 	} 	
+> };
+>```
+
+>[!example] Ereditarietà privata
+>```cpp
+>class Motore {
+>
+>	int nCilindri;
+>public
+>	Motore(int nc): nCilindri(nc) {}
+>	int getCilindri() const { return nCilindri; }
+>	void accendi() const {
+>		cout << "Motore a " << getCilindri() << " cilindri accesso " << endl;
+>	}
+>};
+>```
+>Ereditarietà privata
+>```cpp
+>class Auto: private Motore { // Auto has-a motore come sottooggetto
+>public:
+> 	Auto(int nc = 4): Motore(nc) {}
+> 	void accendi() const {
+> 		mot.accendi();
+>		cout << "Auto con motore a " << getCilindri() << " cilindri accessa " << endl;
+> 	} 	
+>};
+>```
+
+###### Similarità
+- In entrambi i casi un oggetto `Motore` "contenuto" in ogni oggetto `Auto`.
+- In entrambi i casi, per gli utenti esterni, `Auto*` non è convertibile a a `Motore*`
+###### Differenze
+- La composizione è necessaria se servono più motori in un auto (a meno di usi limite di ereditarietà multipla).
+- Ereditarietà privata può introdurre ereditarietà Multipla non necessaria
+- Ereditarietà privata permette ad `Auto` di convertire `Auto*` a `Motore*`
+- Ereditarietà privata permetta l'accesso alla parte protetta della base
+
+
+
+[^1]:si riferisce al fatto che il tipo è staticamente derivabile dal codice sorgente, ossia viene determinato dal compilatore.
+[^2]:si riferisce al fatto che il tipo è deducibile solamente a run-time.
+##### Significato inaccessibile
+Supponiamo di avere una  classe `B` il cui campo dati `b` risulta inaccessibile ad una sua sottoclasse `D`.
+L'oggetto `d` di tipo `D` comunque ha `b` come campo dati.
+>[!example]- Ecco come
+>```cpp
+>class C {
+>private:
+>	int i;
+>public:
+>	C(): i(1) {}
+>	void print() const { cout << ' ' << i; }
+>};
+>
+>class D: public C {
+>private:
+>	double z;
+>public:
+>	D(): z(3.14) {}
+>	void print() const {
+>		C::print() // l'oggetto di invocazione di C::print() è il
+>				// sottooggetto di tipo C dell'oggetto di invocazione
+>		cout << ' ' << z;
+>	}
+>};
+>```
+>```cpp title:main.cpp
+>int main() {
+>	C c; D d;
+>	c.print(); cout << endl; // stampa 1
+>	d.print(); cout << endl; // stampa 1 3.14
+>}
+>```
+
+##### Significato di protected
+Abbiamo `D` sottoclasse `B` che eredita `b` come membro protetto: il caso più comune è quello che `b` sia protetto in `B` e `D` è derivata direttamente e pubblicamente.
+> Questo permette a `D` di **accedere solo ai `b` dei sottooggetti appartenenti alla classe `D`**. 
+> Ma **non** di accedere al membro `b` di oggetti che invece appartengono alla classe `B` passata magari come parametro o usata come campo dati.
+>>[!example] Esempio
+>>```cpp error:14,16 ok:15,17-19
+>>class B {
+>>protected:
+>>	int i;
+>>	void protected_printB() const { cout << ' ' << i; }
+>>public:
+>>	void printB() const { cout << ' ' << i; }
+>>};
+>>a
+>>class D: public B {
+>>private:
+>>	double z;
+>>public:
+>>	static void stampa(const B& b, const D& d) {
+>>		cout << ' ' << b.i;
+>>		b.printB();
+>>		b.protected_printB();
+>>		coud << ' ' << d.i;
+>>		d.printB();
+>>		d.protected_printB();
+>>	}
+>>};
+>>```
+>>
+
+##### Ereditarietà ed [Amicizie](Friend)
+==Una sottoclasse non eredità in alcun modo alcun tipo di [amicizie](friend) dalla classe base==.
+>[!failure] No, z private in this context
+>```cpp error:19
+>class C {
+>private:
+>	int i;
+>public:
+>	C(): i(1) {}
+>	friend void print(C);
+>};
+>a
+>class D: public C {
+>private:
+>	double z;
+>public:
+>	D(): z(3.14) {}
+>};
+>
+>void print(C x) {
+>	cout << x.i << endl;
+>	D d;
+>	cout << d.z;
+>}
+>```
+
+>[!success] Giusto
+>```cpp
+>class C {
+>private:
+>	int i;
+>public:
+>	C(): i(1) {}
+>	friend void print(C);
+>};
+>a
+>class D: public C {
+>private:
+>	double z;
+>public:
+>	D(): z(3.14) {}
+>};
+>
+>void print(C x) {
+>	cout << x.i << endl;
+>}
+>void print(D x) { cout << x.z << endl; }
+>
+>int main() {
+>	C c; D d;
+>	print(c); // 1
+>	print(d); // 3.14
+>}
+>```
+
+##### Conversioni Esplicite (static_cast) non ancora dynamic
+È sempre possibile effettuare una conversione esplicita tramite uno `static_cast` per convertire un puntatore ad una classe base `B` ad una qualsiasi classe derivata `D`.
+Si dovrà però garantire la correttezza di queste conversioni, cioè prima di effettuare queste conversioni esplicite si dovrà essere sicuri che il tipo dinamico del puntatore o riferimento oggetto della conversione esplicita sia `D*` o `D&`.
+==Si tratta di testi dinamici fatti a run-time e la responsabilità della correttezza di queste conversioni è lasciata al programmatore.==
+
+## Ridefinizione di metodi e campi dati
+In `D`, sottoclasse di `B`, è possibile *ridefinire*, i campi dati ed i metodi ereditati da `B`.
+>[!def] Ridefinizione #Definizione 
+>Ciò significa che nella classe derivata `D` si ridefinisce il significato di un membro `b` ereditato da `B` tramite una nuova definizione che nasconde quella ereditata da `Bc`.
+>In `D` è possibile usare l'operatore di [scoping](Namespace#^11f9a8) `B::b` per accedere al membro `b` definito in `B`.
+>Questa azione di dice *"to ridefine"*.
+
+Sia sempre `D` una classe derivata di `B`. Sia `m()` un metodo, possibilmente sovraccaricato, nella classe `B` che sia accessibile in `D`.
+Allora una ridefinizione in `D` di `m()` nasconde sempre **tutte** le versioni sovraccaricate (dunque anche overload in `B`) disponibili in `B`.
+Questa regola è  nota come la *name-hiding* rule. #Definizione e appunto vale per ogni ridefinizione di `m()`, che può essere di 3 tipologie. ^fbc706
+- Stessa segnatura;
+- Stessa lista dei parametri ma diverso tipo di ritorno;
+- Diversa lista di parametri.
+
+> Overloading e ridefinizione sono concetti diversi.
+
+Infatti:
+>[!example]
+>```cpp
+>class B {
+>public:
+>	// overloading di m()
+>	void m(int x) { cout << "B::m(int)"; }
+>	void m(int x, int y) { cout << "B::m(int, int)"; }
+>};
+>class D: public B {
+>public:
+>	// dichiarazione d'uso di B::m
+>	using B::m;
+>	//ridefinizione di m
+>	void m(int x) { cout << "D::m(int)"; }
+>	void m() { cout << "D::m()"; }
+>};
+>int main() {
+>	D d;
+>	d.m(3); // Compila e stampa: D::m(int)
+>	d.m(3); // Compila e stampa: D::m()
+>	d.m(3, 5); // Compila e stampa: D::m(int, int)
+>	d.B::m(4); // Compila e stampa: B::m(int)
+>}
+>```
+
+>[!info]
+==Per altri esempi per capire bene guarda pagine da 187-191==
+## [[Costruttori]], Assegnazione e [[Distruttore]]
+### Costruttori
+Naturalmente i costruttori, l'assegnazione e il distruttore della classe base **non** sono ereditati
+dalla classe derivata, ma c'è la possibilità per costruttori, assegnazione, distruttori di invocare quelli della classe base.
+>[!note] Richiamo sottooggetto
+> Ogni oggetto di una classe derivata `D`, contiene un sottooggetto della classe base `B`.
+> Dunque quando si istanzia un oggetto `d` di tipo `D` occorrerà chiamare, esplicitamente o implicitamente, nel costruttore di `D` il costruttore di `B`.
+>  - *Invocazione Esplicita*: è possibile inserire nella [lista di inizializzazione](Costruttori#Liste%20di%20Inizializzazione) del costruttore `D` un'invocazione esplicita di un qualunque costruttore di `B`.
+>  >[!example]- Es.
+>  >```cpp
+>  >D::D(): B() {}
+>  >```
+> 
+> - *Invocazione Implicita*: se la [lista di inizializzazione](Costruttori#Liste%20di%20Inizializzazione) del costruttore di `D` non contiene costruttori espliciti di `B`, allora viene implicitamente ed automaticamente invocato il [costruttore di default](#^a16ac4) di `B`.
+
+>Quindi la [lista di inizializzazione](Costruttori#Liste%20di%20Inizializzazione) di un costruttore di una classe `D` derivata direttamente da `B` in generale può contenere invocazioni di costruttori per campi dati di `D` e l'invocazione di un costruttore della classe base `B`.
+>==La [lista di inizializzazione](Costruttori#Liste%20di%20Inizializzazione) di `D` non può contenere invocazioni di costruttori per i campi dati della classe base `B`.==
+
+La costruzione di un oggetto `D` avviene in 2 fasi:
+1. Viene prima costruito la base `B` tramite il suo costruttore
+2. Viene costruita la parte specifica di `D`, secondo il comportamento noto del costruttore.
+
+>[!example] Esempio:
+>```cpp
+>class Z {
+>public:
+>	Z() { cout << "Z0"; }
+>	Z(double d) { cout << "Z1"; }
+>};
+>a
+>class C { 
+>private:
+>	int x;
+>	Z w;
+>public:
+>	C(): w(6.28), x(8) { cout << x << "C0"; }
+>	C(int z): x(z) { cout << x << "C1"; }
+>};
+>a
+>class D: public C {
+>private:
+>	int y;
+>	Z z;
+>public:
+>	D(): y(0) { cout << "D0"; }
+>	D(int a): y(a), z(3.14), C(a) { cout << "D1"; }
+>};
+>a
+>int main() {
+>	D d; // Stampa: Z1 8 C0 Z0 D0
+>	cout << endl;
+>	D e(4); // Stampa: Z0 4 C1 Z1 D1
+>}
+>```
+#### Costruttori di Copia
+Il costruttore di copia può essere *ridefinito* in `D`: esso può provocare esplicitamente il costruttore di copia di `B` o qualsiasi altro costruttore di `B`.
+In mancanza di conversioni esplicite, ==viene automaticamente invocato il costruttore di default e non quello di copia di `B`==.
+
+### Assegnazione
+L'assegnazione standard di una classe `D` derivata direttamente da una classe `B` invoca preventivamente l'assegnazione della classe base `B` sul sottooggetto e successivamente esegue l'assegnazione ordinatamente membro a membro dei campi dati propri di `D` invocando le corrispondenti assegnazioni.
+>[!example] Esempi a pag 197-198
+>
+
+### Distruttore
+Il distruttore standard di una classe `D` derivata direttamente da `B` richiama implicitamente il distruttore della classe base `B` per distruggere il sottooggetto di `B` soltanto dopo l'azione di distruzione standard propria di `D`, cioè la distruzione dei campi dati propri di `D` nell'ordine inverso a quello di costruzione tramite l'invocazione dei corrispondenti distruttori.
+Se il distruttore viene ridefinito => viene eseguito il codice di tale distruttore prima di qualunque altra distruzione.
+
+## ==Metodi Virtuali==
+Abbiamo visto che esiste una conversione implicita da oggetti di una classe derivata a oggetti di una classe base che estrae i corrispondenti sottooggetti.
+Supponiamo però di avere una funzione `G()`  con il parametro di tipo `orario`:
+```cpp
+void G(const orario& o) { o.Stampa(); }
+```
+Dato che appunto esiste questa conversione implicita gli possiamo passare un riferimento di tipo `dataora`. 
+>[!question] Però cosa stampa `o.Stampa();`?
+>Verrà invocato il metodo `orario::Stampa()` e non `dataora::Stampa()` questo perché c'è il *binding statico*, ovvero il tipo viene inferito dal compilatore a tempo di compilazione, dunque il compilatore non sa che tipo dinamico gli viene passato, dunque lui opera sulle informazioni che dispone, ovvero sa che è sicuramente una classe `orario` dunque usa la funzione `orario::Stampa()`.
+>
+
+> Noi però vorremo che venga eseguito `daraora::Stampa()`, e in C++ il modo per farlo è la dichiarazione di un **metodo virtuale**.
+
+```cpp
+class orario {
+	virtual void Stampa();
+	...
+};
+```
+
+se dichiariamo `Stampa()` come metodo virtuale allora in `G()` verrà invocata
+`dataora::Stampa()`.
+
+>[!note] In altre parole...
+>Se in una invocazione di `G(x)` il parametro attuale `x` è di tipo `dataora` allora verrà invocato il metodo `dataora::Stampa()`, mentre se è di tipo `orario` viene invocato il metodo `orario::Stampa()`.
+
+>[!def] Binding Dinamico / Late Binding #Definizione 
+> il metodo virtuale da invocare effettivamente verrà selezionato solamente a tempo di esecuzione e non staticamente dal compilatore.
+
+---
+Quindi marcato virtuale un metodo `m()` di una classe base `B` il progettista delega alle ridefinizioni di `m()` nelle sottoclassi di `B` il compito di implementare quel metodo `m()` in modo specifico alla particolare sottoclasse.
+Una ridefinizione di un metodo virtuale è detta **overriding**. #Definizione 
+Quando in una classe `B` si dichiara un metodo virtuale, esso rimane virtuale in tutta la gerarchia di classi derivate da `B`, anche se non è dichiarato esplicitamente nella ridefinizione operata dalle sottoclassi di `B`.
+> Se una sottoclasse `D` di `B` non ridefinisce `m()` allora `D` semplicemente eredita la definizione di `m()` presente nella sua superclasse diretta.
+> Il meccanismo del *dynamic binding* si applica anche agli operatori.
+
+Naturalmente perché una invocazione di un metodo virtuale `m()` tramite un puntatore `p` di tipo `B*` possa compilare correttamente è necessario che il metodo `m()` sia disponibile nella classe `B`.
+>[!example] Ad esempio:
+>```cpp error:11
+>class B {};
+>
+>class D: public B {
+>public:
+>	virtual void m() {}
+>};
+>
+>int main() {
+>	B b; D d; 
+>	B* p = &d;
+>	p->m(); // Illegale
+>}
+>```
+>Errore in quanto `m()` non è definita in `B`.
+
+---
+Nell'overriding bisogna però prestare particolare attenzione alla *segnatura dei metodi*.
+Se consideriamo un metodo virtuale `virtual T m(T1,..., Tn)` di una classe base `B`, allora l'overriding di `m()` in una classe `D` derivata da `B` ==deve mantenere la stessa segnatura di `B`, incluso il tipo di ritorno.== Ogni altro tipo di ridefinizione di `m()` provoca errori di compilazione.
+> D'altra parte però rimane valida la [name-hiding rule](#^fbc706) per i metodi virtuali: in una classe `D` derivata da `B` nasconde in `D` tutti gli ulteriori eventuali overloading di `m()` in `B`.
+
+```cpp error:24,41,43,44,46 ok:47,48
+class B {
+public:
+	virtual int f() { cout << "B::f()\n" << return 1; }
+	virtual void f(string s) { cout << "B::f(string)\n"; }
+	virtual void g() { cout << "B::g()\n"; }
+};
+
+class D1: public B {
+public:
+	// Override di un metodo non sovraccaricato
+	void g() override { cout << "D1::g()\n"; }
+};
+
+class D2: public B {
+public:
+	// Override di un metodo sovraccaricato
+	int f() override { cout << "D2::f()\n"; }
+};
+
+
+class D3: public B {
+public:
+	// Non è possibile modificare il tipo di ritorno
+	void f() override { cout << "D3::f()\n"; } // Illegale
+};
+
+
+class D4: public B {
+public:
+	// Lista degli argomenti modificata
+	// ridefinizione, non override
+	int f(int) { cout << "D4::f()\n"; return 1; }
+};
+
+int main() {
+	string s = "ciao";
+	D1 d1; D2 d2; D4 d4;
+	int x = d1.f(); // Stampa: B::f()
+	d1.f(s); // Stampa: B::f(string)
+	x = d2.f(); // Stampa: D2::f()
+	d2.f(s); // Illegale: "no matching function"
+	x = d4.f(1); // Stampa: D4::f()
+	x = d4.f(); // Illegale: "no matching function"
+	d4.f(s); // Illegale: "no matching function"
+	B& br = d4; // Cast implicito
+	br.f(1); // Illegale: "no matching function"
+	br.f(); // Stampa: B::f()
+	br.f(s); // Stampa: B::f(string)
+}
+```
