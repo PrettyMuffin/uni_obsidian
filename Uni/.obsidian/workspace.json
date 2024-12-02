@@ -4,17 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "fdd79495b78319c1",
+        "id": "e130750272e92f00",
         "type": "tabs",
         "children": [
           {
-            "id": "91861e09aff7721b",
+            "id": "18be168494dfe55f",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Canvas/Vtable_C.canvas",
+                "viewState": {
+                  "x": 214.64635161638265,
+                  "y": 45.25723810315138,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Vtable_C"
+            }
+          },
+          {
+            "id": "55cac300ec88df2d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Ereditarietà.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               },
@@ -22,7 +39,8 @@
               "title": "Ereditarietà"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -172,38 +190,42 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "91861e09aff7721b",
+  "active": "55cac300ec88df2d",
   "lastOpenFiles": [
-    "Overload Di Operatori.md",
-    "Problema dell'interferenza.md",
-    "References.md",
-    "Static.md",
-    "Template.md",
+    "Excalidraw/Drawing 2024-12-02 10.35.50.excalidraw.md",
     "Ereditarietà.md",
-    "Untitled.md",
-    "conflict-files-obsidian-git.md",
-    "Iteratori.md",
-    "Untitled 1.md",
-    "Classi Annidate.md",
+    "Excalidraw",
+    "Canvas/Drawing 2024-12-02 10.22.30.excalidraw.md",
+    "Canvas/Vtable_C.canvas",
     "Classi.md",
-    "Dichiarazioni Incomplete.md",
+    "Canvas",
     "Costruttori.md",
-    "Cast.md",
-    "Programmazione Ad Oggetti.md",
-    "Tags/ASD.md",
-    "Programmazione.md",
-    "Friend.md",
-    "Distruttore.md",
+    "Template.md",
     "Copie, Assegnazione, Distruzioni Profonde.md",
-    "Const.md",
+    "Overload Di Operatori.md",
+    "Untitled 1.md",
+    "Problema dell'interferenza.md",
+    "Untitled.md",
+    "Programmazione.md",
+    "22-11-2024.md",
+    "Dichiarazioni Incomplete.md",
+    "References.md",
+    "Dichiarazioni Incom.md",
+    "Distruttore.md",
+    "Copie,.md",
+    "Distruzione Profonda.md",
+    "Iteratori.md",
+    "Friend.md",
+    "Cast.md",
+    "21-11-2024.md",
     "Namespace.md",
-    "P.A.O]] [[Essenziali.md",
-    "Tags/P.A.O.md",
+    "Classi Annidate.md",
+    "Untitled 2.md",
     "Untitled.canvas",
-    "2024-11-09.md",
     "Canvas/PAO_C.canvas",
     "Canvas",
     "Tags"

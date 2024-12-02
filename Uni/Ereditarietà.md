@@ -439,7 +439,8 @@ L'assegnazione standard di una classe `D` derivata direttamente da una classe `B
 Il distruttore standard di una classe `D` derivata direttamente da `B` richiama implicitamente il distruttore della classe base `B` per distruggere il sottooggetto di `B` soltanto dopo l'azione di distruzione standard propria di `D`, cioè la distruzione dei campi dati propri di `D` nell'ordine inverso a quello di costruzione tramite l'invocazione dei corrispondenti distruttori.
 Se il distruttore viene ridefinito => viene eseguito il codice di tale distruttore prima di qualunque altra distruzione.
 
-## ==Metodi Virtuali==
+# Metodi Virtuali
+## Definizione Esempi
 Abbiamo visto che esiste una conversione implicita da oggetti di una classe derivata a oggetti di una classe base che estrae i corrispondenti sottooggetti.
 Supponiamo però di avere una funzione `G()`  con il parametro di tipo `orario`:
 ```cpp
@@ -549,3 +550,65 @@ int main() {
 	br.f(s); // Stampa: B::f(string)
 }
 ```
+
+È ammessa una sola eccezione alla regola della preservazione della segnatura nell'overriding:
+>[!def] Ritorno Covariante #Definizione 
+>Nel caso in cui il tipo di ritorno sia un tipo puntatore o riferimento ad una classe:
+>`virtual X* m(T1,...,Tn)`
+>dove `X` è un tipo classe, allora se `Y` è una **sottoclasse** di `X` è permesso anche l'overriding.
+>`virtual Y* m(T1,...,Tn)`
+>Una regola analoga vale per i riferimenti
+
+>[!warning] N.B.
+>Bisogna però stare attenti all'override di metodi virtuali con valori di default.
+>Supponiamo infatti di avere un metodo virtuale `m()` in una classe base `B` che preveda dei valori di default.
+>Un overriding di `m()` in una classe derivata `D` non prevede che la segnatura del metodo debba necessariamente avere gli stessi valori di default di `B::m()`, anzi, non prevede nemmeno che ne abbia proprio.
+>>Quindi nell'overriding di `D::m()` i valori di default possono tranquillamente essere omessi, uguali o cambiati rispetto a `B::m()`.
+
+>[!important] Concludendo:
+>L'invocazione di un metodo virtuale tramite un puntatore polimorfo - #Definizione *chiamata polimorfa* di un metodo - provoca effetti diversi a seconda del tipo dinamico del puntatore, ovvero al tipo effettivo dell'oggetto a cui punta il puntatore.
+>In questo senso il polimorfismo promuove l'*estensibilità* del software, questo perché i programmi che fanno uso del polimorfismo hanno un comportamento in qualche modo indipendente dal tipo statico dei puntatori e riferimenti che invocano metodi virtuali.
+>
+
+## VTable
+
+>[!info]
+>Il late binding implica un overhead dinamico a run-time in termini di tempo e spazio
+
+Per ogni classe `C` che contiene un metodo virtuale, il compilatore crea anche una corrispondente tabella contenente gli indirizzi dei metoi virtuali di `C`, detta **vtable** #Definizione .
+Inoltre per ogni oggetto di `C`, il compilatore "include" in quell'oggetto un puntatore a funzione (detto **vpointer**) alla vtable di `C`.
+La selezione run-time di quale metodo invocare in una chiamata polimorfa `p->m()` avviene seguendo tali strutture aggiuntive di puntatori:
+>[!example] Ad esempio in questa gerarchia
+>```cpp
+>class B {
+>public:
+>	FunctionPointer* vptr;
+>	virtual void m1() {}
+>	virtual void m2() {}
+>};
+>
+>class D1: public B {
+>public:
+>	virtual void m1() {} // overriding
+>};
+>
+>class D2: public B {
+>public:
+>	virtual void m2() {} // overriding
+>}
+>```
+>![[Vtable_C.canvas|Vtable_C]]
+
+## Distruttori Virtuali
+`B` deriva da `B`:
+```cpp
+D* pd = new D;
+B* pb = pd;
+delete pb;
+```
+In questa situazione `delete pb` richiama il [distruttore](Distruttore) della classe base `B` su un oggetto della classe derivata `D`, portando a memory leaks.
+Si può evitare ciò dichiarando virtuale il distruttore della classe base `B`: in questo modo tutti i distruttori delle classi derivate da `B` diventano automaticamente virtuali ottenendo quindi l'effetto che quando viene applicato l'operatore `delete`.
+> Se il distruttore di `B` è virtuale, allora tutti i distruttori delle sue classi derivate diventano virtuali.
+> Per una classe che contiene metodi virtuali è buona prassi dichiarare virtuale anche il distruttore.
+
+## Metodi virtuali puri
