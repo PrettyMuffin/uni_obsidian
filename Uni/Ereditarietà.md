@@ -661,3 +661,126 @@ Si tratta quindi di una mera definizione sintattica `=0` oppure `=default` per i
 >	p = &d; // puntatore polimorfo
 >}
 >```
+
+## Identificazione di tipi a run-time
+Il meccanismo dell'*identificazione di tipi a run-time*(RTTI) permette di determinare il tipo dinamico di un puntatore o riferimento a tempo di esecuzione. #Definizione 
+I 2 principali sono:
+- [[#typeid]] 
+- [[#dynamic_cast]]
+#### typeid
+> L'operatore di `typeid` permette di determinare il tipo di una espressione qualsiasi a tempo di esecuzione, se l'espressione è un riferimento o puntatore polimorfo, allora ritorna il tipo dinamico.
+
+```cpp
+cout << typeid(i).name() << endl; // Stampa: i(nt)
+cout << typeid(3.14).name() << endl; // Stampa: d(ouble)
+if (typeid(i) == typeid(int)) cout << "Yes";
+```
+
+`typeid` ha come argomento un'espressione o un tipo qualsiasi e ritorna un oggetto della classe `type_info`.
+```cpp title:type_info.h
+class type_info {
+private:
+	type_info();
+	type_info(const type_info&);
+	type_info& operator=(const type_info&);
+public:
+	bool operator==(const type_info&) const;
+	bool operator!=(const type_info&) const;
+	const char* name() const;
+};
+```
+
+>[!info] N.B:
+>Non è possibile dichiarare, modificare o assegnare oggetti di tipo `type_info`, in quanto costruttore di default e di copia, distruttore e assegnazione sono privati.
+
+`typeid` è caratterizzato dal seguente comportamento:
+- Se si invoca `typeid(ref)` l'espressione `ref` operando di `typeid` è un riferimento ad un classe che contiene almeno un metodo virtuale allora `typeid(ref)`  restituisce un oggetto `type_info` che rappresenta il tipo dinamico di `ref`.
+- Se si infoca `typeid(*punt)` l'espressione `*punt` operando di `typeid` è un puntatore ad una classe che contiene almeno un metodo virtuale allora `typeid(*punt)` restituisce un oggetto `type_info` che rappresenta il tipo dinamico di `*punt`.
+
+>[!attention] Attenzione a queste regole
+>1. Se la classe non è polimorfa, allora `typeid` restituisce il tipo statico del riferimento del puntatore dereferenziato.
+>2. `typeid` su un puntatore non dereferenziato restituisce sempre il tipo statico del puntatore.
+>3. `typeid` ignora sempre l'attributo [`const`](Const).
+
+#### dynamic_cast
+>L'operatore di conversione esplicita `dynamic_cast` permette di convertire puntatori e riferimenti ad una classe base `B` polimorfa in puntatori e riferimenti ad una classe `D` derivata da `B`.
+> `dynamic_cast<B*>(D*)` la conversione sarà disponibile a seconda del puntatore della classe base passato.
+
+Supponiamo di avere un puntatore `p` di tipo `E*` e l'istruzione `dynaimc_cast<D*>(p)`.
+- L'istruzione andrà a buon fine se E è sottotipo di `D`, allora ritornerà un `D*`.
+- Altrimenti il `dynamic_cast` ritornerà un puntatore nullo.
+
+>[!important]
+>Come in `typeid` anche nel `dynamic_cast` `B` deve essere polimorfa, altrimenti la compilazione provocherà un errore.
+
+Il `dynamic_cast` permette quindi di fare 2 tipi di conversioni
+- **Downcasting** #Definizione : `B* ==> D*` e `B& ==> D&` perché si converte "dall'alto verso il basso" nella gerarchia, ovvero da classe base a classe derivata.
+- **Upcasting** #Definizione : `D* ==> B*` e `D& ==> D&` perché si converte "dal basso verso l'alto" nella gerarchia, ovvero dalla classe base a quella derivata.
+
+>[!note] `dynamic_cast` di un riferimento fallito
+>Se il `dynamic_cast` di un riferimento fallisce allora viene automaticamente lanciata un'[eccezione](Eccezioni) di tipo `bad_cast`.
+
+In generale il `dynamic_cast` viene usato solo in caso di necessità. Ovvero si ha bisogno di un metodo proprio di una classe derivata `D`, ovvero di un metodo che non ha ereditato dalla classe `B` dunque non disponibile nella classe base.
+
+>[!question] Se le funzioni virtuali sono così importanti e permettono di chiamare sempre la funzione *giusta*, perché sono un'opzione piuttosto che la regola?
+>Per filosofia fondamentale del C++, perché le funzioni virtuali non sono efficienti come le funzioni non virtuali.
+>In linguaggio assembly, per ogni chiamata ad una funzione virtuale, invece di una semplice chiamata ad un indirizzo assoluto di memoria, vi sono due istruzioni più sofisticate del linguaggio assembly che sono necessarie per implementare la chiamata di una funzione virtuale.
+>Questa implementazione richiede un overhead sia in termini di spazio che di tempo di esecuzione.
+## Principi S.O.L.I.D.
+>[!def] SOLID è un acronimo che denota cinque principi della progettazione del software in un linguaggio di programmazione orientato agli oggetti:
+> >[!quote] SOLID principi
+> > Definire codice comprensibile, leggibile, mantenibile, estendibile e testabile sul quale molti sviluppatori possano lavorare collaborativamente.
+> 
+> Seguendo l'acronimo i principi sono:
+> - [*The Single Responsibility Principle* (SRP)](#SRP) - Principio di singola responsabilità
+> - [*The Open-Closed Principe* (OCP)](#OCP) - Principio aperto/chiuso
+> - [*The Liskov Substitution Principle* (LSP)](#LSP) - Principio di sostituzione di Liskov
+> - [*The Interface Segregation Principle* (ISP)](#ISP) - Principio di segregazione delle interfacce
+> - [*The Dependency Inversion Priciple* (DIP) ](#DIP) - Il principio di inversione dell dipendenze.
+
+### SRP
+> Il principio di singola responsabilità stabilisce che una classe dovrebbe fornire un solo servizio concettuale e conseguentemente avere un'unica e chiara motivazione per modifiche successive.
+
+Ad esempio, se una classe è un contenitore di dati aderente ad un certo modello e include campi dati per definire il concetto questa classe dovrà cambiare solamente quando verrà modificato quel modello di dati.
+Inoltre questo principio rende il controllo delle versioni più semlice
+### OCP
+> Il principio aperto / chiuso stabilisce che le classi dovrebbero essere aperte alle estensioni e chiuse alle modifiche.
+
+Per modifica si intende il cambiamento del codice di una classe esistente, ed estensione significa aggiungere nuove funzionalità.
+Questo principio suggerisce che si dovrebbe essere in grado di aggiungere nuove funzionalità senza toccare il codice attuale della classe.
+Questo perché ogni volta che modifichiamo il codice, rischiamo di dare vita ad interferenze malevole e potenziali bug.
+### LSP
+> Il principio di sostituzione di Liskov stabilisce che ogni sottotipo debba essre sostituibile da un proprio supertipo.
+
+Quindi dato `B` un sottotipo di `A`, si deve essere in grado di passare un oggetto di tipo `B` ad un qualsiasi metodo che chiade un parametro di tipo `A`.
+### ISP
+>Il pricipio stabilisce che avere interfacce specifiche per ogni client è preferibile rispetto ad avere un'interfaccia di uso generico, questo per non forzare i client ad implementare funzioni di cui non hanno bisogno.
+
+```mermaid
+classDiagram
+    Parcheggio <|-- ParcheggioPagamento
+    Parcheggio <|-- ParcheggioLibero
+    ParcheggioPagamento <|-- ParcheggioPagamentoOrario
+    ParcheggioPagamento <|-- ParcheggioPagamentoFisso
+    
+    class Parcheggio{
+        <<abstract>>
+    }
+    class ParcheggioPagamento {
+        <<abstract>>
+    }
+    class ParcheggioLibero {
+        <<abstract>>
+    }
+    class ParcheggioPagamentoOrario {
+        <<abstract>>
+    }
+    class ParcheggioPagamentoFisso {
+        <<abstract>>
+    }
+```
+### DIP
+>Il principio di inversione delle dipendenze stabilisce che le classi debbano dipendere da classi astratte invece che da classi concrete e funzioni.
+
+I principi [[#OCP]] e [[#DIP]] sono legati e nella descrizione del principio aperto / chiuso ci siamo implicitamente riferiti al principio di invecsione delle dipendenze.
+Si mira a progetare classi che siano aperte all'estensione, quindi si organizzano le dipendenza tra classi in modo da dipendere da classi astratte invece che da classi concrete.
