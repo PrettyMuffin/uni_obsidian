@@ -611,4 +611,53 @@ Si può evitare ciò dichiarando virtuale il distruttore della classe base `B`: 
 > Se il distruttore di `B` è virtuale, allora tutti i distruttori delle sue classi derivate diventano virtuali.
 > Per una classe che contiene metodi virtuali è buona prassi dichiarare virtuale anche il distruttore.
 
+>[!important] Late Binding Non funzionante
+>Il meccanismo di *late binding* non funzione nel corpo dei costruttori, ovvero se nel corpo di un costruttore di una classe `B` che contiene un metodo virtuale `m()` appare una invocazione di `m()`, allora quell'invocazione si riferisce sempre alla versione di `m()` locale di `B`.
+>Il meccanismo di *late binding* non funziona nemmeno nel corpo dei costruttori.
 ## Metodi virtuali puri
+In alcune circostanze una classe base `B` viene progettata solamente allo scopo di poter successivamente definire delle classi derivate da `B` e non per creare e usare oggetti di `B`.
+> In tale situazione tale classe `B` funziona da *interfaccia comune* per le classi derivate da `B`. #Definizione 
+
+Come la maggior parte dei linguaggi ad oggetti, il C++ permette quindi di dichiarare un metodo virtuale senza definirne il corpo.
+Per avvisare il compilatore che il metodo non ha corpo basta aggiungere il marcatore `=0` alla fine della sua dichiarazione.
+In questo caso il metodo viene definito **virtuale** #Definizione 
+```cpp
+class B {
+...
+	virtual void G() = 0;
+...
+};
+```
+
+>[!def] Classe Astratta #Definizione 
+>Quando una classe `B` contiene o eredita senza definirlo almeno un metodo virtuale puro, `B` viene detta *classe (base) astratta*.
+>Gli oggetti di una classe base astratta possono essere creati solo come sottooggetti di oggetti appartenenti ad una sottoclasse concreta di `B`.
+> >[!info] N.B.
+> >Una classe astratta può comunque contenere dei costruttori, inoltre è sempre possibile dichiarare dei puntatori e riferimenti a classi astratte.
+
+>[!def] Classe Concreta #Definizione 
+>Una sottoclasse `D` di una classe base astratta `B` si dice *concreta* se `D` implementa tutti i metodi virtuali puri di `B`.
+
+--- 
+
+>[!error] Attenzione
+>Può verificarsi l'esigenza di rendere astratta una qualche classe base `B` nonostante non supporti per sua natura la dichiarazione di un metodo virtuale puro.
+
+In questi casi è comunque possibile rendere `B` astratta dichiarando che il suo [distruttore](Distruttore) virtuale sia "artificialmente" puro, nonostante esso abbia invece una piena definizione.
+Si tratta quindi di una mera definizione sintattica `=0` oppure `=default` per il distruttore virtuale di `B` al fine di rendere `B` una classe astratta e quindi non permetta la costruzione di oggetti.
+>[!example]
+>```cpp error:9
+>class B { // classe base astratta
+>public:
+>	virtual ~B() {} = default; // distruttore virtuale standard "puro"
+>};
+>
+>class D: public B {}; // sottoclasse concreta
+>
+>int main() {
+>	B b; // Illegale: "cannot declare b of type B ..."
+>	D d; // Ok: D è concreta
+>	B* p; // Ok, puntatore a classe astratta
+>	p = &d; // puntatore polimorfo
+>}
+>```
