@@ -784,3 +784,4 @@ classDiagram
 
 I principi [[#OCP]] e [[#DIP]] sono legati e nella descrizione del principio aperto / chiuso ci siamo implicitamente riferiti al principio di invecsione delle dipendenze.
 Si mira a progetare classi che siano aperte all'estensione, quindi si organizzano le dipendenza tra classi in modo da dipendere da classi astratte invece che da classi concrete.
+
