@@ -1,5 +1,5 @@
 Tags: [[P.A.O]] [[Essenziali]]
-## SottoClassi
+# SottoClassi
 Possiamo usare la classe `orario` per definire una nuova classe `dataora` che eredita da essa tutte le proprietà di `orario` ed a cui attribuiamo le ulteriori proprietà che ci interessano per modellare il concetto di orario con data.
 ```cpp title:dataora.h
 class dataora: public orario {
@@ -328,7 +328,7 @@ Abbiamo `D` sottoclasse `B` che eredita `b` come membro protetto: il caso più c
 Si dovrà però garantire la correttezza di queste conversioni, cioè prima di effettuare queste conversioni esplicite si dovrà essere sicuri che il tipo dinamico del puntatore o riferimento oggetto della conversione esplicita sia `D*` o `D&`.
 ==Si tratta di testi dinamici fatti a run-time e la responsabilità della correttezza di queste conversioni è lasciata al programmatore.==
 
-## Ridefinizione di metodi e campi dati
+# Ridefinizione di metodi e campi dati
 In `D`, sottoclasse di `B`, è possibile *ridefinire*, i campi dati ed i metodi ereditati da `B`.
 >[!def] Ridefinizione #Definizione 
 >Ciò significa che nella classe derivata `D` si ridefinisce il significato di un membro `b` ereditato da `B` tramite una nuova definizione che nasconde quella ereditata da `Bc`.
@@ -372,7 +372,7 @@ Infatti:
 
 >[!info]
 ==Per altri esempi per capire bene guarda pagine da 187-191==
-## [[Costruttori]], Assegnazione e [[Distruttore]]
+# [[Costruttori]], Assegnazione e [[Distruttore]]
 ### Costruttori
 Naturalmente i costruttori, l'assegnazione e il distruttore della classe base **non** sono ereditati
 dalla classe derivata, ma c'è la possibilità per costruttori, assegnazione, distruttori di invocare quelli della classe base.
@@ -720,7 +720,7 @@ Il `dynamic_cast` permette quindi di fare 2 tipi di conversioni
 >[!note] `dynamic_cast` di un riferimento fallito
 >Se il `dynamic_cast` di un riferimento fallisce allora viene automaticamente lanciata un'[eccezione](Eccezioni) di tipo `bad_cast`.
 
-In generale il `dynamic_cast` viene usato solo in caso di necessità. Ovvero si ha bisogno di un metodo proprio di una classe derivata `D`, ovvero di un metodo che non ha ereditato dalla classe `B` dunque non disponibile nella classe base.
+==In generale il `dynamic_cast` viene usato solo in caso di necessità.== Ovvero si ha bisogno di un metodo proprio di una classe derivata `D`, ovvero di un metodo che non ha ereditato dalla classe `B` dunque non disponibile nella classe base.
 
 >[!question] Se le funzioni virtuali sono così importanti e permettono di chiamare sempre la funzione *giusta*, perché sono un'opzione piuttosto che la regola?
 >Per filosofia fondamentale del C++, perché le funzioni virtuali non sono efficienti come le funzioni non virtuali.
