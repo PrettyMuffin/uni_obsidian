@@ -110,7 +110,7 @@ Se durante il blocco `try` non si verificano eccezioni, le `catch` relative a ta
 >[!important] Importante
 >La `catch` che cattura un'eccezione è la prima `catch` incontrata durante la ricerca che abbia un *tipo compatibile* con il tipo dell'eccezione lanciata.
 >Le regole che definiscono la compatibilità sono:
->- IL tipo `T` è uguale al tipo `E`;
+>- Il tipo `T` è uguale al tipo `E`;
 >- `E` è un sottotipo derivato pubblicamente da `T`;
 >- `T` è un tipo puntatore `B*` ed `E` è puntatore a tipo `D*` dove `D` è classe derivata da `B`;
 >- `T` è un riferimento `B&` ed `E` è tipo riferimento `D&` dove `D` è una classe derivata da `B`;

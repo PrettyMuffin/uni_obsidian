@@ -19,6 +19,8 @@ diciamo dunque che la classe `dataora` è *derivata* della classe `orario`.
 >- superclasse; sottoclasse;
 >- supertipo(diretto); sottotipo (diretto)
 
+^656ea8
+
 La parola chiave `public` si tratta di uno specificatore di accesso che precede il nome della classe base, ed indica una *derivazione pubblica*.
  ==Ciò significa che tutti i membri della classe base vengono implicitamente ereditati dalla classe derivata, che li può usare liberamente e direttamente come fossero membri propri.==
  Nella maggior parte dei casi la *classe derivata* avrà ulteriori membri propri oltre a quelli ereditati. ^8c15ae
@@ -34,6 +36,8 @@ In altri termini, ogni oggetto di una classe derivata può essere convertito imp
 
 >[!def] Gerarchia di classi #Definizione 
 Dalla relazione *is-a* si può dedurre anche che una classe `D` derivata direttamente da una classe base `B` può a sua volta agire da classe base per qualche classe `E` che derivi direttamente da `D`.
+
+^01bc1b
 
 >[!note] Conversioni implicite
 >In ogni [gerarchia di classi](#Gerarchie%20di%20classi), le conversioni implicite da sottotipo a supertipo valgono lungo tutta la gerachia:
@@ -634,6 +638,8 @@ class B {
 >Gli oggetti di una classe base astratta possono essere creati solo come sottooggetti di oggetti appartenenti ad una sottoclasse concreta di `B`.
 > >[!info] N.B.
 > >Una classe astratta può comunque contenere dei costruttori, inoltre è sempre possibile dichiarare dei puntatori e riferimenti a classi astratte.
+
+^2e9f45
 
 >[!def] Classe Concreta #Definizione 
 >Una sottoclasse `D` di una classe base astratta `B` si dice *concreta* se `D` implementa tutti i metodi virtuali puri di `B`.
