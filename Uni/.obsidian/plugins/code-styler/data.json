@@ -447,7 +447,7 @@
     "settings": {
       "codeblock": {
         "lineNumbers": true,
-        "unwrapLines": true,
+        "unwrapLines": false,
         "wrapLinesActive": false,
         "curvature": 4
       },

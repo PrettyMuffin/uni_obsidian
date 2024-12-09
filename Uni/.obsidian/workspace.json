@@ -4,34 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e130750272e92f00",
+        "id": "a174b23fcca84c59",
         "type": "tabs",
         "children": [
           {
-            "id": "18be168494dfe55f",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Canvas/Vtable_C.canvas",
-                "viewState": {
-                  "x": 214.64635161638265,
-                  "y": 45.25723810315138,
-                  "zoom": 0
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Vtable_C"
-            }
-          },
-          {
-            "id": "55cac300ec88df2d",
+            "id": "bbcea56d489d9685",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Ereditarietà.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               },
@@ -40,22 +23,22 @@
             }
           },
           {
-            "id": "f1c08d6ea964cb8a",
+            "id": "62d861b0a5f80cf2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ereditarietà Multipla.md",
+                "file": "Gerarchia IO.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ereditarietà Multipla"
+              "title": "Gerarchia IO"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "gerarchia",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -199,49 +182,48 @@
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
+      "graph:Open graph view": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f1c08d6ea964cb8a",
+  "active": "62d861b0a5f80cf2",
   "lastOpenFiles": [
+    "Classi.md",
+    "Gerarchia IO.md",
     "Ereditarietà.md",
-    "Ereditarietà Multipla.md",
+    "Cast.md",
+    "Costruttori.md",
     "Eccezioni.md",
+    "Ereditarietà Multipla.md",
+    "Eccez.md",
+    "Copie, Assegnazione, Distruzioni Profonde.md",
+    "Const.md",
+    "conflict-files-obsidian-git.md",
     "Excalidraw/Drawing 2024-12-02 10.35.50.excalidraw.md",
+    "Ereditarieta.md",
+    "Canvas/Vtable_C.canvas",
     "Excalidraw",
     "Canvas/Drawing 2024-12-02 10.22.30.excalidraw.md",
-    "Canvas/Vtable_C.canvas",
-    "Classi.md",
     "Canvas",
-    "Costruttori.md",
-    "Template.md",
-    "Copie, Assegnazione, Distruzioni Profonde.md",
     "Overload Di Operatori.md",
-    "Untitled 1.md",
     "Problema dell'interferenza.md",
-    "Programmazione.md",
-    "22-11-2024.md",
-    "Dichiarazioni Incomplete.md",
     "References.md",
-    "Dichiarazioni Incom.md",
-    "Distruttore.md",
-    "Copie,.md",
-    "Distruzione Profonda.md",
+    "Static.md",
+    "Template.md",
     "Iteratori.md",
-    "Friend.md",
-    "Cast.md",
-    "21-11-2024.md",
-    "Namespace.md",
+    "Untitled 1.md",
     "Classi Annidate.md",
+    "Dichiarazioni Incomplete.md",
+    "Programmazione Ad Oggetti.md",
+    "Tags/ASD.md",
+    "Programmazione.md",
     "Untitled.canvas",
     "Canvas/PAO_C.canvas",
-    "Canvas",
     "Tags"
   ]
 }
