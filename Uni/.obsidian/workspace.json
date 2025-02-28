@@ -11,10 +11,24 @@
             "id": "1b88a7a27159ca1e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Statistica/Concetti Fondamentali.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": true,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Concetti Fondamentali"
             }
           }
         ]
@@ -157,8 +171,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -173,8 +186,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "140b31c651f4bd7b",
+  "active": "1b88a7a27159ca1e",
   "lastOpenFiles": [
+    "Statistica/Concetti Fondamentali.tex",
+    "Statistica/Concetti Fondamentali.md",
     "Statistica",
     "P.A.O./Canvas/Vtable_C.canvas",
     "P.A.O./Ereditarietà.md",
@@ -204,7 +219,6 @@
     "P.A.O./Iteratori.md",
     "Untitled 1.md",
     "P.A.O./Classi Annidate.md",
-    "Dichiarazioni Incomplete.md",
     "Untitled.canvas",
     "Canvas/PAO_C.canvas",
     "P.A.O./Tags"
