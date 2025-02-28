@@ -101,7 +101,7 @@ Abbiamo già osservato che una classe derivata può a sua volta essere usata com
 >```
 
 ### Accessibilità
->[!question] Una classe derivata ha accesso alla parte [privata](Classi#Private) di una sua classe base?
+>[!question] Una classe derivata ha accesso alla parte [privata](Classi.md#Private) di una sua classe base?
 >NO.
 >La parte privata di una qualsiasi classe `B` è inaccessibile alle classi derivate da `B` come lo è per ogni altra classe diversa da `B`.
 >```cpp error:2
@@ -113,15 +113,15 @@ Abbiamo già osservato che una classe derivata può a sua volta essere usata com
 >}
 >```
 
-Questo si risolve ponendo [protected](Classi#Protected) il sec. 
+Questo si risolve ponendo [protected](Classi.md#Protected) il sec. 
 Dunque la classe `dataora` è ottenuta per [derivazione pubblica](#^8c15ae): `class dataora : public orario`.
-Con la derivazione pubblica i campi [protetti](Classi#Protected) e [pubblici](Classi#Public) della classe base mantengono lo stesso livello di accessibilità anche nella classe derivata.
+Con la derivazione pubblica i campi [protetti](Classi.md#Protected) e [pubblici](Classi.md#Public) della classe base mantengono lo stesso livello di accessibilità anche nella classe derivata.
 
 > Oltre alla derivazione pubblica:
 > - *Derivazione Privata*: utilizza `private`, rende privati nella classe derivata i membri protetti e pubblici della classe base.
 > - *Derivazione Protetta*: utilizza `protected`, rende protetti nella classe derivata i mebri pubblici e protetti della classe base.
 > >[!info] N.B:
-> >Entrambe le derivazioni non hanno effetto sui campi e metodi [privati](Classi#Private).
+> >Entrambe le derivazioni non hanno effetto sui campi e metodi [privati](Classi.md#Private).
 > a
 > 
 |Membro / Derivazione| public |  protected | private |
@@ -134,7 +134,7 @@ La forma senz'altro più diffusa è quella `public`, detta anche **ereditarietà
 Questo perché permette di realizzare la relazione [is-a](#^9ec7639) => ==Un oggetto di classe derivata è anche un oggetto di classe base==.
 
 >[!important] Concetti di membro protetto
->È importante osservare che il concetto di membro protetto di una classe va contro il [principio dell'information hiding](Programmazione%20Ad%20Oggetti#^f42cc0) (perché la modifica di un membro privato potenzialmente potrebbe richiedere la successiva modifica di tutte le classi derivate).
+>È importante osservare che il concetto di membro protetto di una classe va contro il [principio dell'information hiding](Programmazione%20Ad%20Oggetti.md#^f42cc0) (perché la modifica di un membro privato potenzialmente potrebbe richiedere la successiva modifica di tutte le classi derivate).
 >Dunque il l'attributo *protected* va usato con parsimonia ==> la prassi generale è quella di dichiarare campi dati privati.
 
 ##### Ereditarietà privata vs Relazione has-a
@@ -272,8 +272,8 @@ Abbiamo `D` sottoclasse `B` che eredita `b` come membro protetto: il caso più c
 >>```
 >>
 
-##### Ereditarietà ed [Amicizie](Friend)
-==Una sottoclasse non eredità in alcun modo alcun tipo di [amicizie](friend) dalla classe base==.
+##### Ereditarietà ed [Amicizie](Friend.md)
+==Una sottoclasse non eredità in alcun modo alcun tipo di [amicizie](Friend.md) dalla classe base==.
 >[!failure] No, z private in this context
 >```cpp error:19
 >class C {
@@ -336,7 +336,7 @@ Si dovrà però garantire la correttezza di queste conversioni, cioè prima di e
 In `D`, sottoclasse di `B`, è possibile *ridefinire*, i campi dati ed i metodi ereditati da `B`.
 >[!def] Ridefinizione #Definizione 
 >Ciò significa che nella classe derivata `D` si ridefinisce il significato di un membro `b` ereditato da `B` tramite una nuova definizione che nasconde quella ereditata da `Bc`.
->In `D` è possibile usare l'operatore di [scoping](Namespace#^11f9a8) `B::b` per accedere al membro `b` definito in `B`.
+>In `D` è possibile usare l'operatore di [scoping](Namespace.md#^11f9a8) `B::b` per accedere al membro `b` definito in `B`.
 >Questa azione di dice *"to ridefine"*.
 
 Sia sempre `D` una classe derivata di `B`. Sia `m()` un metodo, possibilmente sovraccaricato, nella classe `B` che sia accessibile in `D`.
@@ -383,16 +383,16 @@ dalla classe derivata, ma c'è la possibilità per costruttori, assegnazione, di
 >[!note] Richiamo sottooggetto
 > Ogni oggetto di una classe derivata `D`, contiene un sottooggetto della classe base `B`.
 > Dunque quando si istanzia un oggetto `d` di tipo `D` occorrerà chiamare, esplicitamente o implicitamente, nel costruttore di `D` il costruttore di `B`.
->  - *Invocazione Esplicita*: è possibile inserire nella [lista di inizializzazione](Costruttori#Liste%20di%20Inizializzazione) del costruttore `D` un'invocazione esplicita di un qualunque costruttore di `B`.
+>  - *Invocazione Esplicita*: è possibile inserire nella [lista di inizializzazione](Costruttori.md#Liste%20di%20Inizializzazione) del costruttore `D` un'invocazione esplicita di un qualunque costruttore di `B`.
 >  >[!example]- Es.
 >  >```cpp
 >  >D::D(): B() {}
 >  >```
 > 
-> - *Invocazione Implicita*: se la [lista di inizializzazione](Costruttori#Liste%20di%20Inizializzazione) del costruttore di `D` non contiene costruttori espliciti di `B`, allora viene implicitamente ed automaticamente invocato il [costruttore di default](#^a16ac4) di `B`.
+> - *Invocazione Implicita*: se la [lista di inizializzazione](Costruttori.md#Liste%20di%20Inizializzazione) del costruttore di `D` non contiene costruttori espliciti di `B`, allora viene implicitamente ed automaticamente invocato il [costruttore di default](#^a16ac4) di `B`.
 
->Quindi la [lista di inizializzazione](Costruttori#Liste%20di%20Inizializzazione) di un costruttore di una classe `D` derivata direttamente da `B` in generale può contenere invocazioni di costruttori per campi dati di `D` e l'invocazione di un costruttore della classe base `B`.
->==La [lista di inizializzazione](Costruttori#Liste%20di%20Inizializzazione) di `D` non può contenere invocazioni di costruttori per i campi dati della classe base `B`.==
+>Quindi la [lista di inizializzazione](Costruttori.md#Liste%20di%20Inizializzazione) di un costruttore di una classe `D` derivata direttamente da `B` in generale può contenere invocazioni di costruttori per campi dati di `D` e l'invocazione di un costruttore della classe base `B`.
+>==La [lista di inizializzazione](Costruttori.md#Liste%20di%20Inizializzazione) di `D` non può contenere invocazioni di costruttori per i campi dati della classe base `B`.==
 
 La costruzione di un oggetto `D` avviene in 2 fasi:
 1. Viene prima costruito la base `B` tramite il suo costruttore
@@ -610,7 +610,7 @@ D* pd = new D;
 B* pb = pd;
 delete pb;
 ```
-In questa situazione `delete pb` richiama il [distruttore](Distruttore) della classe base `B` su un oggetto della classe derivata `D`, portando a memory leaks.
+In questa situazione `delete pb` richiama il [distruttore](Distruttore.md) della classe base `B` su un oggetto della classe derivata `D`, portando a memory leaks.
 Si può evitare ciò dichiarando virtuale il distruttore della classe base `B`: in questo modo tutti i distruttori delle classi derivate da `B` diventano automaticamente virtuali ottenendo quindi l'effetto che quando viene applicato l'operatore `delete`.
 > Se il distruttore di `B` è virtuale, allora tutti i distruttori delle sue classi derivate diventano virtuali.
 > Per una classe che contiene metodi virtuali è buona prassi dichiarare virtuale anche il distruttore.
@@ -649,7 +649,7 @@ class B {
 >[!error] Attenzione
 >Può verificarsi l'esigenza di rendere astratta una qualche classe base `B` nonostante non supporti per sua natura la dichiarazione di un metodo virtuale puro.
 
-In questi casi è comunque possibile rendere `B` astratta dichiarando che il suo [distruttore](Distruttore) virtuale sia "artificialmente" puro, nonostante esso abbia invece una piena definizione.
+In questi casi è comunque possibile rendere `B` astratta dichiarando che il suo [distruttore](Distruttore.md) virtuale sia "artificialmente" puro, nonostante esso abbia invece una piena definizione.
 Si tratta quindi di una mera definizione sintattica `=0` oppure `=default` per il distruttore virtuale di `B` al fine di rendere `B` una classe astratta e quindi non permetta la costruzione di oggetti.
 >[!example]
 >```cpp error:9
@@ -706,7 +706,7 @@ public:
 >[!attention] Attenzione a queste regole
 >1. Se la classe non è polimorfa, allora `typeid` restituisce il tipo statico del riferimento del puntatore dereferenziato.
 >2. `typeid` su un puntatore non dereferenziato restituisce sempre il tipo statico del puntatore.
->3. `typeid` ignora sempre l'attributo [`const`](Const).
+>3. `typeid` ignora sempre l'attributo [`const`](Const.md).
 
 #### dynamic_cast
 >L'operatore di conversione esplicita `dynamic_cast` permette di convertire puntatori e riferimenti ad una classe base `B` polimorfa in puntatori e riferimenti ad una classe `D` derivata da `B`.
@@ -724,7 +724,7 @@ Il `dynamic_cast` permette quindi di fare 2 tipi di conversioni
 - **Upcasting** #Definizione : `D* ==> B*` e `D& ==> D&` perché si converte "dal basso verso l'alto" nella gerarchia, ovvero dalla classe base a quella derivata.
 
 >[!note] `dynamic_cast` di un riferimento fallito
->Se il `dynamic_cast` di un riferimento fallisce allora viene automaticamente lanciata un'[eccezione](Eccezioni) di tipo `bad_cast`.
+>Se il `dynamic_cast` di un riferimento fallisce allora viene automaticamente lanciata un'[eccezione](Eccezioni.md) di tipo `bad_cast`.
 
 ==In generale il `dynamic_cast` viene usato solo in caso di necessità.== Ovvero si ha bisogno di un metodo proprio di una classe derivata `D`, ovvero di un metodo che non ha ereditato dalla classe `B` dunque non disponibile nella classe base.
 

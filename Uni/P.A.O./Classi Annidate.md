@@ -5,8 +5,8 @@ Tags: [[P.A.O]]
 >
 >
 
-La classe interna `A` può essere [pubblica](Classi#Public) o [privata](Classi#Private) in particolare:
-- se `A` è pubblica allora posso definire oggetti di `A` esternamente a `C` usando l'[operatore di scoping](Namespace#^11f9a8).
+La classe interna `A` può essere [pubblica](Classi.md#Public) o [privata](Classi.md#Private) in particolare:
+- se `A` è pubblica allora posso definire oggetti di `A` esternamente a `C` usando l'[operatore di scoping](Namespace.md#^11f9a8).
 ```cpp
 C::A obj;
 ```

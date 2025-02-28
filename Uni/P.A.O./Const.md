@@ -3,8 +3,8 @@ Tag: [[P.A.O]] [[Essenziali]] ^9fdc98
 ## Perché 
 
 >[!def]- Side effect #Definizione 
->L'invocazione di un metodo su un [oggetto di invocazione](Classi#^76e1c5) può modificare lo stato di quell'oggetto, ossia i suoi campi dati.
->Si dice anche il il metodo provoca ***side effect*** sull'[oggetto di invocazione](Classi#^76e1c5).
+>L'invocazione di un metodo su un [oggetto di invocazione](Classi.md#^76e1c5) può modificare lo stato di quell'oggetto, ossia i suoi campi dati.
+>Si dice anche il il metodo provoca ***side effect*** sull'[oggetto di invocazione](Classi.md#^76e1c5).
 
 ^b969cd
 
@@ -28,7 +28,7 @@ Se la trova viene segnalato *errore*.
 
 ## Oggetti Costanti
 >[!def] Oggetto Costante #Definizione 
->Anche un oggetto può essere dichiarato costante: ciò significa che tale oggetto non può venire modificato dopo che è stato [costruito](Classi#Costruttori#Definizione).
+>Anche un oggetto può essere dichiarato costante: ciò significa che tale oggetto non può venire modificato dopo che è stato [costruito](Classi.md#Costruttori#Definizione).
 Anche i suoi campi dati diventano costanti, il che ha senso dato che modificandoli cambieremo lo stato dell'oggetto marcato 
 >>[!error] Assegnazione illegale
 >>```cpp
@@ -41,7 +41,7 @@ Anche i suoi campi dati diventano costanti, il che ha senso dato che modificando
 >In C++ non mettere `const` alla fine di un metodo che non provoca side effects è di fatto un errore logico oltre che a non permettere ad un oggetto costante l'utilizzo di quel metodo, che altrimenti ne farebbe uso.
 
 >[!important] `*this` in un metodo costante
->L'oggetto di invocazione di un metodo costante diventa costante ==> il [puntatore `*this`](Classi#Puntatore%20this) dell'[oggetto di invocazione](Classi#^76e1c5) ha tipo `const C*`.
+>L'oggetto di invocazione di un metodo costante diventa costante ==> il [puntatore `*this`](Classi.md#Puntatore%20this) dell'[oggetto di invocazione](Classi.md#^76e1c5) ha tipo `const C*`.
 >Un oggetto costante invoca solo e soltanto metodi marcati **const**. Un ovvia eccezione tuttavia sono i costruttori.
 
 ##

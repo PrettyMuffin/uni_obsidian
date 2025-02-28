@@ -11,7 +11,7 @@ Tuttavia se proviamo a inizializzarlo:
 Si devono dunque usare i cosiddetti *costruttori*:
 >[!important] Costruttore #Definizione 
 >Metodo con lo stesso nome della classe e senza tipo di ritorno che vengono invocati automaticamente quando viene dichiarano, quindi costruito, un oggetto.
->Solitamente stanno nella parte [pubblica](Classi#Public) della classe.
+>Solitamente stanno nella parte [pubblica](Classi.md#Public) della classe.
 
 >[!example]- Esempio
 > ```cpp 		
@@ -156,7 +156,7 @@ Il *costruttore di copia* viene invocato automaticamente nei seguenti casi:
   >	return aux;
   >}
   >```
-  >Viene costruito un [oggetto temporaneo anonimo](Costruttori#^cd9d7d)  che verrà [distrutto](Distruttore) (deallocato) non appena sia stato usato come valore di ritorno della funzione
+  >Viene costruito un [oggetto temporaneo anonimo](Costruttori.md#^cd9d7d)  che verrà [distrutto](Distruttore.md) (deallocato) non appena sia stato usato come valore di ritorno della funzione
 
 Nel 3° caso lo standard propone un'ottimizzazione, sebbene sia sottile, in quanto dice:
 >[!quote] Standard

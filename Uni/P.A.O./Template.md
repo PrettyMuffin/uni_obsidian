@@ -92,7 +92,7 @@ Come abbiamo detto, la definizione di un template di funzione è solamente uno s
 Con la *compilazione per inclusione* (`#include <>`) le definizioni dei template vengono messe in file header.
 Il compilatore usa quindi queste definizioni per generare il codice di tutte le istanze del template utilizzate nel file che sta compilando.
 Questo modello di compilazione presenta 2 sostanziali problemi
-1. Il file header contiene tutti i dettagli della definizione dei template. Tali dettagli risultano quindi visibili all'utente e ciò quindi va contro il principio dell'[information hiding](Programmazione%20Ad%20Oggetti#^f42cc0);
+1. Il file header contiene tutti i dettagli della definizione dei template. Tali dettagli risultano quindi visibili all'utente e ciò quindi va contro il principio dell'[information hiding](Programmazione%20Ad%20Oggetti.md#^f42cc0);
 2. Se la stessa istanza di un template viene usata in più file compilati separatamente il codice per tale istanza viene generato più volte dal compilatore.
    >[!success] No Run-Time problem
    >Nonostante ciò questo non crea incovenienti a tempo di esecuzione in quanto al momento del collegamento dei file compilati separatamente il linker usa soltanto una delle istanze compilate, mentre le altre vengono ignorate.
@@ -110,7 +110,7 @@ Questo modello di compilazione presenta 2 sostanziali problemi
 ### Definizione
 
 >[!def] Template di classe #Definizione 
->Un *template di classe* è essenzialmente la descrizione di un metodo (modello) che il compilatore può usare per generare automaticamente istanze particolari di una [classe](Classi) che differiscono solo per il tipo di alcuni campi dati, metodi, [classi interne](Classi%20Annidate).
+>Un *template di classe* è essenzialmente la descrizione di un metodo (modello) che il compilatore può usare per generare automaticamente istanze particolari di una [classe](Classi.md) che differiscono solo per il tipo di alcuni campi dati, metodi, [classi interne](Classi%20Annidate.md).
 
 ^d7c6d3
 
@@ -141,7 +141,7 @@ La definizione di un template di classe specifica come si possono costruire dell
 qualora vengano forniti i valori dei parametri del template.
 >[!attention] Uguale template, istanziazioni diverse
 >`Queue<int> qi;` costruisce effettivamente una classe "coda di interi".
->Se per un'istruzione `Queue<string> qs;` il compilatore costruisce anche la classe "coda di stringhe" allora le due classi, benché costruite usando lo stesso template di classe, sono classi *completamente distinte*. In particolare, `Queue<int>` non ha accesso alla parte [privata](Classi#Private) di `Queue<string>`.
+>Se per un'istruzione `Queue<string> qs;` il compilatore costruisce anche la classe "coda di stringhe" allora le due classi, benché costruite usando lo stesso template di classe, sono classi *completamente distinte*. In particolare, `Queue<int>` non ha accesso alla parte [privata](Classi.md#Private) di `Queue<string>`.
 
 Al di fuori di definizioni o dichiarazioni di template possono comparire solo nomi di istanze di template di classe.
 >[!important] N.B.
@@ -155,7 +155,7 @@ Al di fuori di definizioni o dichiarazioni di template possono comparire solo no
 >>}
 >>```
 >>Il compilatore non genera istanza `Queue<int>` quando incontra le due occorrenze del nome dell'istanza.
->>Questo perché non è necessaria l'istanza di `Queue<int>` per copiare un riferimento o un puntatore a `Queue`. Non è quindi necessaria la definizione del template, ma basta la sua [dichiarazione incompleta](Classi#Dichiarazioni%20Incomplete).
+>>Questo perché non è necessaria l'istanza di `Queue<int>` per copiare un riferimento o un puntatore a `Queue`. Non è quindi necessaria la definizione del template, ma basta la sua [dichiarazione incompleta](Classi.md#Dichiarazioni%20Incomplete).
 
 >[!question] Dunque quand'è che viene effetivamente istanziato un template di classe?
 >Viene ovviamente istanziato un template di classe quando:
@@ -187,7 +187,7 @@ Al di fuori di definizioni o dichiarazioni di template possono comparire solo no
 > 	perché questa istanza della classe serve per calcolare la quantità `sizeof(Queue<int>)` di cui occorre incrementare il puntatore per eseguire `pqi++`.
 
 ### Metodi di template di classe
-Come per le normali [classi](Classi), in un template di classe la definizione di un metodo può comparire sia all'esterno che all'interno della classe.
+Come per le normali [classi](Classi.md), in un template di classe la definizione di un metodo può comparire sia all'esterno che all'interno della classe.
 >[!info] Istanziazione e di metodi
 >Un metodo di un template di classe non viene istanziato quando viene istanziata la classe, ma se e soltanto quando il programma usa effettivamente quel metodo.
 
@@ -197,9 +197,9 @@ Come per le normali [classi](Classi), in un template di classe la definizione di
 
 
 
-### Dichiarazioni [friend](Friend) in template di classe
-In un template di classe possono apparire 3 tipologie di dichiarazioni [friend](Friend).
-1. Dichiarazione nel template di classe `C` di una classe o funzione [friend](Friend) non template.
+### Dichiarazioni [friend](Friend.md) in template di classe
+In un template di classe possono apparire 3 tipologie di dichiarazioni [friend](Friend.md).
+1. Dichiarazione nel template di classe `C` di una classe o funzione [friend](Friend.md) non template.
    ```cpp
    class A { ... int fun(); ... };
    template <class T>
@@ -213,8 +213,8 @@ In un template di classe possono apparire 3 tipologie di dichiarazioni [friend](
 	>[!note]
 	>Si noti che non serve dichiarare o definire `B` e `test()` prima del template `C` affinché sia visibile a `C`, mentre occorre che la classe `A` sia stata dichiarata prima del template `C` affinché sia visibile a `C` che la classe `A` inlclude un metodo `fun()`
 
-2. ==Dichiarazione del template di classe `C` di un template di classe o di un template di funzione [friend](Friend) associato.==
-   In questo caso tutte le istanze della classe template `C` hanno come amica *una e una sola corrispondente istanza* del template di classe [friend](Friend) associato o del template di funzione [friend](Friend) associato.
+2. ==Dichiarazione del template di classe `C` di un template di classe o di un template di funzione [friend](Friend.md) associato.==
+   In questo caso tutte le istanze della classe template `C` hanno come amica *una e una sola corrispondente istanza* del template di classe [friend](Friend.md) associato o del template di funzione [friend](Friend.md) associato.
    ```cpp
    template <class T> class A { ... int fun(); ...};
    
@@ -236,7 +236,7 @@ In un template di classe possono apparire 3 tipologie di dichiarazioni [friend](
 
 	Si tratta del caso più comune e significativo;
  ^69285b
-3. Dichiarazione nel template di classe `C` di un template di classe o di un template di funzione [friend](Friend) non associato, cioè aventi i parametri disgiunti dai parametri di `C`. In questo caso, i template di classe o di funzione dichiarati friend sono friend di ogni istanza del template di classe `C`.
+3. Dichiarazione nel template di classe `C` di un template di classe o di un template di funzione [friend](Friend.md) non associato, cioè aventi i parametri disgiunti dai parametri di `C`. In questo caso, i template di classe o di funzione dichiarati friend sono friend di ogni istanza del template di classe `C`.
    ```cpp
    template<class T>
    class C {
@@ -254,9 +254,9 @@ In un template di classe possono apparire 3 tipologie di dichiarazioni [friend](
    ```
 
 
-### Membri [statici](Static) in template di classe
+### Membri [statici](Static.md) in template di classe
 >[!important]
-Anche in un template di classe possono essere dichiarati campi dati e metodi statici, in tal caso ogni istanza del template di classe ha dei propri campi dati e metodi [statici](Static), ==distinti da quelli delle altre istanze della classe==
+Anche in un template di classe possono essere dichiarati campi dati e metodi statici, in tal caso ogni istanza del template di classe ha dei propri campi dati e metodi [statici](Static.md), ==distinti da quelli delle altre istanze della classe==
 
 Per esempio
 ```cpp
@@ -271,12 +271,12 @@ template<class T>
 int Queue<T>::contatore = 0;
 ```
 
-Un campo dati [statico](Static) è istanziato e quindi inizializzato dalla definizione del template soltanto se viene viene effettivamente usato.
+Un campo dati [statico](Static.md) è istanziato e quindi inizializzato dalla definizione del template soltanto se viene viene effettivamente usato.
 > ==La mera definizione del campo dati statico non provoca allocazione di memoria.==
-### Template di [classe annidati](Classi%20Annidate)
+### Template di [classe annidati](Classi%20Annidate.md)
 All'interno di un template di classe possono essere dichiarati altri template di classe annidati sia [associati](#^69285b) e non associati.
 >[!example]
->Un modo migliore per permettere l'uso di `QueueItem` soltanto alla classe `Queue` è quello di [annidare](Classi%20Annidate) nella parte [privata](Classi#Private) della definizione di [template di classe](#^d7c6d3) `Queue` la definizione del template di classe `QueueItem`.
+>Un modo migliore per permettere l'uso di `QueueItem` soltanto alla classe `Queue` è quello di [annidare](Classi%20Annidate.md) nella parte [privata](Classi.md#Private) della definizione di [template di classe](#^d7c6d3) `Queue` la definizione del template di classe `QueueItem`.
 >```cpp
 >template\<class T>
 >class Queue {
