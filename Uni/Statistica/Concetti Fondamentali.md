@@ -74,28 +74,60 @@ $$
 x_{\sigma(1)} = min\{x_{i}:i\in \{1,\dots, n\}\} \quad x_{\sigma(n)} = max\{x_{i}:i\in \{1,\dots, n\}\}
 $$
 ### Statistiche della dispersione dei dati
-Sia $(x_{i})_{i \in \{1,\dots, n\} } \in \mathbb{R}$ un campione univariato.
+Sia $(x_{i})_{i \in \{1,\dots, n\} } \in \mathbb{R}$ un campione univariato di numerosità $n\ge2$.
 ###### Obbiettivo:
 Misurare le deviazioni dalla media campionaria dando più peso alle deviazioni grandi
->[!def] Varianza Campionaria
+>[!def] Varianza Campionaria #Definizione c
 >La *varianza campionaria* di $x_{i})_{i \in \{1,\dots, n\} }$ è data da:
 >$$
 >s^2 = \frac{1}{n - 1} \cdot \left( \sum_{i=1}^n (x_{i} - \overline{x})^2  \right)
 >$$
->dove $\overline{x}$ è la [media campionaria](#^33dd17).
+>- $\overline{x}$ è la [media campionaria](#^33dd17).
+>
 >Il prefattore $\frac{1}{n-1}$ invece di $\frac{1}{n}$ serve ad avere uno stimatore corretto.
 >A parte questa differenza (prefattore), possiamo interpretare la varianza campionaria come la media campionaria degli scarti quadratici.
 >Eleviamo gli scarti al quadrato per enfatizzare le deviazioni grandi, come posto dall'obbiettivo.
+>Infatti:
+>>[!note]- Oss. Utile per i calcoli
+>>$$
+>>\begin{split}
+>>s^2 & =  \frac{1}{n - 1} \sum_{i = 1}^n (x_{i}-\overline{x})^2 \\
+>> & = \frac{1}{n - 1} \sum_{i=1}^n(x_{i}^2 - 2x_{i}\cdot\overline{x}+\overline{x}^2) \\
+>> & = \frac{1}{n-1} \sum_{i=1}^n x_{i}^2 - 2\frac{\overline{x}}{n-1}\sum_{i=1}^n x_{i} + \frac{n}{n-1}\overline{x}^2 \\
+>> & = \frac{1}{n-1}\sum_{i=1}^n x_{i}^2 - 2 \frac{n}{n-1} \cdot \overline{x}^2 + \frac{n}{n-1} \overline{x}^2 \\
+>> & = \frac{1}{n-1}\sum_{i=1}^n x_{i}^2 + \frac{n}{n-1} \cdot \overline{x}^2
+\end{split}
+>>$$
 >
 
->[!def] Deviazione Standard Campionaria
+^6c6c18
+
+>[!def] Deviazione Standard Campionaria #Definizione 
 >La *deviazione standard campionaria* coincide alla varianza campionaria sotto radice
 >$$
 > s = \sqrt{s^2} = \sqrt{ \frac{1}{n - 1} \cdot \left( \sum_{i=1}^n (x_{i} - \overline{x})^2  \right) }
 >$$
 
+^dce63e
 
-
+##### Osservazione 
+Siano $a,b \in \mathbb{R}$ Poniamo
+$$
+y_{i} = a \cdot x_{i} + b \quad i \in \{1,\dots,n\}
+$$
+Sia: 
+- $s_y^2$ la [varianza campionaria](#^6c6c18) di $y_i$ campione trasformato
+- $s_x^2$ la [varianza campionaria](#^6c6c18) di $x_i$ campione originale
+Allora
+$$
+\begin{align}
+s_{y}^2 &= a^2 \cdot s_{x}^2 \\
+s_{y}&=|a| \cdot s_{x}
+\end{align}
+$$
+###### Conclusione:
+La [deviazione standard](#^dce63e) ha la stessa unità di misura dei dati, inoltre [varianza ](#^6c6c18) e [deviazione standard](#^dce63e)
+permettono di stimare la proporzione dei dati che sono "vicini" o "lontani" dalla [media campionaria](#^33dd17).
 
 
 [^1]: osservazione riguardo a un qualunque fenomeno il cui esito non è determinabile con certezza a priori

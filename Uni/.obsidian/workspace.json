@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistica/Concetti Fondamentali.md",
+                "file": "Statistica/Disuguaglianza di Chebyshev (campionaria).md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Concetti Fondamentali"
+              "title": "Disuguaglianza di Chebyshev (campionaria)"
             }
           }
         ]
@@ -186,10 +186,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1b88a7a27159ca1e",
+  "active": "8bcea40682e09863",
   "lastOpenFiles": [
-    "Statistica/Concetti Fondamentali.tex",
     "Statistica/Concetti Fondamentali.md",
+    "Concetti.md",
+    "Statistica/Disuguaglianza di Chebyshev (campionaria).md",
+    "Untitled 1.md",
+    "Statistica/Concetti Fondamentali.tex",
     "Statistica",
     "P.A.O./Canvas/Vtable_C.canvas",
     "P.A.O./Ereditarietà.md",
@@ -217,8 +220,6 @@
     "P.A.O./Static.md",
     "P.A.O./Template.md",
     "P.A.O./Iteratori.md",
-    "Untitled 1.md",
-    "P.A.O./Classi Annidate.md",
     "Untitled.canvas",
     "Canvas/PAO_C.canvas",
     "P.A.O./Tags"
