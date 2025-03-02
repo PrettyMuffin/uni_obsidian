@@ -77,8 +77,8 @@ $$
 Sia $(x_{i})_{i \in \{1,\dots, n\} } \in \mathbb{R}$ un campione univariato di numerosità $n\ge2$.
 ###### Obbiettivo:
 Misurare le deviazioni dalla media campionaria dando più peso alle deviazioni grandi
->[!def] Varianza Campionaria #Definizione c
->La *varianza campionaria* di $x_{i})_{i \in \{1,\dots, n\} }$ è data da:
+>[!def] Varianza Campionaria #Definizione
+>La *varianza campionaria* di $(x_{i})_{i \in \{1,\dots, n\} }$ è data da:
 >$$
 >s^2 = \frac{1}{n - 1} \cdot \left( \sum_{i=1}^n (x_{i} - \overline{x})^2  \right)
 >$$
@@ -128,6 +128,7 @@ $$
 ###### Conclusione:
 La [deviazione standard](#^dce63e) ha la stessa unità di misura dei dati, inoltre [varianza ](#^6c6c18) e [deviazione standard](#^dce63e)
 permettono di stimare la proporzione dei dati che sono "vicini" o "lontani" dalla [media campionaria](#^33dd17).
+#### [[Disuguaglianza di Chebyshev (campionaria)]] 
 
-
+### Statistiche per la distribuzione dei dati
 [^1]: osservazione riguardo a un qualunque fenomeno il cui esito non è determinabile con certezza a priori
