@@ -1,5 +1,5 @@
 Tags: [[P.A.O]] [[Friend]]
-Nella manipolazione degli oggetti di una [classe](Classi) collezione si avverte ben presto la necessità
+Nella manipolazione degli oggetti di una [classe](Classi.md) collezione si avverte ben presto la necessità
 di poter accedere agli elementi di una collezione, ad esempio per poter scorrere tutti gli 
 elementi della collezione.
 ```cpp title:prima_versione
@@ -36,8 +36,8 @@ public:
 };
 ```
 
-> Sia il campo dati `punt` che i metodi di questa definizione della classe `iteratore` accedono alla parte [privata](Classi#Private) della classe `contenitore`.
-> Dunque si necessita di una *[dichiarazione di amicizia](Friend) tra classi*.
+> Sia il campo dati `punt` che i metodi di questa definizione della classe `iteratore` accedono alla parte [privata](Classi.md#Private) della classe `contenitore`.
+> Dunque si necessita di una *[dichiarazione di amicizia](Friend.md) tra classi*.
 
 ```cpp ok:2,11
 class contenitore {

@@ -1,7 +1,7 @@
 Tags: [[Essenziali]] [[P.A.O]] [[Classi]]
-Supponiamo di voler fare [overload](Overload%20Di%20Operatori#Overload%20con%20funzioni%20Esterne) di funzioni esterne, come ad esempio della funzione `operator<<()`.
+Supponiamo di voler fare [overload](Overload%20Di%20Operatori.md#Overload%20con%20funzioni%20Esterne) di funzioni esterne, come ad esempio della funzione `operator<<()`.
 Siamo costretti ad uscire dalla classe, ciò significa che non abbiamo più accesso ai campi
-privati, ma solo a quelli pubblici. Finché la [classe](Classi) possiede metodi pubblici per poter
+privati, ma solo a quelli pubblici. Finché la [classe](Classi.md) possiede metodi pubblici per poter
 accedere ai campi privati è tutto ok, ma il momento in cui ciò non è possibile e necessitiamo
 di usare i campi privati come facciamo?
 La keyword ```friend``` ci viene in soccorso, in quanto da privilegi alla funzione / classe esterne

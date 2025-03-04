@@ -12,7 +12,7 @@ Ci sono 3 grandi differenze tra *reference* e *puntatori*:
 3. Una referenza **deve** essere inizializzata quando viene creata
 
 >[!attention] N.B: Valore Reference
->È indispensabile che quando si inizializzi una reference, il valore di inizializzazione ***deve*** necessariamente avere *l-valore*, dunque non può essere né essere un [oggetto anonimo](Classi#Tipi%20di%20costruttori%20e%20oggetti%20anonimi) né un valore litterale
+>È indispensabile che quando si inizializzi una reference, il valore di inizializzazione ***deve*** necessariamente avere *l-valore*, dunque non può essere né essere un [oggetto anonimo](Classi.md#Tipi%20di%20costruttori%20e%20oggetti%20anonimi) né un valore litterale
 >>[!example]- Es:
 >>>[!error] Oggetto anonimo
 >>>```cpp
@@ -120,8 +120,8 @@ int main () {
 > >}
 > >```
 
-### Parametro per valore vs Riferimento [Costante](Const)
-Passare un parametro per valore richiama il [costruttore di copia](Classi#^cae878), mentre con i reference passa solo il rifermento.
+### Parametro per valore vs Riferimento [Costante](Const.md)
+Passare un parametro per valore richiama il [costruttore di copia](Classi.md#^cae878), mentre con i reference passa solo il rifermento.
 Questo si traduce in un enorme aumento prestazionale del programma:
 >[!example] Es.
 >```cpp

@@ -27,7 +27,7 @@ private:
   int orario::Minuti() { return (sec / 60) % 60; }
   int orario::Secondi() { return sec % 60; }
 ```
-Per definire i metodi utilizziamo l'operatore di [scoping](Namespace#^11f9a8), questo perché quando si definisce una classe si definisce anche un [[Namespace]] proprio di quella classe;
+Per definire i metodi utilizziamo l'operatore di [scoping](Namespace.md#^11f9a8), questo perché quando si definisce una classe si definisce anche un [[Namespace]] proprio di quella classe;
 
 Dunque ora è possibile utilizzare la classe `orario` all'interno del programma
 ```cpp
@@ -116,7 +116,7 @@ In questa parte mettiamo a disposizione le funzioni e i servizi che vogliamo dar
 >Allora sono di default membri della parte [privata](#Private)
 
 ### Protected
-È individuata dalla parola chiave `protected`, i cui membri risultano accessibili alle [classi derivate](Ereditarietà) da `B` ma non risultano accessibili alle classi esterne a `B`.
+È individuata dalla parola chiave `protected`, i cui membri risultano accessibili alle [classi derivate](Ereditarietà.md) da `B` ma non risultano accessibili alle classi esterne a `B`.
 >[!example] Esempio Protected
 >```cpp
 >class orario {

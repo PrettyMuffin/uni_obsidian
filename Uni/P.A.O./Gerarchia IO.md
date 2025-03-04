@@ -20,7 +20,7 @@ classDiagram
 >La posizione di una cella di uno stream è un intero che parte da 0, come negli array.
 
 ## Classe `ios`
-`ios` è la classe [base](Ereditarietà#^656ea8) [astratta](Ereditarietà#^2e9f45) della [gerarchia](Ereditarietà#^01bc1b) che permette di controllare lo stato di funzionamento di uno stream.
+`ios` è la classe [base](Ereditarietà.md#^656ea8) [astratta](Ereditarietà.md#^2e9f45) della [gerarchia](Ereditarietà.md#^01bc1b) che permette di controllare lo stato di funzionamento di uno stream.
 Per quanto concerne lo stato di uno stream, la dichiarazione della classe `ios` è:
 ```cpp title:ios.h
 class ios {
@@ -96,7 +96,7 @@ public:
 >[!attention] Fallimento di input
 >Bisogna stare attenti che se una operazione di input fallisce non viene effettuato alcun prelievo dallo stream e la variabile di argomento di `operator>>` non subisce modifiche.
 
->[!example]- Esempio di overloading di `operator>>` in una [classe](Classi)
+>[!example]- Esempio di overloading di `operator>>` in una [classe](Classi.md)
 >```cpp
 >class Punto {
 >	friend istream& operator>>(istream&, Punto&);

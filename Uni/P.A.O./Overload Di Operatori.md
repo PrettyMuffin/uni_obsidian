@@ -104,7 +104,7 @@ ostream& operator<<(ostream& os, const orario& o) {
 
 >[!warning] Problema
 >1. Il fatto che andiamo fuori dalla classe significa che non abbiamo accesso alla parte `private` della classe
->2.  Non abbiamo più la commutatività valida se come primo operando abbiamo un oggetto senza l-valore ([oggetto anonimo](Costruttori#^cd9d7d))
+>2.  Non abbiamo più la commutatività valida se come primo operando abbiamo un oggetto senza l-valore ([oggetto anonimo](Costruttori.md#^cd9d7d))
 >   >[!failure]- Es
 >   >```cpp
 >   >orario x(12,23);
@@ -113,7 +113,7 @@ ostream& operator<<(ostream& os, const orario& o) {
 >   >```
 >
 > Questi problemi nascono dal fatto che queste funzioni dovrebbero essere del tutto interne alla classe, ma per un bad design del linguaggio siamo costretti ad andare fuori.
-> Questo problema si risolve con la keyword [`friend`](Friend).
+> Questo problema si risolve con la keyword [`friend`](Friend.md).
 
 
 

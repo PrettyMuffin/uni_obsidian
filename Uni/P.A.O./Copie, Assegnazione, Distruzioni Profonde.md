@@ -8,7 +8,7 @@ La copia profonda è la soluzione al [[Problema dell'interferenza]].
 >- [[#Distruzione Profonda]]
 
 Vogliamo che l'assegnazione di `bolletta` effettui copie profonde (ovvero tutta la lista puntata da `first`).
-Per ciò aggiungiamo a `bolletta` due metodi [statici](Static) di utilità di utilità che quindi dichiariamo [privati](Classi#Private):
+Per ciò aggiungiamo a `bolletta` due metodi [statici](Static.md) di utilità di utilità che quindi dichiariamo [privati](Classi.md#Private):
 - `copia()`
 - `distruggi()`
 ```cpp title:bolletta.h
@@ -59,7 +59,7 @@ Usando `copia` e `distruggi` possiamo provare a fare un tentativo di definizione
 >```
 >
 ## Copia Profonda
-Per la copia profonda non c'è molto da dire: basta che una volta invocato il [costruttore di copia](Costruttori#^eb6713) nella sua [lista di inizializzazione](Costruttori#Liste%20di%20Inizializzazione) quando costruisco first invoco `copia`
+Per la copia profonda non c'è molto da dire: basta che una volta invocato il [costruttore di copia](Costruttori.md#^eb6713) nella sua [lista di inizializzazione](Costruttori.md#Liste%20di%20Inizializzazione) quando costruisco first invoco `copia`
 
 ```cpp title:bolletta.cpp
 bolletta::bolletta(const bolletta& b): first(copia(b.first)) {}
@@ -67,7 +67,7 @@ bolletta::bolletta(const bolletta& b): first(copia(b.first)) {}
 
 
 ## Distruzione Profonda
-La *distruzione profonda* è analoga alla copia profonda in quando logica. Fa uso del [distruttore](Distruttore) per eliminare gli oggetti puntati dal puntatore.
+La *distruzione profonda* è analoga alla copia profonda in quando logica. Fa uso del [distruttore](Distruttore.md) per eliminare gli oggetti puntati dal puntatore.
 In questo caso invoco `distruggi` su first
 ```cpp title:bolletta.cpp
 bolletta::~bolletta() {

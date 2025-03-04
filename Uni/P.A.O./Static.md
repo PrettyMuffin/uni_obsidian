@@ -38,8 +38,8 @@ Ma se scrivessimo un metodo dove l'oggetto di invocazione è *inutile*?
 >}
 >```
 >a
->>[!question] E il [ `const`](Const)  non si usa più?
->>No! Dato che non facciamo uso di alcun [oggetto di invocazione](Classi#^76e1c5), non ha senso usare [const](Const), perché non c'è nessun [oggetto di invocazione](Classi#^76e1c5) su cui fare [side effect](Const#^b969cd).
+>>[!question] E il [ `const`](Const.md)  non si usa più?
+>>No! Dato che non facciamo uso di alcun [oggetto di invocazione](Classi.md#^76e1c5), non ha senso usare [const](Const.md), perché non c'è nessun [oggetto di invocazione](Classi.md#^76e1c5) su cui fare [side effect](Const.md#^b969cd).
 
 > La memoria per i campi dati statici è unica per tutti gli oggetti ed è alloccata una volta per tutte all'inzio.
 
