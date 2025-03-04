@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistica/Disuguaglianza di Chebyshev (campionaria).md",
-                "mode": "source",
+                "file": "Statistica/Concetti Fondamentali.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Disuguaglianza di Chebyshev (campionaria)"
+              "title": "Concetti Fondamentali"
             }
           }
         ]
@@ -183,15 +183,17 @@
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
   "active": "eede9ac6234003ee",
   "lastOpenFiles": [
-    "Statistica/Concetti Fondamentali.md",
-    "P.A.O./Ereditarietà.md",
     "conflict-files-obsidian-git.md",
     "Statistica/Disuguaglianza di Chebyshev (campionaria).md",
+    "Statistica/Concetti Fondamentali.md",
+    "P.A.O./Ereditarietà Multipla.md",
+    "P.A.O./Ereditarietà.md",
     "Statistica/Concetti Fondamentali.tex",
     "Statistica",
     "P.A.O./Tags/Introduzione.md",
@@ -212,7 +214,6 @@
     "P.A.O./Iteratori.md",
     "P.A.O./Gerarchia IO.md",
     "P.A.O./Friend.md",
-    "P.A.O./Ereditarietà Multipla.md",
     "P.A.O./Eccezioni.md",
     "P.A.O./Distruttore.md",
     "P.A.O./Costruttori.md",

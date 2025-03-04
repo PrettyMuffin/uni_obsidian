@@ -131,4 +131,33 @@ permettono di stimare la proporzione dei dati che sono "vicini" o "lontani" dall
 #### [[Disuguaglianza di Chebyshev (campionaria)]] 
 
 ### Statistiche per la distribuzione dei dati
+Sia $(x_{i})_{i \in \{1,\dots,n\}}$ un campione univariato e sia $\sigma$ una permutazione che riordina i dati in ordine crescente;
+
+$$
+x_{\sigma(1)} \leq \dots \leq x_{\sigma(n)}
+$$
+>[!def] Percentile Campionario k-esimo #Definizione 
+>Il *percentile campionario k-esimo*, con $k \in \{0,\dots, 100\}$ nel campione è dato da:
+>$$
+>\overline{P}_{k} = 
+>\begin{cases}
+> x_{\sigma\left( \left\lceil  \frac{n\cdot k}{100}  \right\rceil  \right)} &\text{ se } \frac{n \cdot k}{100} \not\in \mathbb{N} \\
+> \frac{1}{2} \left(x_{\sigma\left( \frac{n \cdot k}{100} \right)} + x_{\sigma\left( \frac{n \cdot k}{100} + 1 \right)} \right) &\text{altrimenti}
+>\end{cases}
+>$$
+>>N.B.
+>>$\overline{P}_{50}$ corrisponde alla **mediana campionaria**.
+
+**Interpretazione:**
+
+$$
+\frac{\#\{i \in \{1,\dots,n\}: x_{i} \leq \overline{P}_{k}\}}{n} \leq \frac{k}{100}
+$$
+$$
+
+\frac{\#\{i \in \{1,\dots,n\}: x_{i} > \overline{P}_{k}\}}{n} \leq 1 - \frac{k}{100}
+$$
+
+
+
 [^1]: osservazione riguardo a un qualunque fenomeno il cui esito non è determinabile con certezza a priori

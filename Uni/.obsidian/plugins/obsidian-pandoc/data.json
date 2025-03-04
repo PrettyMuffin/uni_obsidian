@@ -1,5 +1,5 @@
 {
-  "showCLICommands": false,
+  "showCLICommands": true,
   "addExtensionsToInternalLinks": "html",
   "injectAppCSS": "light",
   "injectThemeCSS": false,
