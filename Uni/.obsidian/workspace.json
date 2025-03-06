@@ -182,16 +182,14 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
-      "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "eede9ac6234003ee",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Statistica/Disuguaglianza di Chebyshev (campionaria).md",
     "Statistica/Concetti Fondamentali.md",
+    "conflict-files-obsidian-git.md",
     "P.A.O./Ereditarietà Multipla.md",
     "P.A.O./Ereditarietà.md",
     "Statistica/Concetti Fondamentali.tex",
