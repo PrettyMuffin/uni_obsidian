@@ -30,8 +30,33 @@
               "icon": "lucide-file",
               "title": "Concetti Fondamentali"
             }
+          },
+          {
+            "id": "a521dc1b732c1406",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistica/Dati Univariati.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Dati Univariati"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,11 +210,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "eede9ac6234003ee",
+  "active": "a521dc1b732c1406",
   "lastOpenFiles": [
     "Statistica/Disuguaglianza di Chebyshev (campionaria).md",
-    "Statistica/Concetti Fondamentali.md",
     "conflict-files-obsidian-git.md",
+    "Statistica/Concetti Fondamentali.md",
+    "Statistica/Dati Univariati.md",
     "P.A.O./Ereditarietà Multipla.md",
     "P.A.O./Ereditarietà.md",
     "Statistica/Concetti Fondamentali.tex",
@@ -216,7 +242,6 @@
     "P.A.O./Distruttore.md",
     "P.A.O./Costruttori.md",
     "P.A.O./Copie, Assegnazione, Distruzioni Profonde.md",
-    "P.A.O./Const.md",
     "P.A.O./Canvas",
     "P.A.O.",
     "Qt",

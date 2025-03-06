@@ -3,5 +3,6 @@
   "accentColor": "",
   "enabledCssSnippets": [
     "snippets"
-  ]
+  ],
+  "theme": "obsidian"
 }

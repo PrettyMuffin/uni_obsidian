@@ -4,5 +4,12 @@
   "alwaysUpdateLinks": true,
   "trashOption": "none",
   "showLineNumber": false,
-  "readableLineLength": true
+  "readableLineLength": true,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": true,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }
