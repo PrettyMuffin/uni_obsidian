@@ -1,5 +1,5 @@
 Sia $(x_{i})_{i \in \{1,\dots,n\}}$ un campione univariato.
-Siano $\overline{x}$ la sua [media campionaria](Concetti%20Fondamentali#^33dd17) e $s$ la [deviazione standard campionaria](Concetti%20Fondamentali#^dce63e).
+Siano $\overline{x}$ la sua [media campionaria](Concetti%20Fondamentali%20Statistica.md#^33dd17) e $s$ la [deviazione standard campionaria](Concetti%20Fondamentali%20Statistica.md#^dce63e).
 Se $s>0$ allora $\forall \alpha > 0$: 
 $$
  \text{I:} \quad \frac{\# \{i \in \{1,\dots,n\} : |x_{i}-\overline{x}| < \alpha \cdot s\}}{n} \geq 1 - \frac{n - 1}{n - \alpha^2} > 1 - \frac{1}{\alpha^2}
@@ -73,9 +73,9 @@ Scegliendo $\alpha\in\{2,3,5\}$ otteniamo dalla disuguaglianza di Chebyshev:
   $$
   
 >[!important] In particolare si evince
-> 1. meno del 25% dei dati prende valori che distano più di $2\cdot s$ dalla [media campionaria](Concetti%20Fondamentali#^33dd17).
-> 2. meno del 4% dei dati prende valori che distano più di $5 \cdot s$ dalla [media campionaria](Concetti%20Fondamentali#^33dd17).
-> 3. più del 75% dei dati predono valori che distano meno di $2 \cdot s$ dalla [media campionaria](Concetti%20Fondamentali#^33dd17). 
-> 4. più del 96% dei dati prendono valori che distano meno di $5 \cdot s$ dalla [media campionaria](Concetti%20Fondamentali#^33dd17).
+> 1. meno del 25% dei dati prende valori che distano più di $2\cdot s$ dalla [media campionaria](Concetti%20Fondamentali%20Statistica.md#^33dd17).
+> 2. meno del 4% dei dati prende valori che distano più di $5 \cdot s$ dalla [media campionaria](Concetti%20Fondamentali%20Statistica.md#^33dd17).
+> 3. più del 75% dei dati predono valori che distano meno di $2 \cdot s$ dalla [media campionaria](Concetti%20Fondamentali%20Statistica.md#^33dd17). 
+> 4. più del 96% dei dati prendono valori che distano meno di $5 \cdot s$ dalla [media campionaria](Concetti%20Fondamentali%20Statistica.md#^33dd17).
 > 
 > Questo tipo di stime valgono sempre, sono quindi di tipo "worst case".
