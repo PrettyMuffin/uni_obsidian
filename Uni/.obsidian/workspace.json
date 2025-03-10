@@ -4,59 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "979fd024cdc0b370",
+        "id": "d8ffed09a674a64c",
         "type": "tabs",
         "children": [
           {
-            "id": "eede9ac6234003ee",
+            "id": "282ec5eba711bdf8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Statistica/Concetti Fondamentali.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Concetti Fondamentali"
-            }
-          },
-          {
-            "id": "a521dc1b732c1406",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Statistica/Dati Univariati.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Dati Univariati"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -210,14 +171,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a521dc1b732c1406",
+  "active": "282ec5eba711bdf8",
   "lastOpenFiles": [
-    "Statistica/Disuguaglianza di Chebyshev (campionaria).md",
-    "conflict-files-obsidian-git.md",
     "Statistica/Concetti Fondamentali.md",
     "Statistica/Dati Univariati.md",
-    "P.A.O./Ereditarietà Multipla.md",
     "P.A.O./Ereditarietà.md",
+    "Statistica/Disuguaglianza di Chebyshev (campionaria).md",
+    "conflict-files-obsidian-git.md",
+    "P.A.O./Ereditarietà Multipla.md",
     "Statistica/Concetti Fondamentali.tex",
     "Statistica",
     "P.A.O./Tags/Introduzione.md",
