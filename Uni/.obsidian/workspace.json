@@ -11,10 +11,24 @@
             "id": "282ec5eba711bdf8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Diritto/10-03-2004.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "10-03-2004"
             }
           }
         ]
@@ -173,11 +187,20 @@
   },
   "active": "282ec5eba711bdf8",
   "lastOpenFiles": [
+    "Probabilità e Statistica/Concetti Fondamentali Statistica.md",
+    "Diritto/10-03-2004.md",
+    "Diritto",
+    "Probabilità e Statistica/Probabilità.md",
+    "Probabilità e Statistica/Misura Di Probabilità.md",
+    "conflict-files-obsidian-git.md",
+    "Probabilità e Statistica/Disuguaglianza di Chebyshev (campionaria).md",
+    "Probabilità e Statistica/Dati d-Variati.md",
+    "Probabilità e Statistica/Concetti Fondamentali.tex",
+    "Probabilità e Statistica",
     "Statistica/Concetti Fondamentali.md",
     "Statistica/Dati Univariati.md",
     "P.A.O./Ereditarietà.md",
     "Statistica/Disuguaglianza di Chebyshev (campionaria).md",
-    "conflict-files-obsidian-git.md",
     "P.A.O./Ereditarietà Multipla.md",
     "Statistica/Concetti Fondamentali.tex",
     "Statistica",
@@ -197,21 +220,12 @@
     "P.A.O./Overload Di Operatori.md",
     "P.A.O./Namespace.md",
     "P.A.O./Iteratori.md",
-    "P.A.O./Gerarchia IO.md",
-    "P.A.O./Friend.md",
-    "P.A.O./Eccezioni.md",
-    "P.A.O./Distruttore.md",
-    "P.A.O./Costruttori.md",
-    "P.A.O./Copie, Assegnazione, Distruzioni Profonde.md",
     "P.A.O./Canvas",
     "P.A.O.",
     "Qt",
     "Excalidraw",
     "Canvas/Vtable_C.canvas",
-    "Canvas",
     "Untitled.canvas",
-    "Canvas/PAO_C.canvas",
-    "Canvas",
-    "Tags"
+    "Canvas/PAO_C.canvas"
   ]
 }

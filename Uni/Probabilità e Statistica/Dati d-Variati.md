@@ -14,25 +14,25 @@ Sia ora $(x_{i},y_{i})_{i \in \{1, \dots, n\}}$ un campione bivariato, vogliamo 
 >$$
 >cov_{x,y} = \frac{1}{n-1} \sum_{i = 1}^n(x_{i}-\overline{x}) \cdot (y_{i} - \overline{y})
 >$$
->- $\overline{x}$: [media campionaria](Concetti%20Fondamentali#^33dd17) di $x_i$;
->- $\overline{y}$: [media campionaria](Concetti%20Fondamentali#^33dd17) di $y_i$;
+>- $\overline{x}$: [media campionaria](Concetti%20Fondamentali%20Statistica.md#^33dd17) di $x_i$;
+>- $\overline{y}$: [media campionaria](Concetti%20Fondamentali%20Statistica.md#^33dd17) di $y_i$;
 >
 >>[!note]
 >>Se  $x_{i}=y_{i}\forall i$ allora: $cov_{x,y} = s_{x}^2 = s_{y}^2$
 >
 >
 >>[!warning] Attenzione
->>La [varianza](Concetti%20Fondamentali#^6c6c18) di un campione è sempre $>0$, mentre $cov$ può essere negativa per campioni diversi
+>>La [varianza](Concetti%20Fondamentali%20Statistica.md#^6c6c18) di un campione è sempre $>0$, mentre $cov$ può essere negativa per campioni diversi
 
-Per avere però una misura della dipendenza tra 2 campioni che ==non== dipende dall'unità di misura di quest'ultimi, si normalizza la covarianza usando le deviazioni standard [deviazione standard](Concetti%20Fondamentali#^dce63e).
+Per avere però una misura della dipendenza tra 2 campioni che ==non== dipende dall'unità di misura di quest'ultimi, si normalizza la covarianza usando le deviazioni standard [deviazione standard](Concetti%20Fondamentali%20Statistica.md#^dce63e).
 
 >[!def] Correlazione Campionaria #Definizione 
 >La **correlazione campionaria** tra $x_{i}$ $y_{i}$ è data da:
 >$$
 >corr_{x,y} = \frac{cov_{x,y}}{s_{x} \cdot s_{y}}
 >$$
->- $s_x$: [deviazione standard](Concetti%20Fondamentali#^dce63e) di $x$;
->- $s_{y}$: [deviazione standard](Concetti%20Fondamentali#^dce63e) di $y$;
+>- $s_x$: [deviazione standard](Concetti%20Fondamentali%20Statistica.md#^dce63e) di $x$;
+>- $s_{y}$: [deviazione standard](Concetti%20Fondamentali%20Statistica.md#^dce63e) di $y$;
 
 la correlazione campionaria si può anche scrivere come:
 $$

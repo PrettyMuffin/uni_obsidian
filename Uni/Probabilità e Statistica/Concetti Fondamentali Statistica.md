@@ -159,6 +159,6 @@ $$
 $$
 
 
-## [[Dati Univariati]]
+## [[Dati d-Variati]]
 
 [^1]: osservazione riguardo a un qualunque fenomeno il cui esito non è determinabile con certezza a priori
