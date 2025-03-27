@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d8ffed09a674a64c",
+        "id": "e5f169c68de42234",
         "type": "tabs",
         "children": [
           {
-            "id": "282ec5eba711bdf8",
+            "id": "7b2ac1f90ce30699",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diritto/10-03-2004.md",
+                "file": "Diritto/26 Marzo.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "10-03-2004"
+              "title": "26 Marzo"
             }
           }
         ]
@@ -185,10 +185,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "282ec5eba711bdf8",
+  "active": "140b31c651f4bd7b",
   "lastOpenFiles": [
+    "Diritto/24 Marzo.md",
+    "Diritto/26 Marzo.md",
+    "Pasted image 20250326103658.png",
+    "Diritto/19 Marzo.md",
+    "Diritto/17 Marzo.md",
+    "Diritto/12 Marzo.md",
+    "Diritto/10 Marzo.md",
     "Probabilità e Statistica/Concetti Fondamentali Statistica.md",
-    "Diritto/10-03-2004.md",
     "Diritto",
     "Probabilità e Statistica/Probabilità.md",
     "Probabilità e Statistica/Misura Di Probabilità.md",
@@ -214,12 +220,6 @@
     "P.A.O./Tags",
     "P.A.O./Static.md",
     "P.A.O./References.md",
-    "P.A.O./Programmazione Ad Oggetti.md",
-    "P.A.O./Programmazione.md",
-    "P.A.O./Problema dell'interferenza.md",
-    "P.A.O./Overload Di Operatori.md",
-    "P.A.O./Namespace.md",
-    "P.A.O./Iteratori.md",
     "P.A.O./Canvas",
     "P.A.O.",
     "Qt",
