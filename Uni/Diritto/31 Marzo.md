@@ -26,7 +26,7 @@ Legislazione più all'avanguardia riguardo il trattamento della protezione dei d
    Diritto alla portabilità: ho diritto di chiudere i conti con una banca e andare all'altra e trasferire i miei dati da una parte all'altra.
 3. **Sistema Sanzionatorio**: È stato aggiornato facendo sì che le sanzioni vadano fino al 4% del suo fatturato.
 ### Accountability
-Si basa sopprattutto su una serie di principi:
+Si basa soprattutto su una serie di principi:
 - Liceità: Di per sè è illecito ma affinché un trattamento sia lecito deve esserci una base giuridica tra questi:
   - Consenso del soggetto dei dati: deve essere:
     - Dato liberamente;
@@ -64,10 +64,10 @@ Si basa sopprattutto su una serie di principi:
 >È praticamente qualunque azione che riguarda i dati del soggetto si può definire come trattamento.
 
 >[!def] Data Controller (Titolare Trattamento)
->Azienda che tratta i dati e che determina la modalità e la finalità del trattamento dei dati.
+>Organizzazione che determina la modalità e la finalità del trattamento dei dati.
 
->[!def] Data Processor
->Colui che tratta i dati sotto la responsabilità del data controller
+>[!def] Data Processor (Responsabile Trattamento)
+>Colui che tratta i dati per conto del data controller
 
 >[!def] Data Subject
 >Tutti noi che forniamo i dati.
