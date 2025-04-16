@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probabilità e Statistica/Misura Di Probabilità.md",
+                "file": "P.A.O./C++11.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Misura Di Probabilità"
+              "title": "C++11"
             }
           }
         ],
@@ -210,10 +210,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8bcea40682e09863",
+  "active": "56ca5e30f2fb7767",
   "lastOpenFiles": [
-    "Probabilità e Statistica/Probabilità.md",
     "Probabilità e Statistica/Misura Di Probabilità.md",
+    "Probabilità e Statistica/Probabilità.md",
     "Probabilità e Statistica/Concetti Fondamentali Statistica.md",
     "Probabilità e Statistica/Dati d-Variati.md",
     "Untitled.canvas",
