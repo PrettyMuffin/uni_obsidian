@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5f4c2ea16d25ec58",
+        "id": "4b75bfd66f9684f0",
         "type": "tabs",
         "children": [
           {
-            "id": "a56dc3c1e7159a4f",
+            "id": "f5406fc95131d5b6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probabilità e Statistica/Concetti Fondamentali Statistica.md",
+                "file": "Probabilità e Statistica/Costruzione di misure di probabilità discrete.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -28,35 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Concetti Fondamentali Statistica"
-            }
-          },
-          {
-            "id": "56ca5e30f2fb7767",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "P.A.O./C++11.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "C++11"
+              "title": "Costruzione di misure di probabilità discrete"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -88,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "gerarchia",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -113,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "53e7b442ff53f276",
@@ -210,14 +186,29 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "56ca5e30f2fb7767",
+  "active": "f5406fc95131d5b6",
   "lastOpenFiles": [
-    "Probabilità e Statistica/Misura Di Probabilità.md",
-    "Probabilità e Statistica/Probabilità.md",
-    "Probabilità e Statistica/Concetti Fondamentali Statistica.md",
-    "Probabilità e Statistica/Dati d-Variati.md",
-    "Untitled.canvas",
+    "Probabilità e Statistica/Spazi di Probabilità.md",
+    "Probabilità e Statistica/Costruzione di misure di probabilità discrete.md",
     "Probabilità e Statistica/Disuguaglianza di Chebyshev (campionaria).md",
+    "Probabilità e Statistica/Misura Di Probabilità.md",
+    "Probabilità e Statistica/Dati d-Variati.md",
+    "Diritto/9 Aprile.md",
+    "Diritto/17 Marzo.md",
+    "conflict-files-obsidian-git.md",
+    "P.A.O./C++11.md",
+    "Pasted image 20250326103658.png",
+    "Diritto/7 Aprile (Inizio Seconda Parte).md",
+    "Diritto/31 Marzo.md",
+    "Diritto/26 Marzo.md",
+    "Diritto/24 Marzo.md",
+    "Diritto/2 Aprile.md",
+    "Diritto/19 Marzo.md",
+    "Diritto/12 Marzo.md",
+    "Diritto/10 Marzo.md",
+    "Diritto",
+    "Probabilità e Statistica/Concetti Fondamentali Statistica.md",
+    "Untitled.canvas",
     "Concetti.md",
     "Untitled 1.md",
     "Probabilità e Statistica/Concetti Fondamentali.tex",
@@ -227,24 +218,11 @@
     "P.A.O./Ereditarietà Multipla.md",
     "P.A.O./Overload Di Operatori.md",
     "P.A.O./Friend.md",
-    "P.A.O./C++11.md",
     "P.A.O.",
     "P.A.O./Gerarchia IO.md",
     "P.A.O./Classi.md",
-    "P.A.O./Cast.md",
-    "P.A.O./Costruttori.md",
-    "P.A.O./Eccezioni.md",
-    "Eccez.md",
-    "P.A.O./Copie, Assegnazione, Distruzioni Profonde.md",
-    "P.A.O./Const.md",
-    "conflict-files-obsidian-git.md",
-    "Excalidraw/Drawing 2024-12-02 10.35.50.excalidraw.md",
-    "Ereditarieta.md",
     "Excalidraw",
-    "P.A.O./Canvas/Drawing 2024-12-02 10.22.30.excalidraw.md",
     "P.A.O./Canvas",
-    "P.A.O./Problema dell'interferenza.md",
-    "P.A.O./References.md",
     "Canvas/PAO_C.canvas",
     "P.A.O./Tags"
   ]
