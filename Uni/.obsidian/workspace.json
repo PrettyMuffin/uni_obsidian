@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e2ea0eded866fabd",
+            "id": "3ccf349860454300",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diritto/7 Aprile (Inizio Seconda Parte).md",
-                "mode": "preview",
+                "file": "Diritto/23 Aprile.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,35 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "7 Aprile (Inizio Seconda Parte)"
-            }
-          },
-          {
-            "id": "188a98b965480255",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "9 Aprile.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "9 Aprile"
+              "title": "23 Aprile"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -210,16 +185,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "188a98b965480255",
+  "active": "3ccf349860454300",
   "lastOpenFiles": [
+    "Diritto/19 Marzo.md",
+    "Diritto/23 Aprile.md",
+    "Diritto/9 Aprile.md",
+    "Pasted image 20250326103658.png",
     "Diritto/7 Aprile (Inizio Seconda Parte).md",
-    "9 Aprile.md",
     "Diritto/31 Marzo.md",
     "Diritto/2 Aprile.md",
     "Diritto/26 Marzo.md",
     "Diritto/24 Marzo.md",
-    "Pasted image 20250326103658.png",
-    "Diritto/19 Marzo.md",
     "Diritto/17 Marzo.md",
     "Diritto/12 Marzo.md",
     "Diritto/10 Marzo.md",
@@ -244,7 +220,6 @@
     "P.A.O./Tags/Essenziali.md",
     "P.A.O./Tags/ASD.md",
     "P.A.O./Canvas/Vtable_C.canvas",
-    "P.A.O./Canvas/Drawing 2024-12-02 10.22.30.excalidraw.md",
     "P.A.O./Tags",
     "P.A.O./Canvas",
     "P.A.O.",
