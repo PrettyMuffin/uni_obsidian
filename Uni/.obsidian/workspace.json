@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diritto/23 Aprile.md",
+                "file": "Diritto/2 Aprile.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "23 Aprile"
+              "title": "2 Aprile"
             }
           }
         ]
@@ -185,9 +185,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8bcea40682e09863",
+  "active": "3ccf349860454300",
   "lastOpenFiles": [
+    "Diritto/3 marzo.md",
+    "Diritto/26 febbraio.md",
     "Diritto/23 Aprile.md",
+    "Diritto/5 marzo.md",
+    "26 febbraio.md",
+    "5 marzo.md",
+    "3 marzo.md",
     "conflict-files-obsidian-git.md",
     "Probabilità e Statistica/Spazi di Probabilità.md",
     "Probabilità e Statistica/Costruzione di misure di probabilità discrete.md",
@@ -211,14 +217,8 @@
     "Probabilità e Statistica/Concetti Fondamentali.tex",
     "Probabilità e Statistica",
     "Statistica/Concetti Fondamentali.md",
-    "Statistica/Dati Univariati.md",
-    "P.A.O./Ereditarietà.md",
-    "Statistica/Disuguaglianza di Chebyshev (campionaria).md",
-    "P.A.O./Ereditarietà Multipla.md",
     "Statistica/Concetti Fondamentali.tex",
     "Statistica",
-    "P.A.O./Tags/Introduzione.md",
-    "P.A.O./Tags/P.A.O.md",
     "P.A.O./Canvas/Vtable_C.canvas",
     "P.A.O./Tags",
     "P.A.O./Canvas",
