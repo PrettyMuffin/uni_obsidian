@@ -23,8 +23,6 @@ Uno **Spazio di probabilità** è un modello matematico per esprimere esperiment
 >- $A \Delta B = (A \setminus B) \cup (B \setminus A)$: "o A o B" (o esclusivo)
 >- $(A \setminus B)^c$: "Se A allora B"
 
-## [[Misura Di Probabilità]]
-
 ## Modello Matematico per esperimento aleatorio
 >[!def] Spazio di Probabilità (Terna) #Definizione 
 >Una terna $(\Omega, F, P)$ si dice spazio di probabilità se:
@@ -63,7 +61,7 @@ Sia $A \le \Omega$. Allora $A = \cup_{w \in A} \{ w \} \in F$ (unione al più nu
 >>$(A_{\sigma})$ $\Rightarrow$ addittività finita: $P(A \cup B) = P(A) + P(B)$
 >>$(A_{\sigma})$ $\Rightarrow$ $P(\emptyset) = 0$
 
->[!def] Distribuzione Uniforme Discreta
+>[!def] Distribuzione Uniforme Discreta #Definizione 
 >Definiamo $P: P(\Omega) \mapsto [0,1]$ tramite
 >$$
 >P(A) = \frac{|A|}{|\Omega|} \quad \text{,} \quad A \subseteq \Omega
@@ -74,6 +72,8 @@ Sia $A \le \Omega$. Allora $A = \cup_{w \in A} \{ w \} \in F$ (unione al più nu
 >>$$
 >>P(\{\omega\}) = \frac{1}{|\Omega|} \quad \forall w \in \Omega
 >>$$
+
+^71d2d9
 
 >[!success] $P$ è una misura di probabilità:
 >$(A_{1})$: $P(\Omega) = \frac{|\Omega|}{|\Omega|} = 1$ 

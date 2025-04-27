@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "f9b362e2365e7004",
+        "id": "4f0f6bf0cf691742",
         "type": "tabs",
         "children": [
           {
-            "id": "3ccf349860454300",
+            "id": "d42bf5aacff52488",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diritto/2 Aprile.md",
-                "mode": "source",
+                "file": "Probabilità e Statistica/Probabilità Condizionali e Indipendenza.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2 Aprile"
+              "title": "Probabilità Condizionali e Indipendenza"
             }
           }
         ]
@@ -88,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 246.5
   },
   "right": {
     "id": "53e7b442ff53f276",
@@ -176,57 +176,53 @@
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
+      "graph:Open graph view": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3ccf349860454300",
+  "active": "d42bf5aacff52488",
   "lastOpenFiles": [
-    "Diritto/3 marzo.md",
-    "Diritto/26 febbraio.md",
-    "Diritto/23 Aprile.md",
-    "Diritto/5 marzo.md",
-    "26 febbraio.md",
-    "5 marzo.md",
-    "3 marzo.md",
-    "conflict-files-obsidian-git.md",
-    "Probabilità e Statistica/Spazi di Probabilità.md",
+    "Probabilità e Statistica/Concetti Fondamentali Statistica.md",
+    "Probabilità e Statistica/Probabilità Condizionali e Indipendenza.md",
     "Probabilità e Statistica/Costruzione di misure di probabilità discrete.md",
-    "Diritto/19 Marzo.md",
-    "Diritto/9 Aprile.md",
-    "Pasted image 20250326103658.png",
-    "Diritto/7 Aprile (Inizio Seconda Parte).md",
-    "Diritto/31 Marzo.md",
+    "Probabilità e Statistica/Spazi di Probabilità.md",
+    "Probabilità e Statistica/Dati d-Variati.md",
+    "Probabilità e Statistica/Disuguaglianza di Chebyshev (campionaria).md",
     "Diritto/2 Aprile.md",
+    "Diritto/31 Marzo.md",
     "Diritto/26 Marzo.md",
+    "Diritto/26 febbraio.md",
     "Diritto/24 Marzo.md",
+    "Diritto/23 Aprile.md",
+    "Diritto/19 Marzo.md",
     "Diritto/17 Marzo.md",
     "Diritto/12 Marzo.md",
     "Diritto/10 Marzo.md",
-    "Probabilità e Statistica/Concetti Fondamentali Statistica.md",
-    "Diritto",
-    "Probabilità e Statistica/Probabilità.md",
+    "Diritto/9 Aprile.md",
+    "Diritto/7 Aprile (Inizio Seconda Parte).md",
+    "Diritto/5 marzo.md",
+    "Diritto/3 marzo.md",
     "Probabilità e Statistica/Misura Di Probabilità.md",
-    "Probabilità e Statistica/Disuguaglianza di Chebyshev (campionaria).md",
-    "Probabilità e Statistica/Dati d-Variati.md",
+    "conflict-files-obsidian-git.md",
+    "P.A.O./C++11.md",
+    "Pasted image 20250326103658.png",
+    "Diritto",
+    "Untitled.canvas",
+    "Concetti.md",
+    "Untitled 1.md",
     "Probabilità e Statistica/Concetti Fondamentali.tex",
     "Probabilità e Statistica",
-    "Statistica/Concetti Fondamentali.md",
-    "Statistica/Concetti Fondamentali.tex",
-    "Statistica",
     "P.A.O./Canvas/Vtable_C.canvas",
-    "P.A.O./Tags",
-    "P.A.O./Canvas",
+    "P.A.O./Ereditarietà.md",
     "P.A.O.",
-    "Qt",
     "Excalidraw",
-    "Canvas/Vtable_C.canvas",
-    "Untitled.canvas",
-    "Canvas/PAO_C.canvas"
+    "P.A.O./Canvas",
+    "Canvas/PAO_C.canvas",
+    "P.A.O./Tags"
   ]
 }
