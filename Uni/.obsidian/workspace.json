@@ -4,31 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "f9b362e2365e7004",
+        "id": "3288bca84168a7f1",
         "type": "tabs",
         "children": [
           {
-            "id": "3ccf349860454300",
+            "id": "cd1a2f181390898a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Diritto/2 Aprile.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2 Aprile"
+              "title": "New tab"
             }
           }
         ]
@@ -185,36 +171,37 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8bcea40682e09863",
+  "active": "140b31c651f4bd7b",
   "lastOpenFiles": [
-    "Untitled.md",
-    "Diritto/2 Aprile.md",
-    "Diritto/3 marzo.md",
-    "Diritto/26 febbraio.md",
-    "Diritto/23 Aprile.md",
-    "Diritto/5 marzo.md",
+    "Diritto/Seconda Parte/28 Aprile.md",
+    "Diritto/Prima Parte/31 Marzo.md",
+    "Diritto/Prima Parte/26 Marzo.md",
+    "Diritto/Prima Parte/24 Marzo.md",
+    "Diritto/Prima Parte/26 febbraio.md",
+    "Diritto/Prima Parte/19 Marzo.md",
+    "Diritto/Seconda Parte",
+    "Diritto/Prima Parte",
+    "Diritto/Seconda Parte/7 Aprile (Inizio Seconda Parte).md",
+    "Diritto/Seconda Parte/23 Aprile.md",
+    "Diritto/Prima Parte/17 Marzo.md",
+    "Diritto/Prima Parte/12 Marzo.md",
+    "Diritto/Prima Parte/10 Marzo.md",
+    "Diritto/Seconda Parte/9 Aprile.md",
+    "Diritto/Prima Parte/3 marzo.md",
+    "Probabilità e Statistica/Probabilità Condizionali e Indipendenza.md",
+    "Probabilità e Statistica/Costruzione di misure di probabilità discrete.md",
+    "Probabilità e Statistica/Concetti Fondamentali Statistica.md",
+    "Diritto/Prima Parte/2 Aprile.md",
+    "conflict-files-obsidian-git.md",
+    "Diritto/Prima Parte/5 marzo.md",
     "26 febbraio.md",
     "5 marzo.md",
     "3 marzo.md",
-    "conflict-files-obsidian-git.md",
     "Probabilità e Statistica/Spazi di Probabilità.md",
-    "Probabilità e Statistica/Costruzione di misure di probabilità discrete.md",
-    "Diritto/19 Marzo.md",
-    "Diritto/9 Aprile.md",
     "Pasted image 20250326103658.png",
-    "Diritto/7 Aprile (Inizio Seconda Parte).md",
-    "Diritto/31 Marzo.md",
-    "Diritto/26 Marzo.md",
-    "Diritto/24 Marzo.md",
-    "Diritto/17 Marzo.md",
-    "Diritto/12 Marzo.md",
-    "Diritto/10 Marzo.md",
-    "Probabilità e Statistica/Concetti Fondamentali Statistica.md",
     "Diritto",
     "Probabilità e Statistica/Probabilità.md",
     "Probabilità e Statistica/Misura Di Probabilità.md",
-    "Probabilità e Statistica/Disuguaglianza di Chebyshev (campionaria).md",
-    "Probabilità e Statistica/Dati d-Variati.md",
     "Probabilità e Statistica/Concetti Fondamentali.tex",
     "Probabilità e Statistica",
     "Statistica/Concetti Fondamentali.tex",
@@ -223,8 +210,6 @@
     "P.A.O./Tags",
     "P.A.O./Canvas",
     "P.A.O.",
-    "Qt",
-    "Excalidraw",
     "Canvas/Vtable_C.canvas",
     "Untitled.canvas",
     "Canvas/PAO_C.canvas"

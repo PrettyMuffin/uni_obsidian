@@ -16,6 +16,8 @@ Ora basta scegliere una funzione $p: \Omega \mapsto [0,1]$ tale che $\sum_{w \in
 >>>$$
 >>>insieme di cardinalità minore o uguale M
 
+^3a9c55
+
 Sia $\Omega \ne \emptyset$ arbitrario, e sia $F$ una $\sigma$-algebra in $\Omega$.
 1. Se $p$ è una densità discreta su $\Omega$, allora
    $$
@@ -102,3 +104,134 @@ P(B) = \sum_{n} P(B \cap A_{n})
       $$
       P(\bigcap_{n} A_{n}) = \lim_{ n \to \infty } P(A_{n})
     $$
+---
+
+>[!example] ### Esempio Pratico
+
+#### Estrazione di $n$ palline **con reinserimento**.
+
+-> **Modello**: palline numerate $1...N$,  $M$ = numero di palline rosse.
+$$
+\Omega := \{ 1\dots N \}^n
+$$
+>Per simmetria: tutti i singoletti equiparabili -> $P$ [distribuzione uniforme discreta](Spazi%20di%20Probabilità#^71d2d9) su $\Omega$.
+
+---
+
+-> Eventi d'interesse:
+$$
+A_{k} = \text{"esattamente k delle n palline estratte sono rosse"}
+$$
+$$
+A_{k} = \left\{  w \in \Omega : \sum_{i = 1}^n \perp_{\{ 1\dots M \}} (w_{i}) = k  \right\} = \{ w \in \Omega : \#\{ i \in \{ 1\dots n \} : w_{i} \in \{ 1\dots M \} \} = k \}
+$$
+$$
+P(A_{k}) = \frac{|A_{k}|}{|\Omega|}
+$$
+
+--- 
+
+-> Calcolare $|A_{k}|$:
+Gli elementi di $A_k$ sono univocamente determinati da tre *scelte successive*:
+1. scelta delle posizioni delle $k$ palline rosse (quindi anche delle verdi)-> $\binom{n}{k}$ alternative
+   > Ricorda:
+   > $$
+   > \binom{n}k = \frac{n!}{k!(n-k)!} = \binom{n}{n-k}
+    $$
+
+2. scelta dei numeri delle $k$ palline rosse -> $M^k$ alternative
+3. scelta dei numeri delle $n-k$ palline verdi -> $(N - M)^{n-k}$ alternative
+
+>[!important] Principio fondamentale del calcolo combinatorio #Definizione 
+>$$
+>|A_{k}| = \binom{n}{k} \cdot M^k \cdot (N - M)^{n-k}
+>$$
+
+^47c391
+
+Dato che $\Omega = N^n$ e $N^n = N^k \cdot N^{n-k}$ allora abbiamo che:
+$$
+P(A_{k}) = \binom{n}{k} \cdot \left( \frac{M}{N} \right)^k \left(\frac{N-M}{N}\right)^{n-k}
+$$
+>[!info] Nota:
+> - $\frac{M}{N}$-> proporzione di palline rosse nell'urna
+> - $\frac{N - M}{N} = 1 - \frac{M}{N}$ -> proporzione delle palline verdi
+
+Da cui possiamo ottenere una [densità discreta](#^3a9c55) su $\{ 0 \dots n \}$
+$$
+\tilde{p}(k) := \binom{n}k \cdot \left(\frac{M}{N}\right)^k \cdot \left(\frac{N-M}{N}\right)^{n-k}
+$$
+
+---
+
+#### Estrazione di $n$ palline **senza** reinserimento
+
+-> $\Omega = \{ 1\dots N \}^n$ come prima, $P$ distribuzione uniforme su $\Omega$
+Stavolta però poniamo $\tilde{\Omega} = \{ w \in \Omega : w_{i} \ne w_{j}, i \ne j \}$ -> esiti senza ripetizioni di numeri (ovvero palline diverse).
+Definiamo una nuova misura di probabilità:
+$$
+\tilde{P}(A) := \frac{P(A \cap \tilde{\Omega})}{P(\tilde{\Omega})} \quad A \subseteq \Omega
+$$
+Dalla definizione di $P$ otteniamo che:
+$$
+\tilde{P}(A) = \frac{|A \cap \tilde{\Omega}|}{|\tilde{\Omega}|} \quad A \subseteq \Omega
+$$
+> Nota: $\tilde{P}(\Omega) = 1$
+
+---
+
+>[!question] $\tilde{P}(A_{k}) =?$ -> Quanto vale la probabilità di esattamente $k$ palline rosse rispetto a $\tilde{P}$?
+
+> Nota:
+> $$
+> A_{k} \cap \tilde{\Omega} = \left\{  w \in \tilde{\Omega} : \sum_{i = 1}^n \perp_{\{ 1\dots M \}}(w_{i}) = k  \right\} $$
+
+---
+
+Non ci resta ora che da calcolare:
+- $|\tilde{\Omega}|$
+- $|A_{k} \cap \tilde{\Omega}|$
+
+-> $|\tilde{\Omega}| = N \cdot (N - 1) \dots  (N - n + 1) = \frac{N!}{(N-n)!}$
+-> Gli elementi di $A_{k} \cap \tilde{\Omega}$ sono determinati da 3 scelte successive:
+1. scelte delle posizioni delle palline rosse (quindi anche di quelle verdi)
+   $$
+\binom{n}{k} = \frac{n!}{k! (n-k)!} = \binom{n}{n-k}
+   $$
+2. scelte dei numeri delle $k$ palline rosse:
+   $$
+   \frac{M!}{(M-k)!} \text{ alternative (numeri senza ripetizioni!!!!)}
+   $$
+3. scelta dei numeri delle $n - k$ palline verdi:
+   $$
+   \frac{(N-M)!}{[N-M-(n-k)!]}
+   $$
+
+Ora applico il [principio fondamentale del calcolo combinatorio](#^47c391) e ottengo:
+$$
+|A_{k} \cup \tilde{\Omega}| = \binom{n}{k} \cdot \frac{M!}{(M-K)!} \cdot \frac{(N - M)!}{[N-M-(n-k)!]}
+$$
+Da cui ottengo:
+$$
+\tilde{P}(A_{k}) = \frac{(N-n)!n! \cdot M! \cdot(N-M)!}{N!k!(n-k)! \cdot (M-k)! \cdot [N - M - (n - k)]!} = \frac{\binom{M}{k} \cdot \binom{N - M}{n - k}}{\binom{N}{n}}
+$$
+Poniamo
+$$
+\tilde{p}(k) = \tilde{P}(A_{k}) =\frac{\binom{M}{k} \cdot \binom{N - M}{n - k}}{\binom{N}{n}} \quad k\in \{ 0,\dots, n \land M\}
+$$
+Allora $\tilde{p}$ densità discreta su $\{ 0,\dots, n \land M \}$.
+Infatti:
+$$
+\tilde{\Omega} = \bigcup_{k =0}^{n\land M}(A_{k} \cap \tilde{\Omega}) \quad \text{e} \quad A_{i} \cap A_{j} = \emptyset \quad \text{se} \quad i \ne j
+$$
+Questo implica:
+$$
+1 = \tilde{P}(\tilde{\Omega}) = \sum_{k = 0}^{n \land M}\tilde{P}(A_{k}\cap \tilde{\Omega}) = \sum_{k=0}^{n \land M}\tilde{P}(A_{k})
+$$
+> Nota:
+> Il passaggio:
+> $$\tilde{P}(\tilde{\Omega}) = \sum_{k=0}^{n \land M}\tilde{P(A_{k} \cap \tilde{\Omega})} $$
+> È derivato dalla regola $A_{\sigma}$ vista nella definizione di spazio di misura di probabilità
+> Mentre:
+> $$1 = \tilde{P}(\tilde{\Omega})$$
+ > È la definizione di misura di probabilità.

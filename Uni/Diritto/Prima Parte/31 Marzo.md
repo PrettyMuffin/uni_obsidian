@@ -29,7 +29,7 @@ Legislazione più all'avanguardia riguardo il trattamento della protezione dei d
 Si basa soprattutto su una serie di principi:
 - Liceità: Di per sè è illecito ma affinché un trattamento sia lecito deve esserci una base giuridica tra questi:
   - Consenso del soggetto dei dati: deve essere:
-    - Dato liberamente;
+    - Dato liberamente: ovvero senza errore, violenza o dolo (vizi della volontà #Definizione );
     - Specifico per quel trattamento particolare, non per altri;
     - Informato: devo essere informato su come verranno trattati i dati;
     - Non deve essere ambiguo;
