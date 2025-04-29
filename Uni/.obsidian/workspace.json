@@ -4,17 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "3288bca84168a7f1",
+        "id": "d1f9501fe9acf737",
         "type": "tabs",
         "children": [
           {
-            "id": "cd1a2f181390898a",
+            "id": "4d5fe6aa22559ce8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Probabilità e Statistica/Costruzione di misure di probabilità discrete.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Costruzione di misure di probabilità discrete"
             }
           }
         ]
@@ -171,8 +185,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "140b31c651f4bd7b",
+  "active": "4d5fe6aa22559ce8",
   "lastOpenFiles": [
+    "Probabilità e Statistica/Probabilità Condizionali e Indipendenza.md",
     "Diritto/Seconda Parte/28 Aprile.md",
     "Diritto/Prima Parte/31 Marzo.md",
     "Diritto/Prima Parte/26 Marzo.md",
@@ -188,7 +203,6 @@
     "Diritto/Prima Parte/10 Marzo.md",
     "Diritto/Seconda Parte/9 Aprile.md",
     "Diritto/Prima Parte/3 marzo.md",
-    "Probabilità e Statistica/Probabilità Condizionali e Indipendenza.md",
     "Probabilità e Statistica/Costruzione di misure di probabilità discrete.md",
     "Probabilità e Statistica/Concetti Fondamentali Statistica.md",
     "Diritto/Prima Parte/2 Aprile.md",

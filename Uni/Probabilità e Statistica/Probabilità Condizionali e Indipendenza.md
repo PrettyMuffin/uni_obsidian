@@ -50,3 +50,36 @@ Sia $(\Omega, F, P)$ uno spazio di probabilità:
    P(A_{1} \cap A_{2}) = P(A_{1}) \cdot P(A_{2}| A_{1})
    $$
 3. **Formula delle probabilità totali** (versione condizionale)
+   Sia $(B_{i})_{i \in \mathcal{I}}$ una **partizione** al più numerabile di $\Omega$, cioè $\mathcal{I}$ al più numerabile, $B_{i} \cap B_{j} = \emptyset$ se $i \ne j$ e $\bigcup_{i \in \mathcal{I}} B_{i} = \Omega$ tale che $B_{i} \in F$ con $P(B_i) > 0, \forall i \in \mathcal{I}$.
+   Allora $\forall A \in F$:
+   $$
+   P(A) = \sum_{i \in \mathcal{I}}P(A|B) \cdot P(B_{i})
+   $$
+   > Nota:
+   > Se $B \in F$ è tale che $P(B) \in (0,1)$, allora:
+   > $$P(A) = P(A|B) \cdot P(B) + P(A|B^c) \cdot (1-P(B)) \quad \forall A \in F$$ 
+   > >[!warning] **Attenzione:**
+   > >Si ha sempre:
+   > >$$P(A^c | B) = 1 - P(A|B)$$
+   > >Ma in generale:
+   > >$$P(A|B^c) \ne 1 - P(A|B)$$
+
+
+>[!teo] **Teorema di Beyes** #Definizione #Teorema
+> Siano $A, B \in F$ eventi in $(\Omega, F, P)$ con $P(A) > 0$, $P(B) > 0$.
+> Allora:
+> $$
+> P(A|B) = \frac{P(A)}{P(B)} \cdot P(B|A)
+> $$
+> >[!info]- Dim:
+> >$$
+> >P(A|B) = \frac{P(A \cap B)}{P(B)} = \frac{P(A)}{P(B)} \cdot \frac{P(A \cap B)}{P(A)} = \frac{P(A)}{P(B)} \cdot P(B|A)
+> >$$
+> 
+> >[!cor] **Corollario**:
+> >Siano $A, B \in F$ con $P(A) > 0$ e $P(B) \in (0,1)$. Allora:
+> >$$
+> >P(B|A) = \frac{P(A|B) \cdot P(B)}{P(A|B) \cdot P(B) + P(A | B^c) \cdot (1 - P(B))}
+> >$$
+
+

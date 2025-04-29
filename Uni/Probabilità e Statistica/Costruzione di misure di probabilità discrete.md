@@ -230,7 +230,7 @@ $$
 $$
 > Nota:
 > Il passaggio:
-> $$\tilde{P}(\tilde{\Omega}) = \sum_{k=0}^{n \land M}\tilde{P(A_{k} \cap \tilde{\Omega})} $$
+> $$\tilde{P}(\tilde{\Omega}) = \sum_{k=0}^{n \land M}\tilde{P}(A_{k} \cap \tilde{\Omega}) $$
 > È derivato dalla regola $A_{\sigma}$ vista nella definizione di spazio di misura di probabilità
 > Mentre:
 > $$1 = \tilde{P}(\tilde{\Omega})$$

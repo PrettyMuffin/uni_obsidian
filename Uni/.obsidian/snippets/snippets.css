@@ -7,3 +7,31 @@ div.mermaid {
   text-align: center;
 }
 
+.callout[data-callout="teo"] {
+    --callout-color: 33, 100, 119;
+    --callout-icon: lucide-sigma;
+    backgroud-color: rgba(val(--callout-color)0.12);
+    border-left: 3px solid rgb(var(--callout-color));
+}
+
+/* Callout COROLLARIO - Celeste Tenue (#76C7E0) */
+.callout[data-callout="cor"] {
+  --callout-color: 118, 199, 224;
+  --callout-icon: lucide-arrow-right-from-line;
+  
+  /* Stile base */
+  background-color: rgba(var(--callout-color), 0.12);
+  border-left: 3px solid rgb(var(--callout-color));
+}
+
+
+.callout[data-callout="teo"] .callout[data-callout="cor"] {
+  --callout-color: 118, 199, 224;
+  --callout-icon: lucide-arrow-right-from-line;
+  
+  /* Stile base */
+  background-color: rgba(var(--callout-color), 0.12);
+  border-left: none;
+}
+
+
