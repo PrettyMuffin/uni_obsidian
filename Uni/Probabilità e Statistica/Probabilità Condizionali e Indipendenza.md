@@ -1,3 +1,4 @@
+# Probabilità Condizionali
 ## Definizione
 Sia $(\Omega, F, P)$ uno spazio di probabilità
 >[!def] Probabilità condizionale di **$\mathbf{A}$ dato $\mathbf{B}$**
@@ -82,4 +83,33 @@ Sia $(\Omega, F, P)$ uno spazio di probabilità:
 > >P(B|A) = \frac{P(A|B) \cdot P(B)}{P(A|B) \cdot P(B) + P(A | B^c) \cdot (1 - P(B))}
 > >$$
 
+---
+# Indipendenza
 
+>[!def] **Eventi Indipendenti** #Definizione 
+>Siano $A, B$ eventi in uno spazio di probabilità $(\Omega, F, P)$.
+>Allora $A, B$ si dicono **indipendenti** se:
+>$$
+>P(A \cap B) = P(A) \cdot P(B)
+>$$
+>>[!info] Osservazioni:
+>>1. In generale l'indipendenza degli eventi dipende dalla misura di probabilità.
+>>2. Se $P(A) \in \{ 0, 1 \}$ oppure $P(B) \in \{ 0, 1 \}$ -> $A, B$ sono indipendenti
+>>3. Se $P(A) > 0$ e $P(B) > 0$ e $A \cap B = \emptyset$ -> A, B **non** indipendenti
+>>4. Se $A, B$ sono indipendenti -> lo sono anche:
+>>     $A, B^c$
+>>     $A^c, B$
+>>     $A^c, B^c$
+>>5. Se $P(B) > 0$ allora $A, B$ indipendenti <-> $P(A|B) = P(A)$  
+
+---
+>[!example] **Lancio di 3 dadi regolari 6 facce**
+>-> Modello: $\Omega = \{ 1\dots 6 \}^3$
+>-> $F = P(\Omega )$ dunque [distribuzione uniforme discreta](Spazi%20di%20Probabilità#^71d2d9) su $\Omega$ 
+> Consideriamo gli eventi:
+> - $E_{1}$ = "Il primo dado segna 3" -> $E_{1} = \{ w \in \Omega : w_{1} = 3 \}$ 
+> - $E_{2}$  = "Il secondo dado segna 2" -> $E_{2}= \{ w \in \Omega : w_{2} = 2 \}$
+> - $E_{3}$ = "Il terzo dado segna 4" -> $E_{3} = \{ w \in \Omega : w_{3} = 4 \}$
+>
+> $P$ è una distribuzione uniforme -> $P(A) = \frac{|A|}{|\Omega|}$ dove $|\Omega| = 6^3 = 216$.
+> 

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d1f9501fe9acf737",
+        "id": "f0f7f8f5431979a7",
         "type": "tabs",
         "children": [
           {
-            "id": "4d5fe6aa22559ce8",
+            "id": "4fe702623e1a6b26",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probabilità e Statistica/Costruzione di misure di probabilità discrete.md",
+                "file": "Probabilità e Statistica/Probabilità Condizionali e Indipendenza.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Costruzione di misure di probabilità discrete"
+              "title": "Probabilità Condizionali e Indipendenza"
             }
           }
         ]
@@ -185,10 +185,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4d5fe6aa22559ce8",
+  "active": "4fe702623e1a6b26",
   "lastOpenFiles": [
+    "Probabilità e Statistica/Spazi di Probabilità.md",
     "Probabilità e Statistica/Probabilità Condizionali e Indipendenza.md",
+    "Diritto/Seconda Parte/30 Aprile.md",
     "Diritto/Seconda Parte/28 Aprile.md",
+    "Probabilità e Statistica/Costruzione di misure di probabilità discrete.md",
     "Diritto/Prima Parte/31 Marzo.md",
     "Diritto/Prima Parte/26 Marzo.md",
     "Diritto/Prima Parte/24 Marzo.md",
@@ -203,7 +206,6 @@
     "Diritto/Prima Parte/10 Marzo.md",
     "Diritto/Seconda Parte/9 Aprile.md",
     "Diritto/Prima Parte/3 marzo.md",
-    "Probabilità e Statistica/Costruzione di misure di probabilità discrete.md",
     "Probabilità e Statistica/Concetti Fondamentali Statistica.md",
     "Diritto/Prima Parte/2 Aprile.md",
     "conflict-files-obsidian-git.md",
@@ -211,7 +213,6 @@
     "26 febbraio.md",
     "5 marzo.md",
     "3 marzo.md",
-    "Probabilità e Statistica/Spazi di Probabilità.md",
     "Pasted image 20250326103658.png",
     "Diritto",
     "Probabilità e Statistica/Probabilità.md",
