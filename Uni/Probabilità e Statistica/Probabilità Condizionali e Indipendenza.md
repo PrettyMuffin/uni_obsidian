@@ -85,6 +85,7 @@ Sia $(\Omega, F, P)$ uno spazio di probabilità:
 
 ---
 # Indipendenza
+## Definizione
 
 >[!def] **Eventi Indipendenti** #Definizione 
 >Siano $A, B$ eventi in uno spazio di probabilità $(\Omega, F, P)$.
@@ -112,4 +113,46 @@ Sia $(\Omega, F, P)$ uno spazio di probabilità:
 > - $E_{3}$ = "Il terzo dado segna 4" -> $E_{3} = \{ w \in \Omega : w_{3} = 4 \}$
 >
 > $P$ è una distribuzione uniforme -> $P(A) = \frac{|A|}{|\Omega|}$ dove $|\Omega| = 6^3 = 216$.
-> 
+> Ora $|E_{1}| = 6^2 = |E_{2}| = |E_{3}|$ -> $P(E_{1}) = P(E_{2}) = P(E_{3}) = \frac{6^2}{6^3} = \frac{1}{6}$
+> Dall'altra parte: $|E_{1} \cap E_{2}| = 6 =|E_{1} \cap E_{3}| = |E_{2} \cap E_{3}|$ -> $P(E_{1} \cap E_{2}) = P(E_{1} \cap E_{3}) = P(E_{2} \cap E_{3}) = \frac{6}{6^2} = \frac{1}{36}$
+> -> $E_{1}, E_{2}, E_{3}$ sono indipendenti **a due a due**
+> ---
+> Sia $D$ = "il terzo dado dà un numero dispari" -> $D = \{ w \in \Omega : w_{3} \in \{ 1, 3,5 \} \}$ -> $|D| = 3 \cdot 6^2$ -> $P(D) = \frac{3 \cdot 6^2}{6^3} = \frac{1}{2}$
+> Ora $|E_{1} \cap D| = 3 \cdot 6 = |E_{2} \cap D|$ -> $P(E_{1} \cap D) = P(E_{2} \cap D) = \frac{3 \cdot 6}{6^3} = \frac{1}{12}$ ma $\frac{1}{12} = P(E_{1}) \cdot P(D) = P(E_{2}) \cdot P(D)$ -> $E_{1}, D$ e anche $E_{2}, D$ sono indipendenti
+> Invece:
+> $E_{3} \cap D = \emptyset \to P(E_{3} \cap D) = 0$ mentre $P(E_{3}) \cdot P(D) = \frac{1}{12} \ne P(E_{3} \cap D)$ -> $E_{3}, D$ **non** indipendenti.
+
+>[!example] **Indipendenza di più di due eventi**
+>Nell'esempio di prima:
+>- $A$ = "primo e secondo dado danno lo stesso numero" -> $A=\{ w \in \Omega : w_{1} = w_{2} \}$
+>- $B$ = "secondo e terzo dado danno lo stesso numero" -> $B = \{ w \in \Omega : w_{2} = w_{3} \}$
+>- $C$ = "primo e terzo dado danno lo stesso numero" -> $C = \{ w \in \Omega : w_{1} = w_{3} \}$
+>
+>$|A| = |B| = |C| = 6^2$ -> $P(A) = P(B) = P(C) = \frac{1}{6}$ $|A \cap B| = |A \cap C| = |B \cap C| = 6$ 
+>-> $P(A) = P(B) = P(C) = \frac{1}{6}$ $|A \cap B| = |A \cap C| = |B \cap C| = 6$
+>-> $P(A \cap B) = P(A \cap C) = P(B \cap C) = \frac{6}{6^3} = \frac{1}{36}$
+>-> $P(A \cap B) = P(A) \cdot P(B)$
+>-> $A, B, C$ sono indipendenti a due a due
+> ---
+> Qui però: $|A \cap B \cap C| = 6$
+> -> $P(A \cap B \cap C) = \frac{6}{6^3} = \frac{1}{36}$
+> -> $P(A \cap B \cap C) \ne P(A) \cdot P(B) \cdot P(C)$
+> -> $A, B, C$ **non** indipendenti a tre / come famiglia
+
+
+## Indipendenza di Famiglie di Eventi
+
+>[!def] **Indipendenti Come Famiglia** #Definizione 
+>Siano $A_{1}, \dots, A_{n}$ eventi in uno spazio di probabilità $(\Omega, F, P)$ dove $n\geq 2$.
+>Allora $A_{1}, \dots, A_{n}$ si dicono _indipendenti come famiglia_ se per ogni scelta di $\mathcal{J}\subseteq \{ 1,\dots, n \} \text{ con } \mathcal{J}\neq \emptyset$ si ha:
+>$$
+>P\left( \bigcap_{j\in \mathcal{J}}A_{j} \right) = \prod_{j \in \mathcal{J}}P(A_{j})
+>$$
+>---
+>Funziona analogamente per famiglie arbitrarie di eventi: ovvero abbiamo $(A_{i})_{i \in \mathcal{I}} \subseteq F$ una famiglia di eventi dove $\mathcal{I} \neq \emptyset$.
+>Allora $(A_{i})_{i \in \mathcal{I}}$ si dice **indipendente** come famiglia (oppure **famiglia di eventi indipendenti**) se per ogni scelta di $\mathcal{J} \subseteq \mathcal{I}$ **finito** non-vuoto si ha:
+>$$
+>P\left( \bigcap_{j \in \mathcal{J}} A_{j} \right) = \prod_{j \in \mathcal{J}}P(A_{j})
+>$$
+>cioè gli eventi $A_{j}, j\in \mathcal{J}$, sono indipendenti.
+
