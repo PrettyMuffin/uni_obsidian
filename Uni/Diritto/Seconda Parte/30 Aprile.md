@@ -39,12 +39,16 @@ indici presuntivi di subordinazione (Cass. 25711/2018) (da guardare)
 >Quando una persona si obbliga a compiere verso un corrispettivo un'opera o un servizio, con un lavoro prevalentemente proprio e senza vincolo di subordinazione nei confronti del committente, dunque no eterodirezione.
 >Viene pagato dal committente.
 
+^03fb49
+
 >[!def] Contratto d'appalto (1655 cc)
 >L'appalto è il contratto col quale una parte assume, con organizzazione dei mezzi necessari e con gestione a proprio rischio, il compimento di un'opera o di un servizio verso un corrispettivo in denaro.
 
+^604be5
+
 Gestione a proprio rischio: io che commissiono un'opera, dò quel tipo di lavoro a quell'impresa che vince l'appalto e io con il corrispettivo mi tolgo, pk sarà in capo la responsabilità all'appaltatore.
 
-Io lavoratore subordinato, posso rifiutarmi di fare cose contenute nel mansionario del contratto.
+Io lavoratore subordinato, posso rifiutarmi di fare cose non contenute nel mansionario del contratto.
 
 ## Lavoro autonomo
 1. Tutela contro le clausole e condotte abusive(prive di effetti e con diritto al risaricmento dei danni):

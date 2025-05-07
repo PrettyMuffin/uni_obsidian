@@ -4,31 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "daa0aa1144303c40",
+        "id": "248e567664bd9198",
         "type": "tabs",
         "children": [
           {
-            "id": "b4caaf682b246201",
+            "id": "59b09dbd28766e09",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Probabilità e Statistica/Probabilità Condizionali e Indipendenza.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Probabilità Condizionali e Indipendenza"
+              "title": "New tab"
             }
           }
         ]
@@ -88,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246.5
+    "width": 200
   },
   "right": {
     "id": "53e7b442ff53f276",
@@ -176,53 +162,57 @@
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
-      "graph:Open graph view": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b4caaf682b246201",
+  "active": "140b31c651f4bd7b",
   "lastOpenFiles": [
+    "Diritto/Seconda Parte/7 Maggio.md",
+    "Diritto/Seconda Parte/5 Maggio.md",
+    "Diritto/Seconda Parte/9 Aprile.md",
     "Diritto/Seconda Parte/30 Aprile.md",
     "Probabilità e Statistica/Probabilità Condizionali e Indipendenza.md",
-    "Probabilità e Statistica/Disuguaglianza di Chebyshev (campionaria).md",
-    "P.A.O./Cast.md",
-    "Probabilità e Statistica/Costruzione di misure di probabilità discrete.md",
-    "Probabilità e Statistica/Concetti Fondamentali Statistica.md",
-    "Probabilità e Statistica/Dati d-Variati.md",
     "Probabilità e Statistica/Spazi di Probabilità.md",
-    "Diritto/2 Aprile.md",
-    "Diritto/31 Marzo.md",
-    "Diritto/26 Marzo.md",
-    "Diritto/26 febbraio.md",
-    "Diritto/24 Marzo.md",
-    "Diritto/23 Aprile.md",
-    "Diritto/19 Marzo.md",
-    "Diritto/17 Marzo.md",
-    "Diritto/12 Marzo.md",
-    "Diritto/10 Marzo.md",
-    "Diritto/9 Aprile.md",
-    "Diritto/7 Aprile (Inizio Seconda Parte).md",
-    "Diritto/5 marzo.md",
-    "Diritto/3 marzo.md",
-    "Probabilità e Statistica/Misura Di Probabilità.md",
+    "Diritto/Seconda Parte/28 Aprile.md",
+    "Probabilità e Statistica/Costruzione di misure di probabilità discrete.md",
+    "Diritto/Prima Parte/31 Marzo.md",
+    "Diritto/Prima Parte/26 Marzo.md",
+    "Diritto/Prima Parte/24 Marzo.md",
+    "Diritto/Prima Parte/26 febbraio.md",
+    "Diritto/Prima Parte/19 Marzo.md",
+    "Diritto/Seconda Parte",
+    "Diritto/Prima Parte",
+    "Diritto/Seconda Parte/7 Aprile (Inizio Seconda Parte).md",
+    "Diritto/Seconda Parte/23 Aprile.md",
+    "Diritto/Prima Parte/17 Marzo.md",
+    "Diritto/Prima Parte/12 Marzo.md",
+    "Diritto/Prima Parte/10 Marzo.md",
+    "Diritto/Prima Parte/3 marzo.md",
+    "Probabilità e Statistica/Concetti Fondamentali Statistica.md",
+    "Diritto/Prima Parte/2 Aprile.md",
     "conflict-files-obsidian-git.md",
-    "P.A.O./C++11.md",
+    "Diritto/Prima Parte/5 marzo.md",
+    "26 febbraio.md",
+    "5 marzo.md",
+    "3 marzo.md",
     "Pasted image 20250326103658.png",
     "Diritto",
-    "Untitled.canvas",
-    "Concetti.md",
     "Probabilità e Statistica/Concetti Fondamentali.tex",
     "Probabilità e Statistica",
+    "Statistica/Concetti Fondamentali.tex",
+    "Statistica",
     "P.A.O./Canvas/Vtable_C.canvas",
-    "P.A.O.",
-    "Excalidraw",
+    "P.A.O./Tags",
     "P.A.O./Canvas",
-    "Canvas/PAO_C.canvas",
-    "P.A.O./Tags"
+    "P.A.O.",
+    "Canvas/Vtable_C.canvas",
+    "Untitled.canvas",
+    "Canvas/PAO_C.canvas"
   ]
 }
