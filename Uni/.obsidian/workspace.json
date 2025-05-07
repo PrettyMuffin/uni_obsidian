@@ -11,10 +11,24 @@
             "id": "59b09dbd28766e09",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Probabilità e Statistica/Probabilità Condizionali e Indipendenza.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Probabilità Condizionali e Indipendenza"
             }
           }
         ]
@@ -171,7 +185,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "140b31c651f4bd7b",
+  "active": "59b09dbd28766e09",
   "lastOpenFiles": [
     "Diritto/Seconda Parte/7 Maggio.md",
     "Diritto/Seconda Parte/5 Maggio.md",

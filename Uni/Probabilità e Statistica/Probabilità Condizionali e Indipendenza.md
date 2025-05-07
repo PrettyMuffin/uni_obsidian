@@ -155,4 +155,75 @@ Sia $(\Omega, F, P)$ uno spazio di probabilità:
 >P\left( \bigcap_{j \in \mathcal{J}} A_{j} \right) = \prod_{j \in \mathcal{J}}P(A_{j})
 >$$
 >cioè gli eventi $A_{j}, j\in \mathcal{J}$, sono indipendenti.
+>>[!warning] **Attenzione**
+>>Nella condizione equivalente, si perdono sempre intersezioni di $n$ eventi, ma ==bisogna guardare tutte le combinazioni degli insiemi== $B_{i}$ con $B_{i} = A_{i}$ o $B_{i} = A^c_{i}$.
+>>La condizione $P(A_{1} \cap \dots \cap A_{n}) = P(A_{1}) \cdot \dots \cdot P(A_{n})$ **NON** è dunque sufficiente per l'indipendenza di $A_{1} \cdot \dots \cdot A_{n}$ se $n \geq 3$
 
+## Modello matematico per $n$ prove ripetute e indipendenti
+>[!def] **Modello per $n$ prove ripetute indipendenti**
+>Sia $q \in [0,1]$, e sia $n \in \mathbb{N}$.
+>Uno spazio di probabilità $(\Omega, F, P)$ con eventi $C_{1}\dots C_{n}$ si dice un _modello per $n$ prove ripetute e indipendenti_  con probabilità di successo $q$ se:
+>1. $C_{1} \dots C_{n}$ sono indipendenti come famiglia;
+>2. $P(C_{i}) = q \quad \forall i \in \{ 1\dots n \}$
+>
+>Ovvero la definizione di _eventi indipententi ed equiprobabili_.
+
+### Nota:
+>[!Important] Un modello per $n$ prove ripetute e indipendenti con probabilità di successo $q \in [0,1]$ si può costruire esplicitamente:
+
+$$
+\begin{align}
+\Omega &= \{ 0,1 \}^n \\
+F &= P(\Omega)
+\end{align}
+$$
+$P$ definita mediante la sua densità discreta $p$:
+###### Caso $n = 1$
+$$
+p(w) =
+\begin{cases}
+q &\text{se } w = 1 \\
+1 - q &\text{se } w = 0
+\end{cases}
+\quad w \in \{ 0,1 \}
+$$
+
+###### Caso Generale
+Per $\overline{w} = (w_{1}\dots w_{n}) \in \Omega = \{ 0, 1 \}^n$
+$$
+\begin{align}
+p(w) &= q^{k(w)} \cdot (1 - q)^{n - k(w)} \text{ dove } \\
+k(w) &= \# \{ i \in \{ 1 \dots n \} : w_{i} = 1 \} \to \text{numero di successi}
+\end{align}
+$$
+
+Gli eventi $C_{1}\dots C_{n}$ in questo modello:
+$$
+C_{i} = \{ w \in \Omega: w_{i} = 1 \} \text{ "l'i-esima prova ha successo"}
+$$
+-> $C_{1} \dots C_{n}$ sono indipendenti come famiglia rispetto alla misura di probabilità $P$ e $P(C_{i}) = q$
+
+**Infatti**:
+$$
+\begin{align}
+P(C_{i}) &= \sum_{w \in C_{i}} p(w) \\
+&=\sum_{\tilde{w} \in \{ 0, 1 \}^{n-1}} p((1, \tilde{w}))
+\end{align}
+$$
+>NOTA BENE:
+>$$
+>\begin{align}
+p((1, \tilde{w})) &= q^{k((1, \tilde{w})} \cdot (1-q)^{n - k((1, \tilde{w}))} \\
+&= q \cdot q^{k(\tilde{w})} \cdot (1 - q)^{n - 1 - k(\tilde{w})}
+\end{align}
+>$$
+
+Ora:
+$$
+\begin{align}
+\sum_{w \in \{0, 1\}^{n - 1}} q^{k(\tilde{w})} \cdot (1 - q)^{n - 1 -k(\tilde{w})} \\
+\sum_{k = 0}^{n - 1}\sum_{w \in \{ 0,1 \}^{n - 1} : k(\tilde{w}) = k}q^k \cdot (1 - q)^{n - 1 - k}
+\end{align}
+$$
+
+Pag 14 lezione 8
