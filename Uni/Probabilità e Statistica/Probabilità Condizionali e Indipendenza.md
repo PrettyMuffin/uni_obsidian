@@ -206,7 +206,7 @@ $$
 **Infatti**:
 $$
 \begin{align}
-P(C_{i}) &= \sum_{w \in C_{i}} p(w) \\
+P(C_{1}) &= \sum_{w \in C_{i}} p(w) \\
 &=\sum_{\tilde{w} \in \{ 0, 1 \}^{n-1}} p((1, \tilde{w}))
 \end{align}
 $$
@@ -222,8 +222,56 @@ Ora:
 $$
 \begin{align}
 \sum_{w \in \{0, 1\}^{n - 1}} q^{k(\tilde{w})} \cdot (1 - q)^{n - 1 -k(\tilde{w})} \\
-\sum_{k = 0}^{n - 1}\sum_{w \in \{ 0,1 \}^{n - 1} : k(\tilde{w}) = k}q^k \cdot (1 - q)^{n - 1 - k}
+\sum_{k = 0}^{n - 1}\sum_{w \in \{ 0,1 \}^{n - 1} : k(\tilde{w}) = k}q^k \cdot (1 - q)^{n - 1 - k} \\
+\sum_{k = 0}^{n - 1}\binom{n-1}{k} \cdot q^k \cdot (1 - q)^{n - 1 - k} = (q + 1 - q) ^{n - 1} = 1
 \end{align}
 $$
+-> $P(C_{1}) = q \cdot (\sum_{\tilde{w} \in \{ 0, 1 \}^{n - 1}}q^{k(\tilde{w})} \cdot (1 - q)^{n - 1 - k(\tilde{w})})$
+-> $P(C_{1}) = q$
+Analogamente si verifica che $P(C_{i}) = q$ $\forall i$ e anche che:
+$$
+P(\bigcap_{j \in \mathcal{J}} C_{J}) = q^{|\mathcal{J}|}, \text{ } \forall \mathcal{J} \subseteq \{ 1 \dots n \}
+$$
 
-Pag 14 lezione 8
+## Calcolo di alcune probabilità importanti nelle prove ripetute e indipendenti
+Sia $(\Omega, F, P)$ con eventi $C_{1} \dots C_{n}$ un modello per $n$ prove ripetute e indipendenti con probabilità di successo $q$.
+###### Probabilità che nessuna prova abbia successo:
+$$
+P\left( \left( \bigcup_{i = 1}^nC_{i} \right)^c \right) = P\left( \bigcap_{i = 1}^n C_{i}^c \right) = \prod_{i = 1}^nP(C_{i}^c) = (1 - q)^n
+$$
+-> $C_{i}^c$ = evento contrario, dunque stiamo calcolando la probabilità dell'evento contrario
+
+###### Probabilità che almeno una delle $n$ prove abbia successo:
+$$
+P\left(\bigcup_{i = 1}^nC_{i}\right) = 1 - P\left( \left( \bigcup_{i = 1}^nC_{i} \right)^c \right) = 1 - (1 - q)^n
+$$
+###### Probabilità che il promo successo avvenga alla prova l-esima con $l \in \{ 1\dots n \}$
+$$
+P\left( C_{1}^c \cap \dots \cap C_{l - 1}^n \cap C_{l} \right) = P(C_{1}^c) \cdot\dots \cdot P(C_{l-1}^c) \cdot P(C_{l}) = (1 - q)^{l - 1} \cdot q
+$$
+
+###### Probabilità che le prime $k$ prove abbiano successo e le successive $n-k$ no, con $k \in \{ 0, \dots, n \}$
+$$
+P(C_{1} \cap \dots \cap C_{k} \cap C_{k+1}^c \cap \dots \cap C_{n}^c) = P(C_{1}) \cdot \dots \cdot P(C_{k}) \cdot P(C_{k + 1}^c) \cdot \dots \cdot P(C_{n}^c) = q^k \cdot (1 - q)^{n - k}
+$$
+
+###### Probabilità che esattamente $k$ delle $n$ prove abbiano successo
+$$
+P\left(\bigcup_{\mathcal{J} \subseteq \{ 1\dots k \}; |\mathcal{J}| = k}\left(   \bigcap_{i \in \mathcal{J}}C_{j}\right) \bigcap \left(\bigcap_{i \in \{ 1 \dots n \} \setminus \mathcal{J}} C_{i}^c\right)  \right)
+$$
+$$
+\begin{align}
+&= \sum_{\mathcal{J} \subseteq \{ 1 \dots n \}; |\mathcal{J}| = k} P\left(\left(   \bigcap_{i \in \mathcal{J}}C_{j}\right) \bigcap \left(\bigcap_{i \in \{ 1 \dots n \} \setminus \mathcal{J}} C_{i}^c\right) \right) \\
+&= \left(   \bigcap_{i \in \mathcal{J}}C_{j}\right) \bigcap \left(\bigcap_{i \in \{ 1 \dots n \} \setminus \mathcal{J}} C_{i}^c\right) = q^k \cdot (1 - q)^{n - k} \text{ come in 4)} \\
+&= \binom{n}{k} \cdot q^k \cdot (1 - q)^{n - k} \text{, } k \in \{ 0, \dots, n \}
+\end{align}
+$$
+> Nota:
+> $$
+> \sum_{k = 0}^n \binom{n}{k} \cdot q^k \cdot (1- q)^{n - k} = 1
+> $$
+> ->
+> $$
+> \tilde{p}(k) = \binom{n}{k} \cdot q^k \cdot (1 - q)^{n - k} \text{ con } k \in \{ 0, \dots, n \}
+> $$
+> Definisce una densità discreta su $\{ 0, \dots, n \}$ -> Distribuzione binomiale di parametri $n, 4$.
