@@ -4,17 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "889c4f76f76993bb",
+        "id": "02924cf9a3c0bf09",
         "type": "tabs",
         "children": [
           {
-            "id": "dfad79271ea59825",
+            "id": "3a17d4aca91aa557",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Diritto/Seconda Parte/14 Maggio.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "14 Maggio"
             }
           }
         ]
@@ -171,19 +185,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dfad79271ea59825",
+  "active": "3a17d4aca91aa557",
   "lastOpenFiles": [
-    "Probabilità e Statistica/Probabilità Condizionali e Indipendenza.md",
+    "Diritto/Seconda Parte/12 Maggio.md",
+    "Diritto/Seconda Parte/9 Aprile.md",
     "Probabilità e Statistica/Variabili Aleatorie.md",
+    "Probabilità e Statistica/Spazi di Probabilità.md",
+    "Probabilità e Statistica/Probabilità Condizionali e Indipendenza.md",
+    "Probabilità e Statistica/Misura Di Probabilità.md",
+    "Probabilità e Statistica/Disuguaglianza di Chebyshev (campionaria).md",
+    "conflict-files-obsidian-git.md",
+    "Diritto/Seconda Parte/14 Maggio.md",
     "Diritto/Seconda Parte/7 Maggio.md",
     "Diritto/Seconda Parte/5 Maggio.md",
     "Diritto/Seconda Parte/30 Aprile.md",
-    "Probabilità e Statistica/Disuguaglianza di Chebyshev (campionaria).md",
     "P.A.O./Cast.md",
     "Probabilità e Statistica/Costruzione di misure di probabilità discrete.md",
     "Probabilità e Statistica/Concetti Fondamentali Statistica.md",
     "Probabilità e Statistica/Dati d-Variati.md",
-    "Probabilità e Statistica/Spazi di Probabilità.md",
     "Diritto/2 Aprile.md",
     "Diritto/31 Marzo.md",
     "Diritto/26 Marzo.md",
@@ -194,11 +213,6 @@
     "Diritto/17 Marzo.md",
     "Diritto/12 Marzo.md",
     "Diritto/10 Marzo.md",
-    "Diritto/9 Aprile.md",
-    "Diritto/7 Aprile (Inizio Seconda Parte).md",
-    "Diritto/5 marzo.md",
-    "Diritto/3 marzo.md",
-    "Probabilità e Statistica/Misura Di Probabilità.md",
     "Pasted image 20250326103658.png",
     "Diritto",
     "Untitled.canvas",
