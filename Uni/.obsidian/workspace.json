@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "59b09dbd28766e09",
+            "id": "bf41e7b915f75883",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probabilità e Statistica/Probabilità Condizionali e Indipendenza.md",
+                "file": "Diritto/Seconda Parte/14 Maggio.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Probabilità Condizionali e Indipendenza"
+              "title": "14 Maggio"
             }
           }
         ]
@@ -185,13 +185,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "59b09dbd28766e09",
+  "active": "bf41e7b915f75883",
   "lastOpenFiles": [
+    "Diritto/Seconda Parte/12 Maggio.md",
+    "Diritto/Seconda Parte/14 Maggio.md",
     "Diritto/Seconda Parte/7 Maggio.md",
+    "Probabilità e Statistica/Probabilità Condizionali e Indipendenza.md",
     "Diritto/Seconda Parte/5 Maggio.md",
     "Diritto/Seconda Parte/9 Aprile.md",
     "Diritto/Seconda Parte/30 Aprile.md",
-    "Probabilità e Statistica/Probabilità Condizionali e Indipendenza.md",
     "Probabilità e Statistica/Spazi di Probabilità.md",
     "Diritto/Seconda Parte/28 Aprile.md",
     "Probabilità e Statistica/Costruzione di misure di probabilità discrete.md",
@@ -213,8 +215,6 @@
     "conflict-files-obsidian-git.md",
     "Diritto/Prima Parte/5 marzo.md",
     "26 febbraio.md",
-    "5 marzo.md",
-    "3 marzo.md",
     "Pasted image 20250326103658.png",
     "Diritto",
     "Probabilità e Statistica/Concetti Fondamentali.tex",
