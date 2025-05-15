@@ -1,4 +1,3 @@
-# Ordinamento Giuridico Italiano
 >[!def] **Ordinamento Giuridico** #Definizione 
 È **l’insieme organizzato di norme e istituzioni che regolano la vita di una comunità**. È il sistema attraverso cui il diritto si manifesta e viene applicato in una società.
 
@@ -18,8 +17,8 @@ Una norma giuridica può essere di due tipi:
 >- **Astrattezza**: una norma è applicabile in ogni momento, il prerequisito è che si verifichi un determinato contesto.
 >- **Sanzione**: la norma è accompagnata da una sanzione di qualche tipo.
 
-
-## Fonte del diritto
+---
+## Fonte del diritto **Italiano**
 >[!def] **Fonti del Diritto** #Definizione 
 >Si dicono fonti del diritto tutti gli *atti* e i *fatti* che l’ordinamento giuridico utilizza per produrre norme giuridiche; le fonti atto possono essere la costituzione, la legge, ecc…, mentre le fonti fatto possono derivare dalla semplice abitudine.
 
@@ -31,7 +30,7 @@ Le norme giuridiche sono ordinate secondo importanza; una norma inferiore esiste
 - *Norme amministrative*: è dato dalle fonti secondarie come i regolamenti locali.
 - *Consuetudini*: sono i comportamenti abitudinari considerati obblighi dalla comunità, che però non hanno valenza di legge.
 ## Promulgare una legge
-La creazione di una legge ordinaria prende il nome di **procedimento legislativo** #Definizione ; in breve:
+La creazione di una legge ordinaria prende il nome di **procedimento legislativo** #Definizione in breve:
 - Si vota l’iniziativa, ovvero l’idea di legge.
 - Si delibera la nuova legge, modificandola sino alla sua forma finale passandola da una camera all’altra.
 - La legge verrà poi promulgata (firmata dal presidente), pubblicata in gazzetta ufficiale e infine entrerà in vigore 2 settimane dopo la pubblicazione.
@@ -50,35 +49,99 @@ Un’altra fonte primaria è ritrovabile nel decreto legge, un atto emanato dal 
 - Hanno **durata massima di 60 giorni**, a meno che il parlamento non lo converta in legge prima della scadenza.
 - Il parlamento può **introdurre delle modifiche** che sussisteranno nella transizione a legge.
 
-# Altri ordinamenti (Internazionale)
+---
+## Fonti del diritto Internazionale
 Soggetti di diritto sono gli stati e singole persone.
-La comunità internazionale è formata da stati sovrani, ovvero entità che non riconoscono altri enti al di sopra di sè, e ogni stato sovrano riconosce altri stati sovrani come pari a loro.
+La comunità internazionale è formata da stati sovrani[^1] e ogni stato sovrano riconosce altri stati sovrani come pari a loro.
 Di conseguenza Diritto Internazionale e Costituzione sono cose separate ma comunque legate in un qualche modo, es. Un trattato internazionale tra Italia e X viene comunque regolamentato dall'ordinamento giuridico Italiano, così da poter entrare a farne parte.
-Una particolare comunità internazionale è il Consiglio d'Europa è una organizazzione internazionale che non ha nulla a che fare con l'unione Europea.
-Quest'ultima ha come fine la tutela e lo scopo dei diritti umani, i paesi che hanno aderito a questa orgianizzazione hanno sottoscritto una convenzione per la salvaguardia dei diriti dell'uomo, che i paesi membri rispettano e fanno sì che vengano rispettati CEDU(Corte Europea Diritto Dell'uomo).
-Per questo è stato istituito un tribunale 
-Corte Europea != Corte di giustizia dell'unione europea (vigila sul corretto recipimento delle direttive dei **STATI MEMBRI DELL'UNIONE EUROPEA**).
+Una particolare comunità internazionale è il Consiglio d'Europa, quest'ultima è un' organizzazione internazionale che non ha nulla a che fare con l'**Unione Europea**.
+Il Consiglio d'Europa ha come fine la tutela e lo scopo dei diritti umani, i paesi che hanno aderito a questa organizzazione hanno sottoscritto una convenzione per la salvaguardia dei diritti dell'uomo.
+Per far sì che i paesi membri rispettino le direttive e i regolamenti di questa organizzazione è stato istituito il tribunale del CEDU(Corte Europea Diritto Dell'uomo). 
+Che è del tutto diversa dalla Corte di giustizia dell'unione europea (vigila sul corretto recepimento delle direttive dei **STATI MEMBRI DELL'UNIONE EUROPEA**).
 ## Fonti Unione Europea
 ### 1. Trattati, Principi Generali, Carta Diritti Fond. UE (diritto originario)
-- Trattati: istitutivi e di modifica
-- Principi Generali: Ricavabili dalle tradizioni comuni degli stati membri e propri dell diritto UE
-- Carta dei diritti fondamentali dell'UE.
+#### Trattati
+Sono come delle _regole fondamentali_ dell'Unione Europea, ovvero stabiliscono come funzione l'UE, i poteri delle istituzioni e i diritti dei cittadini.
+Ogni paese UE **deve** ratificarli (approvarli), solitamente con un voto del Parlamento, o in casi speciali con referendum. Una volta approvati, anche se va da Stato a Stato, diventano subito legge, ponendosi, nella gerarchia, al di sopra delle leggi nazionali dello Stato, dunque se una legge ordinaria va in diretto contrasto con il trattato, questa legge non è valida.
+#### Principi Generali
+Sono ricavabili dalle tradizioni comuni degli stati membri e propri del diritto UE e sono delle _linee guida_ che tengono insieme il sistema UE, garantendo che funzioni in modo equo.
+#### Carta dei diritti fondamentali dell'UE
+È come la **"Costituzione dei diritti"** dell'Unione Europea, grazie al **trattato** di Lisbona, ha valore giuridico vincolante -> **deve** essere rispettata da tutti gli Stati membri.
+Questa carta vale **solo** quando Stati membri o istituzioni **UE** agiscono nell'ambito del diritto europeo.
+>[!important] **Nota Bene**
+>Non si sostituisce alle Costituzioni dei paesi membri.
 
+È la **Corte di Giustizia UE** a far rispettare questi diritti.
+
+In sostanza è la base dei diritti nell'UE, usata per garantire giustizia e libertà in tutti gli Stati membri.
 ### 2. Diritto Internazionale Consuetudinario e Pattizio
+#### Diritto Internazionale Consuetudinario
+Il Diritto Internazionale Consuetudinario rappresenta l'insieme di norme non scritte che si sono formate attraverso una pratica costante e uniforme degli Stati, accompagnata dalla convinzione che tale pratica sia obbligatoria.
+L'importanza del diritto consuetudinario si vede soprattutto in quei settori dove mancano accordi scritti. Per esempio, molte norme fondamentali sul trattamento dei prigionieri di guerra o sulla condotta dei conflitti armati erano inizialmente consuetudini, poi trasformate in trattati come le Convenzioni di Ginevra.
+#### Diritto Internazionale Pattizio
+Il diritto internazionale pattizio, invece, si basa su accordi scritti e formali tra Stati.
+Questi accordi, di cui fanno parte anche i trattati, rappresentano la fonte più chiara e precisa di diritto internazionale.
+La sua forza sta proprio nella sua specificità: ogni trattato infatti definisce con precisione diritti e obblighi delle parti.
+
+Una tabella riassuntiva:
+
+
+| **Aspetto**        | **Diritto Consuetudinario**            | **Diritto Pattizio**           |
+| ------------------ | -------------------------------------- | ------------------------------ |
+| **Forma**          | Non scritto (si basa su usi)           | Scritto (trattati)             |
+| **Obbligatorietà** | Per tutti i Stati                      | Solo per chi firma il trattato |
+| **Flessibilità**   | Si evolve nel tempo (insieme agli usi) | Fisso (non viene modificato)   |
+| **Esempi**         | Immunità statali, diritto del mare     | Convenzione di Ginevra, CEDU   |
+>[!question] **In caso di Controversia?**
+Spesso, quando si verifica una controversia internazionale, i giudici devono valutare sia le norme pattizie che quelle consuetudinarie applicabili al caso.
+
+Un esempio concreto di questa interazione si è visto nel caso della delimitazione della piattaforma continentale tra Germania, Danimarca e Paesi Bassi davanti alla Corte Internazionale di Giustizia nel 1969. La Corte ha basato la sua decisione sia su principi consuetudinari che sulle disposizioni della Convenzione di Ginevra sul mare territoriale.
 
 ### 3. Atti Delle Istituzioni (diritto derivato)
 #### Atti Tipici
-La loro tipologia è prevista da trattati.
--  vincolanti: regolamento, direttiva, decisione
-- Non Vincolanti:  raccomandazione, parere
+>[!def] **Atti Tipici** #Definizione 
+>Sono gli strumenti formali che le istituzioni dell'UE possono adottare per esercitare le loro competenze. Sono **espressamente elencati nei trattati UE**, per questo si dicono "tipici".
 
-Regolamento: Esaurito iter di approvazione dell'Unione è subito applicabile nei stati membri. Es GDPR
-Direttiva: Pone agli stati membri degli obbiettivi da raggiungere, lasciando agli stati membri la discrezione di come raggiungere gli obbiettivi prefissati dalla direttiva
-
+Possono essere
+##### Vincolanti
+   -  Regolamento: Una legge europea valida in tutti gli stati membri senza bisogno di recepimento, è **direttamente applicabile**, es. GDPR
+   -  Direttiva: Un obbiettivo da raggiungere lasciando agli stati membri la discrezione di come raggiungere gli obbiettivi prefissati dalla direttiva, es. Direttiva sul congedo di maternità.
+   -  Decisione: Atto specifico rivolto verso **uno Stato, un'impresa o una persona** se ne deduce quindi che è vincolante solo per il destinatario, es. Decisione della Commissione che multa un'azienda per antitrust. 
+##### Non Vincolanti
+- **Raccomandazione**: un suggerimento politico senza obbligo giuridico
+- **Parere**: Una dichiarazione ufficiale di un'istituzione UE su un tema, senza però effetti vincolanti.
 #### Atti Atipici
-Non trovano un appiglio normativo espresso
-- Accordi interistituzionali
-- Dichiarazioni Comuni
-- Comunicazioni
-- Codici di condotta
-- Libri verdi e libri bianchi
+>[!def] **Atti Atipici** #Definizione 
+>Sono strumenti giuridici utilizzati dalle istituzioni europee che **non sono espressamente previsti da trattati UE** (a differenza degli atti tipici).
+
+Non hanno una forma predefinita e spesso nascono per esigenze pratiche, flessibilità politica o per colmare vuoti temporanei nel diritto dell'Unione.
+
+##### Caratteristiche Principali
+1. **Non vincolanti**
+2. **Forma Libera**: non richiede una burocrazia fissa.
+3. **Non possono essere impugnati direttamente** davanti alla Corte di Giustizia UE
+
+##### Uso:
+- Guidare l'interpretazione di atti vincolanti
+- Sperimentare nuove politiche senza legiferare
+- Esprimere posizioni politiche comuni
+
+##### Tipi di Atti Atipici
+- Accordi interistituzionali: strumenti di cooperazione tra principali istituzioni UE (Commissione, Parlamento, Consiglio) per organizzare il loro lavoro comune;
+- Dichiarazioni Comuni: (es. migrazione o sicurezza)
+- Comunicazioni: documenti esplicativi su come applicare una direttiva
+- Linee guida: Documento interpretativo emesso da istituzioni UE, solitamente per spiegare come applicare una legge o politica, infatti se si violano le linee guida di rischia una multa.
+- Codici di condotta: Accordo Volontario tra Stati, istituzioni UE o operatori privati per autoregolarsi, la violazione non comporta ad una multa.
+- Libri bianchi: Proposte di future politiche UE
+- Libri verdi: Consultazioni pubbliche su temi specifici
+
+
+| **Atti Tipici**                       | Atti Atipici                              |
+| ------------------------------------- | ----------------------------------------- |
+| Previsti dall'art. 228 TFUE           | Non menzionati nei trattati               |
+| Vincolanti                            | Non Vincolanti                            |
+| Forma rigida (regolamento direttiva)  | Forma libera (linee guida, dichiarazioni) |
+| Controllo della Corte di Giustizia UE | Non Impugnabili                           |
+
+
+[^1]:entità che non riconoscono altri enti al di sopra di sè
