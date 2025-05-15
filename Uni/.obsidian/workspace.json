@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "02924cf9a3c0bf09",
+        "id": "3642c87bdfe61bb5",
         "type": "tabs",
         "children": [
           {
-            "id": "3a17d4aca91aa557",
+            "id": "a5ef834d51ba9bd6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diritto/Seconda Parte/14 Maggio.md",
-                "mode": "source",
+                "file": "Diritto/Prima Parte/Antinomie e Abrogazioni.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,86 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "14 Maggio"
+              "title": "Antinomie e Abrogazioni"
+            }
+          },
+          {
+            "id": "a981e3b4b950da8c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Diritto/Prima Parte/Interpretazione della Legge.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Interpretazione della Legge"
+            }
+          },
+          {
+            "id": "539e67d55efc73a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Diritto/Prima Parte/Ordinamento Giuridico.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Ordinamento Giuridico"
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "09f95040bb4a2c6f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "34b1e0b71f4484e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Diritto/Prima Parte/Diritto Privato.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Diritto Privato"
             }
           }
         ]
@@ -63,7 +142,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "beye",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +167,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "53e7b442ff53f276",
@@ -176,53 +256,57 @@
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
-      "graph:Open graph view": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3a17d4aca91aa557",
+  "active": "34b1e0b71f4484e3",
   "lastOpenFiles": [
-    "Diritto/Seconda Parte/12 Maggio.md",
-    "Diritto/Seconda Parte/9 Aprile.md",
+    "Diritto/Prima Parte/Ordinamento Giuridico.md",
+    "Diritto/Prima Parte/Diritto Privato.md",
+    "Diritto/Prima Parte/Interpretazione della Legge.md",
+    "Diritto/Prima Parte/Antinomie e Abrogazioni.md",
+    "Diritto/Prima Parte/Aprile 2.md",
+    "Diritto/Prima Parte/Normativismo vs Istituzionalismo.md",
+    "Diritto/Seconda Parte/Maggio 5.md",
+    "Diritto/Seconda Parte/Aprile 30.md",
+    "Diritto/Seconda Parte/Aprile 28.md",
+    "Diritto/Seconda Parte/Aprile 23.md",
+    "Diritto/Seconda Parte/Maggio 14.md",
+    "Diritto/Seconda Parte/Maggio 12.md",
+    "Diritto/Seconda Parte/Aprile 9.md",
+    "Diritto/Seconda Parte/Maggio 7.md",
+    "Diritto/Seconda Parte/Aprile 7 (Inizio Seconda Parte).md",
+    "Diritto/Prima Parte/Marzo 31.md",
+    "Diritto/Prima Parte/Marzo 26.md",
+    "Diritto/Prima Parte/Marzo 24.md",
+    "Diritto/Prima Parte/Marzo 19.md",
+    "Diritto/Prima Parte/Marzo 17.md",
+    "Diritto/Prima Parte/Marzo 12.md",
     "Probabilità e Statistica/Variabili Aleatorie.md",
-    "Probabilità e Statistica/Spazi di Probabilità.md",
-    "Probabilità e Statistica/Probabilità Condizionali e Indipendenza.md",
-    "Probabilità e Statistica/Misura Di Probabilità.md",
-    "Probabilità e Statistica/Disuguaglianza di Chebyshev (campionaria).md",
-    "conflict-files-obsidian-git.md",
-    "Diritto/Seconda Parte/14 Maggio.md",
-    "Diritto/Seconda Parte/7 Maggio.md",
-    "Diritto/Seconda Parte/5 Maggio.md",
-    "Diritto/Seconda Parte/30 Aprile.md",
-    "P.A.O./Cast.md",
-    "Probabilità e Statistica/Costruzione di misure di probabilità discrete.md",
-    "Probabilità e Statistica/Concetti Fondamentali Statistica.md",
     "Probabilità e Statistica/Dati d-Variati.md",
-    "Diritto/2 Aprile.md",
-    "Diritto/31 Marzo.md",
-    "Diritto/26 Marzo.md",
-    "Diritto/26 febbraio.md",
-    "Diritto/24 Marzo.md",
-    "Diritto/23 Aprile.md",
-    "Diritto/19 Marzo.md",
-    "Diritto/17 Marzo.md",
-    "Diritto/12 Marzo.md",
-    "Diritto/10 Marzo.md",
+    "P.A.O./Cast.md",
+    "Probabilità e Statistica/Probabilità Condizionali e Indipendenza.md",
+    "conflict-files-obsidian-git.md",
+    "Diritto/Seconda Parte",
+    "Diritto/Prima Parte",
     "Pasted image 20250326103658.png",
     "Diritto",
-    "Untitled.canvas",
     "Probabilità e Statistica/Concetti Fondamentali.tex",
     "Probabilità e Statistica",
+    "Statistica/Concetti Fondamentali.tex",
+    "Statistica",
     "P.A.O./Canvas/Vtable_C.canvas",
-    "P.A.O.",
-    "Excalidraw",
+    "P.A.O./Tags",
     "P.A.O./Canvas",
-    "Canvas/PAO_C.canvas",
-    "P.A.O./Tags"
+    "P.A.O.",
+    "Canvas/Vtable_C.canvas",
+    "Untitled.canvas",
+    "Canvas/PAO_C.canvas"
   ]
 }
