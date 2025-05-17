@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a5ef834d51ba9bd6",
+            "id": "b8f675837056011a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diritto/Prima Parte/Diritto Privato.md",
+                "file": "Diritto/Prima Parte/Capacità e Diritti della Personalità.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Diritto Privato"
+              "title": "Capacità e Diritti della Personalità"
+            }
+          },
+          {
+            "id": "584446f351ec103a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Diritto/Prima Parte/Proprietà e Possesso.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Proprietà e Possesso"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -63,7 +88,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "beye",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -190,15 +215,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a5ef834d51ba9bd6",
+  "active": "584446f351ec103a",
   "lastOpenFiles": [
+    "Diritto/Prima Parte/Capacità e Diritti della Personalità.md",
     "Diritto/Prima Parte/Diritto Privato.md",
-    "Diritto/Prima Parte/Marzo 12.md",
-    "Diritto/Prima Parte/Ordinamento Giuridico.md",
-    "Diritto/Prima Parte/Antinomie e Abrogazioni.md",
-    "Diritto/Prima Parte/Interpretazione della Legge.md",
+    "Diritto/Prima Parte/Beni.md",
     "Diritto/Prima Parte/Aprile 2.md",
+    "Diritto/Prima Parte/Ordinamento Giuridico.md",
+    "Diritto/Prima Parte/Proprietà e Possesso.md",
     "Diritto/Prima Parte/Normativismo vs Istituzionalismo.md",
+    "Diritto/Prima Parte/Marzo 31.md",
+    "Diritto/Prima Parte/Marzo 26.md",
+    "Diritto/Prima Parte/Marzo 24.md",
+    "Diritto/Prima Parte/Marzo 19.md",
+    "Diritto/Prima Parte/Interpretazione della Legge.md",
+    "P.A.O./Cast.md",
+    "Diritto/Prima Parte/Antinomie e Abrogazioni.md",
     "Diritto/Seconda Parte/Maggio 5.md",
     "Diritto/Seconda Parte/Aprile 30.md",
     "Diritto/Seconda Parte/Aprile 28.md",
@@ -208,16 +240,9 @@
     "Diritto/Seconda Parte/Aprile 9.md",
     "Diritto/Seconda Parte/Maggio 7.md",
     "Diritto/Seconda Parte/Aprile 7 (Inizio Seconda Parte).md",
-    "Diritto/Prima Parte/Marzo 31.md",
-    "Diritto/Prima Parte/Marzo 26.md",
-    "Diritto/Prima Parte/Marzo 24.md",
-    "Diritto/Prima Parte/Marzo 19.md",
-    "Diritto/Prima Parte/Marzo 17.md",
     "Probabilità e Statistica/Variabili Aleatorie.md",
     "Probabilità e Statistica/Dati d-Variati.md",
-    "P.A.O./Cast.md",
     "Probabilità e Statistica/Probabilità Condizionali e Indipendenza.md",
-    "conflict-files-obsidian-git.md",
     "Diritto/Seconda Parte",
     "Diritto/Prima Parte",
     "Pasted image 20250326103658.png",

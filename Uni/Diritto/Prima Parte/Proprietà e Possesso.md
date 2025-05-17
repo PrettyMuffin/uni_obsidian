@@ -1,34 +1,4 @@
-# Beni #diritto_privato
-Diritti che hanno ad oggetto una cosa, o meglio ancora un bene.
->[!def] BENE (Art.810)
->Sono beni le cose che possono formare oggetto di diritto
 
-Si classificano in 3 grandi categorie:
-
-## Immobili
-si intende il suolo e tutto ciò che sia incorporato ad esso in vincolo naturale che artificiale.
-es. Acqua, alberi in senso naturale. Edifici in senso artificiale
-## Mobili registrati
-Sono beni mobili ovvero tutto ciò che non è immobile, ma che sono soggetti a dei vincoli di registrazione in particolari registri, es automobile registrata al PRA (Pubblico Registro Automobili).
-Sopratutto materiali.
-## Mobili 
-Utilità economiche prive di materialità: es marchio, una opera di ingegno, un software.
-
----
-
-Cose specifiche, cose generiche
-
-Cose generiche: Es un codice civile
-cosa specifica: codice di un det. editore
-
-beni fungibili: cose sostituibili da altre considerate equivalenti: es, denaro banconota, a meno che non sia una banconota strana o comunque rara.
-beni infungibili: cosa non sostituibile, es. se stipulo contratto di un bene, quel bene non può essere sostituito da altro.
-
-beni prodotti da altri beni -> Fruttiferi #Definizione 
-Frutti naturali: vincolo di derivazione naturale, es albero con frutti. e appartengono al proprietario del bene che li ha prodotti, e diventano beni autonomi non appena si staccano materialmente dall'albero
-Frutti civili:  si ricavano indirettamente dal bene fruttifero come corrispettivo di godimento che altri abbiano di quel bene. Es, sono proprietario di un appartamento che do in affitto ad altri, in cambio di godimento del mio bene mobile ricevo una somma, quella somma è frutto civile. Altro esempio possono essere gli interessi di un prestito o mutuo.
-
----
 ## Diritto di proprietà
 il diritto reale più importante è il diritto di proprietà
 >[!quote] Art. 832
@@ -45,7 +15,7 @@ Derivativo in quanto derivano da un precedente titolare.
 #### Titolo Originario
 Proprietà che comincia o inizia con me, ovvero l'invenzione, rinvenimento, diritti d'autore.
 La proprietà non si prescrive per mancato utilizzo del mio bene. Tuttavia se vi è qualcun'altro che si comporta come se fosse proprietario del bene, decorso un certo periodo di tempo, l'utilizzatore diventa il proprietario per ==uso capione==.
-Per far si che entri in campo l'uso capione ci deve essere il disinteresse di tale bene da parte del proprietario.
+Per far si che entri in campo l'uso capione ci deve essere il **disinteresse** di tale bene da parte del proprietario.
 ## Possesso
 >[!quote] Art. 1140
 >Il possesso e' il potere sulla cosa che si manifesta in un'attivita' corrispondente all'esercizio della proprieta' o di altro diritto reale
