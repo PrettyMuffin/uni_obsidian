@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diritto/Prima Parte/Proprietà e Possesso.md",
+                "file": "Probabilità e Statistica/Variabili Aleatorie.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Proprietà e Possesso"
+              "title": "Variabili Aleatorie"
             }
           }
         ]
@@ -192,30 +192,30 @@
   },
   "active": "3bb348e6b0b68766",
   "lastOpenFiles": [
+    "Probabilità e Statistica/Spazi di Probabilità.md",
+    "Probabilità e Statistica/Probabilità Condizionali e Indipendenza.md",
+    "Probabilità e Statistica/Misura Di Probabilità.md",
+    "Probabilità e Statistica/Disuguaglianza di Chebyshev (campionaria).md",
+    "Probabilità e Statistica/Dati d-Variati.md",
+    "Probabilità e Statistica/Costruzione di misure di probabilità discrete.md",
+    "Probabilità e Statistica/Concetti Fondamentali Statistica.md",
+    "Probabilità e Statistica/Variabili Aleatorie.md",
+    "Diritto/Prima Parte/Proprietà e Possesso.md",
     "Diritto/Prima Parte/Diritti Reali.md",
     "Diritto/Prima Parte/Diritti D'Autore.md",
     "Diritto/Prima Parte/Capacità e Diritti della Personalità.md",
     "Diritto/Prima Parte/Beni.md",
     "Diritto/Prima Parte/Aprile 2.md",
     "Diritto/Prima Parte/Antinomie e Abrogazioni.md",
-    "Probabilità e Statistica/Costruzione di misure di probabilità discrete.md",
-    "Probabilità e Statistica/Concetti Fondamentali Statistica.md",
-    "Diritto/Prima Parte/Proprietà e Possesso.md",
     "Diritto/Prima Parte/Diritto Privato.md",
     "Diritto/Prima Parte/Marzo 31.md",
     "Diritto/Prima Parte/Marzo 26.md",
     "Diritto/Prima Parte/Marzo 24.md",
-    "Probabilità e Statistica/Dati d-Variati.md",
-    "Probabilità e Statistica/Disuguaglianza di Chebyshev (campionaria).md",
-    "Probabilità e Statistica/Misura Di Probabilità.md",
-    "Probabilità e Statistica/Probabilità Condizionali e Indipendenza.md",
-    "Probabilità e Statistica/Spazi di Probabilità.md",
     "Diritto/Prima Parte/Normativismo vs Istituzionalismo.md",
     "Diritto/Prima Parte/Ordinamento Giuridico.md",
     "P.A.O./Classi.md",
     "P.A.O./Cast.md",
     "P.A.O./C++11.md",
-    "Probabilità e Statistica/Variabili Aleatorie.md",
     "Diritto/Prima Parte/Interpretazione della Legge.md",
     "Diritto/Seconda Parte/Maggio 5.md",
     "Diritto/Seconda Parte",
