@@ -35,4 +35,10 @@ div.mermaid {
   border-left: none;
 }
 
+.callout[data-callout="question"] {
+  --callout-color: 230, 180, 30;
+  --callout-icon: lucide-help-circle;
+  
+  border-left: 3px solid rgb(var(--callout-color));
+}
 

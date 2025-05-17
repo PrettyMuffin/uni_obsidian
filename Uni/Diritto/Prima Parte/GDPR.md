@@ -1,5 +1,4 @@
 Ospite: avv. Giovanni Calabrese
-# GDPR e Diritto alla protezione dei dati
 Diritto protezione dei dati e riservatezza sono diritti personali dunque assoluti.
 >[!def] Diritto riservatezza (Europa)
 > Diritto che ha ogni individuo di avere una propria sfera di intimità personale che è preclusa agli altri, e gli altri devono astenersi a interferire con questa sfera. Nato e sviluppato negli anni '60 come contrappeso alla libertà di stampa e diritto di cronaca.

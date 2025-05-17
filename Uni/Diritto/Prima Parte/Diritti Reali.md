@@ -21,5 +21,3 @@ Tra questi vi è l'usufrutto:
 > L'usufruttuario ha il potere di disporre, ha il diritto al possesso, ha il potere di dare in locazione alla cosa, l'unico vero obbligo è quello di non alterare la destinazione economica della cosa, cioè non modificare l'utilizzo che il proprietario faceva della cosa.
 
 **Uso**: diritto reale limitato, diritto del diretto usuario di usare il bene, ma non in quanto usufruttuario.
-
-# Diritti d'autore

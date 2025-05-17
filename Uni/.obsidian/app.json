@@ -8,8 +8,8 @@
   "pdfExportSettings": {
     "includeName": true,
     "pageSize": "A4",
-    "landscape": true,
+    "landscape": false,
     "margin": "0",
-    "downscalePercent": 70
+    "downscalePercent": 71
   }
 }
