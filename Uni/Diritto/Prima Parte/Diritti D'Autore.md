@@ -1,20 +1,4 @@
-## Altri diritti reali
-Tutti i diritti reali (tranne proprietà) sono limitati
-Tutti i diritti reali limitati coesistono con il diritto di proprietà, quando il proprietario cede ad altri una o più proprietà, il proprietario rimane il proprietario, semplicemente il soggetto avrà una qualche forma di potere sulla stessa cosa.
-Un proprietario può dare una sua proprietà in pegno, in ipoteca. Entrambi sono diritti reali limitati, o meglio di garanzia.
-Coesistono nel momento in cui viene a cessare il diritto reale limitato, il diritto di proprietà si riespande, ovvero tutti i diritti ceduti si estinguono, tutti i diritti ritornano al proprietario.
-Quali sono:
-- Pegno, Ipoteca
-- Godimento: usufrutto, servitù, etc.
 
-I diritti reali limitati sono limitati e previsti dalla legge, dunque i privati non possono crearne di nuovi:
-
-**Usufrutto**: diritto reale limitato più ampio che esiste, le facoltà del usufruttuario sono così ampie che al proprietario non rimane nulla, e prende il nome di *nudo proprietario*.
-L'usufruttuario ha il potere di disporne, ha il diritto al possesso, ha il potere di dare in locazione alla cosa, l'unico vero obbligo è quello di non alterare la destinazione economica della cosa, cioè non modificare l'utilizzo che il proprietario faceva della cosa.
-
-**Uso**: diritto reale limitato, diritto del diretto usuario di usare il bene, ma non in quanto usufruttuario.
-
-# Diritto d'autore
 >[!quote] Art. 2575
 >Formano oggetto del diritto di autore le opere dell'ingegno di carattere creativo che appartengono alle scienze, alla letteratura, alla musica, alle arti figurative, all'architettura, al teatro e alla cinematografia, qualunque ne sia il modo o la forma di espressione
 
