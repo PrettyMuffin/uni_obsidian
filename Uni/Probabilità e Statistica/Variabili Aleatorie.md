@@ -56,7 +56,7 @@ $$
 
 Con $Z = X_{1} + X_{2} + X_{3}$ abbiamo invece:
 $$
-\sigma(Z) = \{ \bigcup_{i \in \mathcal{J}} A_{j} : \mathcal{J} \subseteq \{ 3 \dots 18 \} \}
+\sigma(Z) = \left\{ \bigcup_{i \in \mathcal{J}} A_{j} : \mathcal{J} \subseteq \{ 3 \dots 18 \} \right\}
 $$
 Dove $A_j = \{ w \in \Omega : w_{1} + w_{2} + w_{3} = j\}$.
 Poiché, per $B \subseteq \mathbb{R}$, l'antiimmagine diventa

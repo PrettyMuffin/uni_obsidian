@@ -30,33 +30,8 @@
               "icon": "lucide-file",
               "title": "Contratto"
             }
-          },
-          {
-            "id": "6f4ed1036aa019d0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Diritto/Prima Parte/Contratto.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Contratto"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -215,11 +190,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6f4ed1036aa019d0",
+  "active": "8f06439c8235cc9f",
   "lastOpenFiles": [
     "Diritto/Prima Parte/Marzo 26.md",
-    "Diritto/Prima Parte/GDPR.md",
     "Diritto/Prima Parte/Contratto.md",
+    "Diritto/Prima Parte/Aprile 2.md",
+    "Probabilità e Statistica/Variabili Aleatorie.md",
+    "Diritto/Prima Parte/GDPR.md",
     "Untitled.md",
     "Diritto/Prima Parte/Diritti D'Autore.md",
     "Diritto/Prima Parte/Diritto Privato.md",
@@ -230,7 +207,6 @@
     "Diritto/Prima Parte/Proprietà e Possesso.md",
     "Probabilità e Statistica/Costruzione di misure di probabilità discrete.md",
     "Probabilità e Statistica/Concetti Fondamentali Statistica.md",
-    "Probabilità e Statistica/Variabili Aleatorie.md",
     "Probabilità e Statistica/Spazi di Probabilità.md",
     "Probabilità e Statistica/Probabilità Condizionali e Indipendenza.md",
     "Probabilità e Statistica/Misura Di Probabilità.md",
@@ -238,14 +214,13 @@
     "Probabilità e Statistica/Dati d-Variati.md",
     "Diritto/Prima Parte/Capacità e Diritti della Personalità.md",
     "Diritto/Prima Parte/Beni.md",
-    "Diritto/Prima Parte/Aprile 2.md",
     "Diritto/Prima Parte/Antinomie e Abrogazioni.md",
     "P.A.O./Classi.md",
     "P.A.O./Cast.md",
     "P.A.O./C++11.md",
     "Diritto/Seconda Parte",
     "Diritto/Prima Parte",
-    "Pasted image 20250326103658.png",
+    "Diritto/Prima Parte/Pasted image 20250326103658.png",
     "Diritto",
     "Probabilità e Statistica/Concetti Fondamentali.tex",
     "Probabilità e Statistica",

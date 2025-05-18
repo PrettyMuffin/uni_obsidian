@@ -1,8 +1,8 @@
 >[!def] **Diritti Relativi** #Definizione 
 > Diritti fatti valere contro uno specifico soggetto, es. diritto di credito.
 ## Contratto
->[!quote] Art. 1470
->**La vendita e' il contratto che ha per oggetto il trasferimento della [proprietà](Proprietà%20e%20Possesso) di una cosa o il trasferimento di un altro diritto verso il corrispettivo di un prezzo**.
+>[!quote] **Vendita** ([Art. 1470](https://www.brocardi.it/codice-civile/libro-quarto/titolo-iii/capo-i/sezione-i/art1470.html))
+>La vendita e' il contratto che ha per oggetto il trasferimento della [proprietà](Proprietà%20e%20Possesso) di una cosa o il trasferimento di un altro diritto verso il corrispettivo di un prezzo.
 
 >[!def] **Contratto** (Art. 1321 cc) 
 >L'accordo di due o più parti per costituire, regolare o estinguere tra loro un rapporto giuridico patrimoniale.
@@ -91,42 +91,68 @@ Contratti in cui ciascuna parte ricava un vantaggio e sopporta un sacrificio.
 ## Oggetto
 Oggetto del contratto: sia le prestazioni a cui le parti si vincolano, sia il bene che è concretamente oggetto di tali prestazioni.
 deve essere:
-- lecito: 
-- possibile: se è impossibile, il contratto è nullo. Dunque è una cosa che deve esistere materialmente oppure possibile giuridicamente, deve sempre essere conforme a norme imperative, ordine pubblico, e buon costume.
-- Determinato o Determinabile: se nel contratto vi sono indicazioni sufficienti a individuare la prestazione e la cosa che ne forma oggetto. 
-  - Determinabile: se sono fissati i criteri per la successiva determinazione.
+- **Lecito**: L’oggetto non deve essere contrario a **norme imperative, ordine pubblico o buon costume** (es.: vendita di droga, patto di schiavitù), se illecito il contratto è **nullo**.
+- **Possibile**: se è impossibile, il contratto è nullo. Dunque è una cosa che deve esistere materialmente oppure possibile giuridicamente, deve sempre essere conforme a norme imperative, ordine pubblico, e buon costume.
+- **Determinato**: se nel contratto vi sono indicazioni sufficienti a individuare la prestazione e la cosa che ne forma oggetto (es.: vendo la mia Fiat 500 targata AB123CD.)
+- **Determinabile**: se sono fissati i criteri per la successiva determinazione (es.: venderò 100 quintali di grano al prezzo di mercato del giorno X)
 ## Forma
-La forma è il modo di dichiarare una volontà, è evidente che può non non esserci un modo per stipulare un contratto, in quanto c'è sempre un modo per dichiarare la propria volontà.
-La forma è **libera** ovvero possono stipularlo nella forma che preferiscono, per alcuni contratti però la legge richiede la forma scritta, in questi casi parla di forma prevista ad-substanziam, senza questa forma particolare il contratto non ha sostanza, essenza, dunque nullo. es, contratto privato, atto pubblico del notaio.
-Se la legge non specifica la forma => subentra la libertà di forma.
-Forma ad-probazionem: la legge richiede una determinata forma per la sua provazione, ovvero una prova del contratto, generalmente forma scritta, se un contratto viene stipulato oralmente sarà sicuramente valido, ma a giudizio non può essere provato.
-La compravendita di un bene **immobile** è nulla se non viene fatta per iscritto, per legge.
+La forma è il modo di dichiarare una volontà, è evidente che non può non esserci un modo per stipulare un contratto, in quanto c'è sempre un modo per dichiarare la propria volontà.
+In generale la forma è **libera** ovvero possono stipularlo nella forma che preferiscono, per alcuni contratti però la legge richiede forme particolari 
+### Ad-substanziam
+I contratti _ad-substanziam_ sono contratti che richiedono **per legge** la forma scritta. 
+Senza questa forma particolare, il contratto non ha né sostanza né essenza, dunque nullo.
+>[!example] Es. Contratti con forma ad-substanziam
+> - Contratto compravendita di un immobile
+> - Contratto di donazione di beni mobili di valore elevato
+> - Contratto di mutuo ipotecario
 
---- 
+>[!important] **Forma non specificata**
+Se la legge non specifica la forma => subentra la libertà di forma.
+
+### Ad-probazionem
+I contratti **ad probationem** sono contratti per i quali la legge richiede una determinata forma (solitamente la forma scritta) ==**non come requisito di validità, ma** **solo a fini probatori**==, cioè per facilitare la dimostrazione dell’accordo in caso di controversia. 
+A differenza dei contratti _ad substantiam_ (dove la forma è essenziale per la validità stessa del negozio), in questi casi l’inosservanza della forma non comporta la nullità del contratto, ma solo una maggiore difficoltà nel provarne l’esistenza e il contenuto.
+>[!example] Es. Contatti con forma ad-probazionem
+>- Locazione di un immobile (affitto)
+>- Vendita di beni mobili non di particolare valore
+
+In sintesi, nei contratti _ad probationem_ la forma è un **mezzo di tutela**, non un requisito di esistenza degli stessi. La loro validità resta intatta anche senza scritto, ma la forma scritta evita rischi in caso di contestazioni.
 ## Obbligazione
-Compratore e venditore si obbligano reciprocamente ad una prescrizione, questi obblighi prendono il nome di obbligazioni, in virtù di un contratto di compravendita le parti diventano reciprocamente debitori e creditori rispetto controparte.
-Le obbligazioni possono nascere non solo dai contratti, ma anche da sinistri o comunque ogni altro atto idoneo a produrre obbligazione secondo l'ordinamento.
+L’obbligazione è il rapporto giuridico che lega debitore e creditore, ossia il rapporto in virtù del quale un soggetto è tenuto a compiere una prestazione a carattere patrimoniale in favore dell’altro.
+>[!quote] **Derivazione Obblicazioni** ([Art. 1173](https://www.brocardi.it/codice-civile/libro-quarto/titolo-i/capo-i/art1173.html))
+Le obbligazioni derivano da contratto, da fatto illecito o da ogni altro atto o fatto idoneo a produrle in conformità dell'ordinamento giuridico
+
 Obbligazioni principali del venditore:
 - Consegnare la cosa all'acquirente.
+
 Obbligazione principale del compratore:
 - Pagare il prezzo dovuto.
 
-### Questo è il principio **consensualistico**.
-La conclusione e la sottoscrizione delle prescrizioni possono avvenire in momenti diversi, ma se queste obbligazioni possono essere fatto in momenti diversi è perché il diritto oggetto è stato trasferito alla conclusione.
+## Principio **consensualistico**.
+>[!quote] **Principio consensualistico** ([Art. 1376](https://www.brocardi.it/codice-civile/libro-quarto/titolo-ii/capo-v/sezione-i/art1376.html))
+>Nei contratti che hanno per oggetto il trasferimento della proprietà di una cosa determinata, la costituzione o il trasferimento di un diritto reale ovvero il trasferimento di un altro diritto, la proprietà o il diritto si trasmettono e si acquistano per effetto del consenso delle parti legittimamente manifestato.
+
 Cioè nel momento in cui il consenso delle parti è stato leggittimamente manifestato, il trasferimento è avvenuto.
 La modalità della leggittimità può variare a seconda del contratto, per la maggior parte basta una proposta e accettazione conforme, in aggiunta agli altri: contratti consensuali.
 Per tutti gli altri non possiamo parlare di consenso fino a che non vi è la consegna del bene.
 
 
 # Elementi accidentali
-possono esserci o non esserci:
-- Condizione: evento futuro e incerto in cui fanno dipendere il contratto, non può essere impossibile, lo rende nullo se è condizione sospensiva, mentre per condizione risolutiva si considera non apposta quindi non possibile.
-  Pendenza della condizione: tempo in cui la condizione ha efficacia. (da approfondire)
-  condizione sospensiva, es. ti dono la biblioteca quando ti laurei, 
-  condizione risolutiva: es: quando l'inquilino esce di casa te la vendo.
-- Termine: evento futuro e certo da cui si fanno dipendere il contratto, es il contratto di lavoro.
+>[!def] **Elementi Accidentali** #Definizione 
+Gli **elementi accidentali del contratto** sono clausole o condizioni aggiuntive che le parti possono liberamente inserire nell’accordo, ma che **non sono essenziali per la sua validità**. A differenza degli elementi essenziali (consenso, causa, oggetto e forma, quando richiesta), questi modificano solo gli effetti del contratto in base alle volontà delle parti.
+
+I principali elementi accidentali sono:
+1. **Condizione**: eventi futuro e incerto in cui fanno dipendere il contratto. 
+   Si divide in:
+   - _Condizione sospensiva_: Il contratto produce effetti solo al verificarsi di un evento futuro e incerto (es.: _"Ti vendo la macchina se superi l’esame di guida"_).
+   - _Condizione risolutiva_: Gli effetti del contratto cessano se si verifica un determinato evento (es.: _"L’affitto si scioglie se perdi il lavoro"_).
+    
+    Il tempo in cui la condizione ha efficacia si dice **pendenza della condizione** #Definizione 
+1. **Termine**: Evento futuro e certo da cui si fanno dipendere il contratto. 
+   Si divide in:
+   - _Termine Iniziale_: Gli effetti del contratto iniziano da una data futuro certa (es.: _"Il contratto di locazione decorre dal 1° gennaio"_).
+   - _Termine finale_: Il contratto cessa automaticamente a una data stabilita (es.: _"Il leasing scade il 31 dicembre"_).
 
 
 [^1]:ovvero che trovano disciplina nella legge
 
-[^2]: 
