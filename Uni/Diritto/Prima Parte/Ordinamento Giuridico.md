@@ -57,7 +57,7 @@ Di conseguenza Diritto Internazionale e Costituzione sono cose separate ma comun
 Una particolare comunità internazionale è il Consiglio d'Europa, quest'ultima è un' organizzazione internazionale che non ha nulla a che fare con l'**Unione Europea**.
 Il Consiglio d'Europa ha come fine la tutela e lo scopo dei diritti umani, i paesi che hanno aderito a questa organizzazione hanno sottoscritto una convenzione per la salvaguardia dei diritti dell'uomo.
 Per far sì che i paesi membri rispettino le direttive e i regolamenti di questa organizzazione è stato istituito il tribunale del CEDU(Corte Europea Diritto Dell'uomo). 
-Che è del tutto diversa dalla Corte di giustizia dell'unione europea (vigila sul corretto recepimento delle direttive dei **STATI MEMBRI DELL'UNIONE EUROPEA**).
+Che è del tutto diversa dalla Corte di giustizia dell'unione europea (vigila sul corretto recepimento delle direttive degli **STATI MEMBRI DELL'UNIONE EUROPEA**).
 ## Fonti Unione Europea
 ### 1. Trattati, Principi Generali, Carta Diritti Fond. UE (diritto originario)
 #### Trattati

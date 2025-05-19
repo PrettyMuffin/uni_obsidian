@@ -52,7 +52,8 @@ I diritti possono comunque essere trasferiti seguendo 2 principi:
 >2. non ci devono essere situazioni che impediscono l'esercizio del diritto.
 >3. il mancato esercizio
 >4. il tempo previsto per legge è trascorso, termine ordinario è 10 anni.
-   Diritti reali (su beni) il termine ordinario è 20 anni
+>
+>Diritti reali (su beni) il termine ordinario è 20 anni
 
 ==Rinunciabile==: ovvero se io dopo 10 anni agisco in giudizio contro il mio debitore per chiedere la restituzione della somma dovuta, è descrizione del debitore far valere la ricevuta. Oppure nonostante sia prescritto può decidere di pagare.
 

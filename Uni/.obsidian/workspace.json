@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c07bdb890f295b7a",
+        "id": "5015d0f52f0b7971",
         "type": "tabs",
         "children": [
           {
-            "id": "3bb348e6b0b68766",
+            "id": "4b1c9ee34583c74f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "beyes",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Diritto/Prima Parte/Diritto Privato.md",
+                "file": "Benvenuto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Diritto Privato"
+              "title": "Riferimenti a Benvenuto"
             }
           },
           {
@@ -123,12 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Diritto/Prima Parte/Diritto Privato.md",
+                "file": "Classi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Diritto Privato"
+              "title": "Outgoing links from Classi"
             }
           },
           {
@@ -138,9 +138,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
+                "useHierarchy": true
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -152,17 +150,14 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diritto/Prima Parte/Diritto Privato.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
+                "file": "Classi.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Diritto Privato"
+              "title": "Outline of Classi"
             }
           },
           {
-            "id": "8f06439c8235cc9f",
+            "id": "8bcea40682e09863",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -190,37 +185,38 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8f06439c8235cc9f",
+  "active": "4b1c9ee34583c74f",
   "lastOpenFiles": [
-    "Diritto/Prima Parte/Marzo 26.md",
+    "Diritto/Prima Parte/Beni.md",
     "Diritto/Prima Parte/Contratto.md",
+    "Diritto/Prima Parte/Ordinamento Giuridico.md",
+    "Diritto/Seconda Parte/Maggio 14.md",
     "Diritto/Prima Parte/Aprile 2.md",
-    "Probabilità e Statistica/Variabili Aleatorie.md",
-    "Diritto/Prima Parte/GDPR.md",
-    "Untitled.md",
+    "Diritto/Seconda Parte/Maggio 19.md",
+    "Diritto/Prima Parte/Contratti Online.md",
+    "Diritto/Prima Parte/Proprietà e Possesso.md",
     "Diritto/Prima Parte/Diritti D'Autore.md",
     "Diritto/Prima Parte/Diritto Privato.md",
+    "Diritto/Prima Parte/Pasted image 20250326103658.png",
+    "Diritto/Prima Parte/GDPR.md",
     "Diritto/Prima Parte/Diritti Reali.md",
-    "Diritto/Prima Parte/Interpretazione della Legge.md",
-    "Diritto/Prima Parte/Normativismo vs Istituzionalismo.md",
-    "Diritto/Prima Parte/Ordinamento Giuridico.md",
-    "Diritto/Prima Parte/Proprietà e Possesso.md",
-    "Probabilità e Statistica/Costruzione di misure di probabilità discrete.md",
-    "Probabilità e Statistica/Concetti Fondamentali Statistica.md",
-    "Probabilità e Statistica/Spazi di Probabilità.md",
-    "Probabilità e Statistica/Probabilità Condizionali e Indipendenza.md",
-    "Probabilità e Statistica/Misura Di Probabilità.md",
-    "Probabilità e Statistica/Disuguaglianza di Chebyshev (campionaria).md",
-    "Probabilità e Statistica/Dati d-Variati.md",
     "Diritto/Prima Parte/Capacità e Diritti della Personalità.md",
-    "Diritto/Prima Parte/Beni.md",
+    "Diritto/Prima Parte/Interpretazione della Legge.md",
     "Diritto/Prima Parte/Antinomie e Abrogazioni.md",
-    "P.A.O./Classi.md",
-    "P.A.O./Cast.md",
-    "P.A.O./C++11.md",
+    "Diritto/Prima Parte/Normativismo vs Istituzionalismo.md",
+    "Diritto/Seconda Parte/Maggio 5.md",
+    "Diritto/Seconda Parte/Aprile 30.md",
+    "Diritto/Seconda Parte/Aprile 28.md",
+    "Diritto/Seconda Parte/Aprile 23.md",
+    "Diritto/Seconda Parte/Maggio 12.md",
+    "Diritto/Seconda Parte/Aprile 9.md",
+    "Diritto/Seconda Parte/Maggio 7.md",
+    "Diritto/Seconda Parte/Aprile 7 (Inizio Seconda Parte).md",
+    "Diritto/Prima Parte/Marzo 31.md",
+    "Diritto/Prima Parte/Marzo 24.md",
     "Diritto/Seconda Parte",
     "Diritto/Prima Parte",
-    "Diritto/Prima Parte/Pasted image 20250326103658.png",
+    "Pasted image 20250326103658.png",
     "Diritto",
     "Probabilità e Statistica/Concetti Fondamentali.tex",
     "Probabilità e Statistica",

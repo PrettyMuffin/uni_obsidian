@@ -12,7 +12,10 @@ es. Acqua, alberi in senso naturale. Edifici in senso artificiale
 Sono beni mobili ovvero tutto ciò che non è immobile, ma che sono soggetti a dei vincoli di registrazione in particolari registri, es automobile registrata al PRA (Pubblico Registro Automobili).
 Sopratutto materiali.
 ## Mobili 
-Utilità economiche prive di materialità: es marchio, una opera di ingegno, un software.
+Rientrano in questa classificazione tutti i beni che **non sono fissati al suolo in modo permanente** e che possono essere spostati senza danneggiarsi o perdere la loro identità.
+
+>[!example] Es.
+>Marchio, una opera di ingegno, un software.
 
 
 Cose generiche: Es un codice civile
