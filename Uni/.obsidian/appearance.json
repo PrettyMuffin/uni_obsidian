@@ -4,5 +4,6 @@
   "enabledCssSnippets": [
     "snippets"
   ],
-  "theme": "moonstone"
+  "theme": "moonstone",
+  "nativeMenus": false
 }

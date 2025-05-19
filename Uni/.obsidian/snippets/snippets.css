@@ -1,7 +1,6 @@
 .callout[data-callout="def"] {
     --callout-color: 94, 92, 230;
     --callout-icon: lucide-book-a;
-    border-left: 3px solid rgb(var(--callout-color));
 }
 
 div.mermaid {
@@ -11,34 +10,22 @@ div.mermaid {
 .callout[data-callout="teo"] {
     --callout-color: 33, 100, 119;
     --callout-icon: lucide-sigma;
-    /*background-color: rgba(var(--callout-color), 0.12);*/
-    border-left: 3px solid rgb(var(--callout-color));
 }
 
-/* Callout COROLLARIO - Celeste Tenue (#76C7E0) */
 .callout[data-callout="cor"] {
   --callout-color: 118, 199, 224;
   --callout-icon: lucide-arrow-right-from-line;
-  
-  /* Stile base */
-  background-color: rgba(var(--callout-color), 0.12);
-  border-left: 3px solid rgb(var(--callout-color));
-}
-
-
-.callout[data-callout="teo"] .callout[data-callout="cor"] {
-  --callout-color: 118, 199, 224;
-  --callout-icon: lucide-arrow-right-from-line;
-  
-  /* Stile base */
-  background-color: rgba(var(--callout-color), 0.12);
-  border-left: none;
 }
 
 .callout[data-callout="question"] {
   --callout-color: 230, 180, 30;
   --callout-icon: lucide-help-circle;
-  
+}
+
+.callout {
   border-left: 3px solid rgb(var(--callout-color));
 }
 
+.callout .callout {
+  border-left: none;
+}
