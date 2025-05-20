@@ -46,9 +46,8 @@ La risarcibilità di questi danni è subordinata alla dimostrazione del <u>nesso
 >[!quote] **Responsabilità Extracontrattuale** (art. 2043)
 >Qualunque fatto doloso o colposo, che cagiona ad altri un ==danno ingiusto==, obbliga colui che ha commesso il fatto a risarcire il danno.
 
-Illecito extracontrattuale
 servono 4 elementi: 2 soggettivi, 2 oggettivi
-### Oggettivi:
+### Elementi Oggettivi:
 #### Danno Ingiusto
 Per **"danno ingiusto"** si intende una **lesione di un interesse giuridicamente protetto** 
 (patrimoniale o non patrimoniale) che:
@@ -69,40 +68,77 @@ Cause che escludono ingiustizia:
 - Legittima difesa: difendersi da un pericolo attuale e offesa ingiusta, difesa proporzionata a offesa;
 - Stato di necessità: difendere sé o altri da un pericolo attuale di un danno grave alla persona;
 #### Nesso Causale
-Qualunque fatto colposo o doloso che causa danno ad altri
+Il **nesso causale** è il legame di causa-effetto tra il comportamento colposo o doloso di un soggetto e il **danno ingiusto** subito da un altro, necessario per il risarcimento
 
-Prescrizione: 10 anni dall'inadempimento
+> L’azione di risarcimento si prescrive in **5 anni**, decorrenti dal momento in cui il danno si verifica ed è conoscibile.
 
-### Soggettivi
+>[!example] Esempi
+>1. **Incidente stradale**: Se Tizio guida distratto e investe Caio, il nesso causale collega la negligenza di Tizio alle lesioni di Caio.
+>2. **Malasanità**: Un medico che opera in modo errato, causando danni al paziente, risponde per il nesso tra la sua condotta e il danno.
+>3. **Crollo di un edificio**: Se un costruttore usa materiali scadenti e la casa crolla, il nesso causale lega la sua negligenza al danno subito dai proprietari.
+
+### Elementi Soggettivi
 #### Imputabilità
 >[!quote] Art. 2046: Imputabilità del fatto dannoso
 >Non risponde delle conseguenze del fatto dannoso chi non aveva la capacità di intendere e di volere al momento in cui lo ha commesso, a meno che lo stato d'incapacità derivi da sua colpa
 
-In caso di danno dall'incapace, ne risponde il sorvegliante.
-Nel caso il danneggiato non abbia potuto ottenere il risarcimento dal sorvegliante perché magari non presente, il giudice in considerazione delle condizioni economiche delle parti, il giudice può condannare l'autore del danno ad un'equa indennità, ovvero riporta il danneggiato alla situazione in cui era prima del danno al meglio delle possibilità economiche dell'autore del danno.
+>[!def] **Imputabilità**
+L’**imputabilità** è la capacità di intendere e di volere al momento del fatto dannoso. Chi non è capace di comprendere le proprie azioni (es. minori, interdetti, persone in stato di incapacità temporanea) **non è responsabile civilmente**, a meno che l’incapacità derivi da sua **colpa** (es. ubriachezza volontaria).
 
+Se il danno è causato da un soggetto incapace (es. minore, persona con disabilità mentale), **ne risponde chi era tenuto a sorvegliarlo** (genitori, tutori, istituti).
+
+Se il danneggiato **non può ottenere il risarcimento dal sorvegliante** (es. perché insolvente o assente), il giudice può:
+- **Condannare l’autore incapace a un’equa indennità**, in base alle sue condizioni economiche;
+- **Ripristinare, per quanto possibile, la situazione preesistente al danno**, sempre tenendo conto delle possibilità finanziarie dell’incapace.
+
+>[!example] Esempi:
+>1. Un bambino rompe un vetro della macchina del vicino → **risponde il genitore** (sorvegliante).
+>2. Un ubriaco (incapacità auto-provocata) danneggia un negozio → **risponde lui stesso**.
+>3. Un malato mentale senza sorvegliante ferisce una persona → il giudice può fissare **un’indennità proporzionale alle sue possibilità**.
+
+> Si prescrive in 5 anni.
 #### Colpevolezza
-Categoria generale che comprende:
-- Colpa: deriva da imprudenza, negligenza, etc...
-- Dolo: intenzionalità di porre in essere quella condotta 
+La **colpevolezza** è l’**elemento soggettivo** che lega il comportamento di un soggetto al danno causato, distinguendosi in due forme principali:
+##### Dolo
+ _Intenzione_ di commettere il fatto dannoso (es. frode, atto vandalico).
+>[!example] Esempio
+> Tizio rompe volontariamente il vetro di un negozio.
+#####  Colpa
+ _Mancanza di diligenza_, ovvero:
+- **Imprudenza** (agire senza cautela);
+- **Negligenza** (omissione di precauzioni);
+- **Inosservanza di leggi/regolamenti** (es. violazione del codice della strada).
 
-==Il danno è risarcibile solo se è stato commesso o con dolo o con colpa.==
-Il legislatore, sia nel codice civile sia in altre leggi, prevede delle ipotesi di natura extracontrattuale che prescindono dalla colpevolezza (elemento psicologico).
-Sono ipotesi ben precise e tassative[^1] :
-- Responsabilità Oggettiva: prescindono dalla colpevolezza e si basano su un rischio.
-  - Animali o cose;
-  - Attività Pericolose, a meno che non si dimostra di aver preso tutte le precauzioni;
-  - Da rovina di edifici, a meno che il proprietario non dimostra che c'è vizio di costruzione oppure di aver dimostrato di aver fatto tutte le manutenzioni necessarie;
-  - Circolazione di Veicoli: Il proprietario del veicolo si libera soltanto se la circolazione è venuta contro la sua volontà, il conducente si libera soltanto se prova di aver fatto tutto il possibile per evitare il danno;
-  - Prodotto Difettoso (troviamo in direttiva europea): Disciplina la responsabilità del produttore per prodotto difettoso.
-    Con prodotto difettoso intendo un prodotto non in quanto non funzionante, ma in quanto cagionante danno;
-- Responsabilità Indiretta: prescindono dalla colpevolezza, ma si tratta di ipotesi di responsabilità di fatto altrui
-  - Incapace naturale: responsabilità del sorvegliante, prova liberatoria: sorvegliante dimostra di non aver potuto impedire il fatto;
-  - Minore o interdetto (incapace legale): Responsabilità al genitore o tutore, prova liberatoria: solo se dimostrano di non aver potuto impedire il fatto;
-  - Dal Dipendente: non risponde il lavoratore, ma il datore di lavoro, non è prevista prova liberatoria.
+>[!example] **Esempio**
+>Caio provoca un incidente perché guidava distratto al telefono.
 
-Prescrizione: 5 anni dal fatto illecito.
 
+>[!important] **Risarcibilità Danno**
+>==IL DANNO È RISARCIBILE SOLO SE È STATO COMMESSO O CON DOLO O CON COLPA==
+
+
+Il legislatore, sia nel codice civile sia in altre leggi, prevede delle ipotesi di natura extracontrattuale che prescindono dalla colpevolezza queste sono ipotesi ben precise e tassative[^1] :
+##### Responsabilità Oggettiva
+Prescindono dalla colpevolezza e si basano su un rischio:
+
+| Fattispecie                                                                                     | **Chi risponde?**         | Alcune prove liberatorie per fattispecie                                                                                                                                                |
+| ----------------------------------------------------------------------------------------------- | ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Animali o cose in custodia**                                                                  | Proprietario / Custode    | Dimostrare il **caso fortuito**                                                                                                                                                         |
+| **Attività pericolose**                                                                         | Chi svolge l'attività     | Aver adottato **tutte** le precauzioni                                                                                                                                                  |
+| **Rovina di edicifi**                                                                           | Proprietario              | Vizio di costruzione o aver fatto tutte le manutenzioni necessarie e comunque comunque non è basto                                                                                      |
+| **Circolazione di veicoli**                                                                     | Proprietario / Conducente | - **Proprietario**: circolazione del veicolo contro la sua volontà.<br>- **Conducente**: Aver fatto tutto il possible per evitare il danno.                                             |
+| **Prodotto difettoso** (difettoso in quanto cagionante danno, **non in quanto malfunzionante**) | Produttore                | - Prodotto non difettoso al momento dell'immissione in commercio-<br>- Difetto insuperabile allo stato delle conoscenze scientifiche e tecniche del tempo dell'immissione in commercio. |
+|                                                                                                 |                           |                                                                                                                                                                                         |
+##### Responsabilità Indiretta
+Prescindono dalla colpevolezza, ma si tratta di ipotesi di responsabilità per fatto altrui
+
+| Fattispecie           | Chi Risponde?     | Prova Liberatoria                                    |
+| --------------------- | ----------------- | ---------------------------------------------------- |
+| **Incapace naturale** | Sorvegliante      | Non aver potuto impedire il fatto                    |
+| **Minore / Inetto**   | Genitori / Tutori | Non aver potuto impedire il fatto                    |
+| **Dipendente**        | Datore di lavoro  | Nessuna prova liberatoria, responsabilità automatica |
+
+> **Prescrizione:** 5 anni dal fatto illecito
 
 
 [^1]: che non sono suscettibili di applicazione in via analogica: ovvero colmare una lacuna dell'ordinamento guardando una legge che prevede una situazione analoga.

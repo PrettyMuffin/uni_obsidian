@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diritto/Prima Parte/Illecito Civile.md",
+                "file": "Diritto/Prima Parte/GDPR.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Illecito Civile"
+              "title": "GDPR"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "responsabilità extracontrattuale",
+                "query": "diritti personali",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "53e7b442ff53f276",
@@ -187,18 +188,19 @@
   },
   "active": "4b1c9ee34583c74f",
   "lastOpenFiles": [
+    "Diritto/Prima Parte/Diritto Privato.md",
     "Diritto/Prima Parte/Diritti Reali.md",
+    "Diritto/Prima Parte/Diritti D'Autore.md",
+    "Diritto/Prima Parte/Contratto.md",
     "Diritto/Prima Parte/Illecito Civile.md",
     "Diritto/Prima Parte/GDPR.md",
-    "Diritto/Prima Parte/Contratto.md",
+    "Untitled.md",
     "Diritto/Prima Parte/Beni.md",
     "Diritto/Prima Parte/Ordinamento Giuridico.md",
     "Diritto/Seconda Parte/Maggio 14.md",
     "Diritto/Seconda Parte/Maggio 19.md",
     "Diritto/Prima Parte/Contratti Online.md",
     "Diritto/Prima Parte/Proprietà e Possesso.md",
-    "Diritto/Prima Parte/Diritti D'Autore.md",
-    "Diritto/Prima Parte/Diritto Privato.md",
     "Diritto/Prima Parte/Pasted image 20250326103658.png",
     "Diritto/Prima Parte/Capacità e Diritti della Personalità.md",
     "Diritto/Prima Parte/Interpretazione della Legge.md",
@@ -213,7 +215,6 @@
     "Diritto/Seconda Parte/Maggio 7.md",
     "Diritto/Seconda Parte/Aprile 7 (Inizio Seconda Parte).md",
     "Diritto/Prima Parte/Marzo 31.md",
-    "Diritto/Prima Parte/Marzo 24.md",
     "Diritto/Seconda Parte",
     "Diritto/Prima Parte",
     "Pasted image 20250326103658.png",

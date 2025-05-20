@@ -1,5 +1,5 @@
 .callout[data-callout="def"] {
-    --callout-color: 94, 92, 230;
+    --callout-color: 90, 135, 112;
     --callout-icon: lucide-book-a;
 }
 
@@ -28,4 +28,7 @@ div.mermaid {
 
 .callout .callout {
   border-left: none;
+}
+.callout .callout-title {
+  font-weight: bold;  /* Grassetto moderato */
 }

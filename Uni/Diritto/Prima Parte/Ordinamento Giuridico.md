@@ -104,7 +104,7 @@ Un esempio concreto di questa interazione si è visto nel caso della delimitazio
 
 Possono essere
 ##### Vincolanti
-   -  Regolamento: Una legge europea valida in tutti gli stati membri senza bisogno di recepimento, è **direttamente applicabile**, es. GDPR
+   -  Regolamento: Una legge europea valida in tutti gli stati membri senza bisogno di recepimento, è **direttamente applicabile**, es. GDPR ^ced798
    -  Direttiva: Un obbiettivo da raggiungere lasciando agli stati membri la discrezione di come raggiungere gli obbiettivi prefissati dalla direttiva, es. Direttiva sul congedo di maternità.
    -  Decisione: Atto specifico rivolto verso **uno Stato, un'impresa o una persona** se ne deduce quindi che è vincolante solo per il destinatario, es. Decisione della Commissione che multa un'azienda per antitrust. 
 ##### Non Vincolanti
