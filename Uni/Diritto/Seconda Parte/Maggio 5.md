@@ -2,7 +2,7 @@
 > etero organizzazione: non esiste il potere direttivo, ma il cliente eseguisce il potere, quando è il committente ad organizzare le modalità di esecuzione della prestazione continuativa e prevalentemente personale.
 >
 
-| [Contratto D'appalto](Aprile%2030.md#^604be5) | [Contratto D'Opera](Aprile%2030.md#^03fb49) |
+| [Contratto D'appalto](Diritto%20Del%20Lavoro.md#^604be5) | [Contratto D'Opera](Diritto%20Del%20Lavoro.md#^03fb49) |
 | ------------------------------------------ | ---------------------------------------- |
 | Committente                                | Imprenditore                             |
 | Imprenditore                               | Autonomo (singolo ovvero no impresa)     |

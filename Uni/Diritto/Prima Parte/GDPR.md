@@ -11,6 +11,7 @@ Sono dunque estremamente differenti per noi europei, mentre per es. gli american
 
 La convenzione 108, direttiva '94, il regolamento europeo sulla protezione dei dati reg 679/2016.
 
+
 ## Definizioni Importanti
 
 >[!def] Personal Data
@@ -35,7 +36,11 @@ La convenzione 108, direttiva '94, il regolamento europeo sulla protezione dei d
 
 ## GDPR (Regolamento 679/2016)
 Si tratta della legislazione più all'avanguardia riguardo il trattamento della protezione dei dati.
-Dopo questo [regolamento](Ordinamento%20Giuridico#^ced798) le big tech hanno preferito trasferire tutti i server all'interno dell'unione europea.
+
+> Idea di base: consentire sempre all'umano di controllare e tenere il controllo sul funzionamento dei strumenti informatici.
+> Espresso nell'articolo 13 GDPR.
+
+Dopo questo [regolamento](Ordinamento%20Giuridico#^ced798) le big tech hanno infatti preferito trasferire tutti i server all'interno dell'unione europea.
 Ci sono 3 aspetti particolari che rendono questo regolamento così all'avanguardia
 1. **Accountability**
 2. **Nuovi Prerogative**: Diritti o meglio prerogative che prima non esistevano: 
@@ -135,11 +140,8 @@ Qualsiasi raccolta aggiuntiva di dati deve essere **attivamente scelta dall’in
 
 Questi principi aiutano a rendere il rispetto della privacy **parte integrante della cultura aziendale**, e non solo un obbligo formale.
 
-## Profiling
->[!def] Profiling
->**Profiling** è qualsiasi tipo di trattamento automatizzato di dati personali che consiste nell’analizzare o prevedere aspetti personali relativi a una persona fisica, come le sue preferenze, il comportamento, la situazione economica, la salute, o i movimenti, al fine di valutare o influenzare aspetti della sua vita.
 
-### Cookies
+## Cookies
 >[!def] Cookie
 >Un **cookie** è un piccolo file di testo che un sito web invia e memorizza nel dispositivo dell’utente (computer, smartphone, tablet) durante la navigazione. Questo file contiene informazioni che possono essere lette successivamente dallo stesso sito (o da altri siti che usano lo stesso cookie) per vari scopi, come ricordare le preferenze dell’utente, tenere traccia delle sessioni di accesso, raccogliere dati statistici o profilare il comportamento di navigazione.
 ##### Cookie tecnici
@@ -149,3 +151,33 @@ Sono considerati essenziali per il funzionamento del sito e, secondo l’articol
 Diversamente, i cookie di profilazione hanno una funzione più invasiva, in quanto servono a tracciare le azioni e i comportamenti ricorrenti dell’utente durante la navigazione, al fine di collegarli a soggetti identificati o identificabili. 
 Questo permette al titolare del trattamento di creare profili utente, raggrupparli in categorie omogenee e offrire un servizio sempre più personalizzato, anche attraverso l’invio di messaggi pubblicitari mirati in base alle preferenze espresse.
 Proprio per la loro natura, i cookie di profilazione richiedono il consenso esplicito dell’utente. 
+
+
+## Articolo 22
+
+>[!quote] Paragrafo $\mathbf{I}$
+>L'interessato ha il diritto di non essere sottoposto a una decisione basata unicamente sul trattato automatizzato, compresa la profilazione, che produca effetti giuridici che lo riguardano o che incida in odo analogo significativamente sulla sua persona.
+>
+
+>[!def] Profilazione #Definizione 
+> la profilazione (o "profiling") si riferisce al trattamento automatizzato di dati personali per valutare aspetti personali, analizzarli o prevedere comportamenti.
+
+Il paragrafo $\mathbf{I}$ però non sia applica nel caso in cui la decisione (del processo automatizzato):
+1. Sia necessaria per la conclusione o l'esecuzione di un contratto tra l'interessato e un titolare del trattamento;
+2. Sia autorizzata dal diritto dell'Unione o dello Stato membro cui è soggetto il titolare del trattamento, che precisa altresì misure adeguate a tutela dei diritti, delle libertà e dei diritti dei legittimi interessati.
+3. Si basi sul consenso esplicito dell'interessato.
+
+>[!def] Registro dei Trattamenti
+>Indica il modello di valutazione per l'esecuzione del procedimento automatizzato.
+
+Nel trattamento automatizzato dei dati, il **titolare del trattamento** ha il dovere di proteggere i diritti e le libertà dell’interessato, in particolare garantendo la possibilità di :
+- ottenere l’intervento umano
+- esprimere la propria opinione
+- contestare la decisione presa da un sistema automatizzato. 
+
+Questo è essenziale per evitare che l’individuo venga ridotto a oggetto passivo di processi algoritmici.
+
+>[!important] Importante
+>Un aspetto centrale è la qualità dell’informativa fornita: essa deve contenere **informazioni significative**, cioè comprensibili, sulle **logiche utilizzate dal sistema**. 
+
+Non serve spiegare il funzionamento tecnico nel dettaglio, ma è necessario offrire una descrizione chiara del modo in cui il sistema prende decisioni: quali dati considera e su quali criteri si basa.

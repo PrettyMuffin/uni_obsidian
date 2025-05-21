@@ -38,4 +38,4 @@ Il tribunale ha detto si pk l'atto stesso di scegliere l'immagine tra quelle pos
 
 Nel 2023: : corte di cassazione
 La dott. Bancheri chiara cita in giudizio la RAI dicendo che l'immagine che la rai che ha usato nel festival di sanremo precedente, era sua generata da una ai.
-La cassazione ha detto si pk utilizza approccio casistico, e considera il prompt dettagliato costituisce espressione della creatività umana, manifestando anche la necessità di più rigore nel vedere il tasso di creatività dell'ai nel processo di creativo.
+La cassazione ha detto si pk utilizza approccio casistico, e considera il prompt dettagliato costituisce espressione della creatività umana, ==manifestando anche la necessità di più rigore nel vedere il tasso di creatività dell'ai nel processo di creativo==.
