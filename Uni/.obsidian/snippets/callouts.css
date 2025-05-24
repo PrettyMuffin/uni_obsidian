@@ -1,5 +1,5 @@
 .callout[data-callout="def"] {
-    --callout-color: 90, 135, 112;
+    --callout-color: 122, 158, 159;
     --callout-icon: lucide-book-a;
 }
 
@@ -8,7 +8,7 @@ div.mermaid {
 }
 
 .callout[data-callout="teo"] {
-    --callout-color: 33, 100, 119;
+    --callout-color: 54, 97, 91;
     --callout-icon: lucide-sigma;
 }
 
@@ -29,6 +29,12 @@ div.mermaid {
 .callout .callout {
   border-left: none;
 }
-.callout .callout-title {
-  font-weight: bold;  /* Grassetto moderato */
+
+.callout-title-inner {
+  font-weight: 700 !important;
+}
+
+mark {
+  padding: 0.01em 0.4em;      /* spaziatura interna */
+  border-radius: 6px;        /* bordo arrotondato */
 }

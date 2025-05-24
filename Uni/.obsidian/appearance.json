@@ -1,8 +1,9 @@
 {
-  "cssTheme": "Border",
+  "cssTheme": "",
   "accentColor": "",
   "enabledCssSnippets": [
-    "snippets"
+    "snippets",
+    "callouts"
   ],
   "theme": "moonstone",
   "nativeMenus": false
