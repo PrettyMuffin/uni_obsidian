@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diritto/Prima Parte/Illecito Civile.md",
+                "file": "Diritto/Seconda Parte/Obblighi e modifiche di contratto.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Illecito Civile"
+              "title": "Obblighi e modifiche di contratto"
             }
           }
         ]
@@ -107,6 +107,69 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "e5266e4179ddcad4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Diritto/Seconda Parte/Potere Disciplinare.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Potere Disciplinare"
+            }
+          },
+          {
+            "id": "1dc520d4e0cc52cb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Diritto/Seconda Parte/Potere Disciplinare.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Potere Disciplinare"
+            }
+          },
+          {
+            "id": "bba5490a0e4bdb23",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "dcc09413f49754a6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Diritto/Seconda Parte/Potere Disciplinare.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Potere Disciplinare"
+            }
           }
         ]
       }
@@ -129,16 +192,17 @@
   "active": "e1332b192253ac1f",
   "lastOpenFiles": [
     "Diritto/Seconda Parte/Potere Disciplinare.md",
-    "Diritto/Seconda Parte/Lavoro Subordinato.md",
+    "Diritto/Seconda Parte/Potere Di Controllo.md",
+    "Diritto/Seconda Parte/Obblighi e modifiche di contratto.md",
+    "Diritto/Seconda Parte/Licenziamento (Recesso).md",
     "Diritto/Seconda Parte/Lavoro Autonomo.md",
+    "Diritto/Seconda Parte/Tecnologia e Lavoro Dignitoso.md",
     "Diritto/Seconda Parte/Maggio 12.md",
-    "Diritto/Seconda Parte/Maggio 14.md",
-    "Diritto/Seconda Parte/Maggio 19.md",
-    "Diritto/Seconda Parte/Maggio 21.md",
+    "Diritto/Seconda Parte/Lavoro Subordinato.md",
+    "Diritto/Prima Parte/Illecito Civile.md",
     "Diritto/Seconda Parte/Maggio 5.md",
     "Diritto/Seconda Parte/Diritto Del Lavoro.md",
     "Diritto/Seconda Parte/AI e Diritto D'Autore.md",
-    "Diritto/Seconda Parte/Tecnologia e Lavoro Dignitoso.md",
     "Diritto/Prima Parte/Diritti Reali.md",
     "Probabilità e Statistica/Probabilità Condizionali e Indipendenza.md",
     "P.A.O./Cast.md",
@@ -149,7 +213,6 @@
     "Diritto/Prima Parte/Diritti D'Autore.md",
     "Diritto/Prima Parte/Diritto Privato.md",
     "Diritto/Prima Parte/Proprietà e Possesso.md",
-    "Diritto/Prima Parte/Illecito Civile.md",
     "P.A.O./Costruttori.md",
     "Diritto/Prima Parte/Beni.md",
     "Diritto/Prima Parte/Ordinamento Giuridico.md",

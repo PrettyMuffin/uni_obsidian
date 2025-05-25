@@ -1,20 +1,3 @@
-Qual'è la rilevanza dell'organizzazione aziendale sui rapporti di lavoro
-la volta scorsa ci siamo imbattuti in ragioni organizzative produttive e tecniche studiano l'articolo 2103. Ovvero la norma che disciplina il potere di trasferimento.
-Il legislatore ci dice che il potere datoriale di trasferimento è riconosciuto e produce effetti giuridici, ovvero dall'esercizio di quel potere scaturiscono conseguenze giuridiche vincolante per l'altra parte.
-Le ragioni di trasferimento non devono essere soggettive, ma oggettive.
-Ma che tipo di controllo può essere fatto per l'esistenza di queste ragioni?
-Il controllo non è un controllo di merito, la legge non dice che le tecniche devono essere buone (non deve esercitare il bene), ma la legge pretende che il potere sia giustificato da ragioni oggettive.
-- Se il datore di lavoro individua in una certa ragione il fondamento di un esercizio di potere quella ragione deve essere innanzitutto vera, infatti nella legge c'è scritto _"comprovate"_, dunque il datore di lavoro deve esistere che quella ragione esiste.
-- È sufficiente l'esistenza della prova della ragione?
-  No. Serve il Nesso di Causalità, ovvero che il datore di lavoro mostri anche che la sua scelta sia direttamente correlata al lavoro del lavoratore scelto. 
-
->[!quote] Imprenditore, (art. 2086)
-> L' imprenditore è il capo dell'impresa e da lui dipendono gerarchimamente i suoi collaboratori.
->L'imprenditore, che operi in forma societaria o collettiva, ha il dovere di istituire un assetto organizzativo, amministrativo e contabile adeguato alla natura e alle dimensioni dell'impresa
-
-Nella struttura adeguata è presente anche l'assetto organizzativo 
-
-## Licenziamento (Recesso)
 Viene disciplinato da 2118, 2119 cc
 ### 2118
 >[!quote]
