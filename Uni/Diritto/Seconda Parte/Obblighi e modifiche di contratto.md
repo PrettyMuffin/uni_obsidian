@@ -22,12 +22,7 @@ _Il lavoratore **deve** essere adibito alle mansioni per le quali è stato assun
 
 Si può salire nella scala gerarchica, ma né si acquisisce il diritto una volta che si siano svolte le mansioni del livello superiore.
 
->[!quote] comma 7 (salita di grado)
->Nel caso di assegnazione a mansioni superiori il lavoratore ha diritto al trattamento corrispondente all’attività svolta e l’assegnazione diviene definitiva, salva diversa volontà del lavoratore, ove la medesima non abbia avuto luogo per ragioni sostitutive di altro lavoratore in servizio, dopo il periodo fissato dai contratti collettivi o, in mancanza, dopo sei mesi continuativi.
-
-dal comma si capisce che serve il consenso per la promozione
-
->[!quote] comma 2 recessione
+>[!quote]- comma 2 (Recessioni)
 >In caso di modifica degli assetti organizzativi aziendali che incide sulla posizione del lavoratore, lo stesso può essere assegnato a mansioni appartenenti al livello di inquadramento inferiore (dunque il livello immediatamente sotto) ==purché rientranti nella medesima categoria legale==.
 
 Ai sensi del comma 6, il consenso non è l'unica cosa, il consenso deve essere dato di fronte all'autorità che ha il compito di verificare che la modifica è secondo queste 3 cose:
@@ -35,10 +30,17 @@ Ai sensi del comma 6, il consenso non è l'unica cosa, il consenso deve essere d
 - Acquisizione di una diversa professionalità
 - Miglioramento delle condizioni di vita
 
->[!quote] comma 3
+>[!quote]- comma 3 (Mutamento di mansioni)
 >l mutamento di mansioni è accompagnato, ove necessario, dall’assolvimento dell’obbligo formativo, il cui mancato adempimento non determina comunque la nullità dell’atto di assegnazione delle nuove mansioni.
 
 l'obbligo formativo non esiste in sé, ma dove è necessario e questa decisione è presa dal datore di lavoro, ma comunque questa decisione va comunque controllata.
+
+>[!quote]- comma 7 (salita di grado)
+>Nel caso di assegnazione a mansioni superiori il lavoratore ha diritto al trattamento corrispondente all’attività svolta e l’assegnazione diviene definitiva, salva diversa volontà del lavoratore, ove la medesima non abbia avuto luogo per ragioni sostitutive di altro lavoratore in servizio, dopo il periodo fissato dai contratti collettivi o, in mancanza, dopo sei mesi continuativi.
+
+dal comma si capisce che serve il consenso per la promozione
+
+
 
 ## Cambio di luogo (trasferimento)
 
@@ -48,10 +50,7 @@ l'obbligo formativo non esiste in sé, ma dove è necessario e questa decisione 
 >[!def] **Unità Produttiva**
 > Articolazione funzionalmente economica dell'attività d'impresa.
 
-Dunque il trasferimento è ammesso a patto che ci siano motivazioni reali, concrete e provabili.
-
-Qual'è la rilevanza dell'organizzazione aziendale sui rapporti di lavoro
-la volta scorsa ci siamo imbattuti in ragioni organizzative produttive e tecniche studiano l'articolo 2103. Ovvero la norma che disciplina il potere di trasferimento.
+==Dunque il trasferimento è ammesso a patto che ci siano motivazioni reali, concrete e provabili.==
 Il legislatore ci dice che il potere datoriale di trasferimento è riconosciuto e produce effetti giuridici, ovvero dall'esercizio di quel potere scaturiscono conseguenze giuridiche vincolante per l'altra parte.
 Le ragioni di trasferimento non devono essere soggettive, ma oggettive.
 Ma che tipo di controllo può essere fatto per l'esistenza di queste ragioni?
