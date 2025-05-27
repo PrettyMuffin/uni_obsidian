@@ -50,14 +50,20 @@ dal comma si capisce che serve il consenso per la promozione
 >[!def] **Unità Produttiva**
 > Articolazione funzionalmente economica dell'attività d'impresa.
 
-==Dunque il trasferimento è ammesso a patto che ci siano motivazioni reali, concrete e provabili.==
-Il legislatore ci dice che il potere datoriale di trasferimento è riconosciuto e produce effetti giuridici, ovvero dall'esercizio di quel potere scaturiscono conseguenze giuridiche vincolante per l'altra parte.
-Le ragioni di trasferimento non devono essere soggettive, ma oggettive.
-Ma che tipo di controllo può essere fatto per l'esistenza di queste ragioni?
-Il controllo non è un controllo di merito, la legge non dice che le tecniche devono essere buone (non deve esercitare il bene), ma la legge pretende che il potere sia giustificato da ragioni oggettive.
-- Se il datore di lavoro individua in una certa ragione il fondamento di un esercizio di potere quella ragione deve essere innanzitutto vera, infatti nella legge c'è scritto _"comprovate"_, dunque il datore di lavoro deve esistere che quella ragione esiste.
-- È sufficiente l'esistenza della prova della ragione?
-  No. Serve il Nesso di Causalità, ovvero che il datore di lavoro mostri anche che la sua scelta sia direttamente correlata al lavoro del lavoratore scelto. 
+==Il trasferimento di un lavoratore è ammesso solo qualora vi siano motivazioni reali, concrete e soprattutto comprovabili.== 
+Il legislatore riconosce il potere del datore di lavoro di disporre un trasferimento, e tale potere produce effetti giuridici vincolanti per il lavoratore. Tuttavia, affinché questo potere sia legittimamente esercitato, **è necessario che le ragioni poste a suo fondamento siano oggettive e non meramente soggettive**.
+
+In questo contesto, non si tratta di compiere un controllo di merito sull'opportunità tecnica o sulla bontà della scelta datoriale. 
+La legge, infatti, non impone che la decisione di trasferimento sia "la migliore possibile", né che persegua un bene assoluto, ma richiede che essa sia giustificata da motivazioni oggettive e verificabili. 
+È qui che entra in gioco la nozione di “**ragioni comprovate**”, espressamente prevista dalla normativa. Ciò implica che il datore di lavoro debba dimostrare non solo l'esistenza della motivazione addotta, ma anche la sua veridicità. 
+La semplice dichiarazione non basta: è necessario che tale ragione sia supportata da prove concrete.
+
+Tuttavia, l’esistenza della prova della motivazione non è ancora sufficiente a legittimare il trasferimento. 
+>[!important] Nesso di causalità
+È infatti richiesto anche un nesso di causalità tra la ragione indicata e la persona del lavoratore interessato. 
+
+In altre parole, il datore di lavoro deve dimostrare che la sua scelta non è generica o astratta, ma che esiste una diretta correlazione tra la causa addotta e il trasferimento di quel determinato lavoratore, ovvero che la sua scelta sia direttamente correlata al lavoro del lavoratore scelto.
+Solo attraverso questa doppia verifica – veridicità della ragione e sua specifica pertinenza al caso concreto – il potere di trasferimento può dirsi esercitato in modo legittimo e conforme ai limiti posti dall'ordinamento.
 
 >[!quote] Imprenditore, (art. 2086)
 > L' imprenditore è il capo dell'impresa e da lui dipendono gerarchimamente i suoi collaboratori.

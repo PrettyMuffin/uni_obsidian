@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "286ef8baaff0dfc2",
+        "id": "e2f9e46b0c8d5d5f",
         "type": "tabs",
         "children": [
           {
-            "id": "e1332b192253ac1f",
+            "id": "e45e8c35886022c9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diritto/Seconda Parte/Obblighi e modifiche di contratto.md",
+                "file": "Diritto/Seconda Parte/Tecnologia e Lavoro Dignitoso.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -21,14 +21,14 @@
                   "collapseAll": false,
                   "extraContext": false,
                   "sortOrder": "alphabetical",
-                  "showSearch": true,
+                  "showSearch": false,
                   "searchQuery": "",
                   "backlinkCollapsed": false,
                   "unlinkedCollapsed": true
                 }
               },
               "icon": "lucide-file",
-              "title": "Obblighi e modifiche di contratto"
+              "title": "Tecnologia e Lavoro Dignitoso"
             }
           }
         ]
@@ -54,7 +54,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Esplora risorse"
+              "title": "Files"
             }
           },
           {
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "beyes",
+                "query": "diritti personali",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 211.5,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "53e7b442ff53f276",
@@ -100,22 +99,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fe059a1037cc207d",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
-          },
-          {
-            "id": "e5266e4179ddcad4",
+            "id": "bb8e870e1ac747e2",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Diritto/Seconda Parte/Potere Disciplinare.md",
+                "file": "Benvenuto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,54 +114,60 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Potere Disciplinare"
+              "title": "Riferimenti a Benvenuto"
             }
           },
           {
-            "id": "1dc520d4e0cc52cb",
+            "id": "01fc7098b704209a",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Diritto/Seconda Parte/Potere Disciplinare.md",
+                "file": "Classi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Potere Disciplinare"
+              "title": "Outgoing links from Classi"
             }
           },
           {
-            "id": "bba5490a0e4bdb23",
+            "id": "31148549201666e2",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
+                "useHierarchy": true
               },
               "icon": "lucide-tags",
               "title": "Tags"
             }
           },
           {
-            "id": "dcc09413f49754a6",
+            "id": "20ac371123cac2a2",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diritto/Seconda Parte/Potere Disciplinare.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
+                "file": "Classi.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Potere Disciplinare"
+              "title": "Outline of Classi"
+            }
+          },
+          {
+            "id": "8bcea40682e09863",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -186,38 +181,38 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
-      "workspaces:Manage workspace layouts": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "e1332b192253ac1f",
+  "active": "e45e8c35886022c9",
   "lastOpenFiles": [
-    "Diritto/Seconda Parte/Potere Di Controllo.md",
-    "Diritto/Seconda Parte/Potere Disciplinare.md",
-    "Diritto/Seconda Parte/Obblighi e modifiche di contratto.md",
-    "Diritto/Seconda Parte/Licenziamento (Recesso).md",
-    "Diritto/Seconda Parte/Lavoro Autonomo.md",
-    "Diritto/Seconda Parte/Tecnologia e Lavoro Dignitoso.md",
-    "Diritto/Seconda Parte/Maggio 12.md",
     "Diritto/Seconda Parte/Lavoro Subordinato.md",
-    "Diritto/Prima Parte/Illecito Civile.md",
-    "Diritto/Seconda Parte/Maggio 5.md",
+    "Diritto/Seconda Parte/Licenziamento (Recesso).md",
+    "Diritto/Seconda Parte/Potere Disciplinare.md",
+    "Diritto/Seconda Parte/Potere Di Controllo.md",
+    "Diritto/Seconda Parte/Obblighi e modifiche di contratto.md",
+    "Diritto/Seconda Parte/Lavoro Autonomo.md",
+    "Diritto/Seconda Parte/Maggio 7.md",
     "Diritto/Seconda Parte/Diritto Del Lavoro.md",
-    "Diritto/Seconda Parte/AI e Diritto D'Autore.md",
-    "Diritto/Prima Parte/Diritti Reali.md",
-    "Probabilità e Statistica/Probabilità Condizionali e Indipendenza.md",
-    "P.A.O./Cast.md",
+    "Diritto/Seconda Parte/Maggio 5.md",
     "Diritto/Seconda Parte/Lavoro.md",
+    "Diritto/Seconda Parte/Maggio 21.md",
+    "Diritto/Seconda Parte/Maggio 19.md",
+    "Diritto/Seconda Parte/Maggio 14.md",
+    "Diritto/Seconda Parte/Maggio 12.md",
     "Diritto/Prima Parte/GDPR.md",
+    "Diritto/Seconda Parte/Tecnologia e Lavoro Dignitoso.md",
+    "Diritto/Seconda Parte/AI e Diritto D'Autore.md",
     "Diritto/Seconda Parte/Aprile 7 (Inizio Seconda Parte).md",
     "Diritto/Prima Parte/Contratto.md",
     "Diritto/Prima Parte/Diritti D'Autore.md",
+    "Diritto/Prima Parte/Diritti Reali.md",
     "Diritto/Prima Parte/Diritto Privato.md",
     "Diritto/Prima Parte/Proprietà e Possesso.md",
+    "Diritto/Prima Parte/Illecito Civile.md",
     "P.A.O./Costruttori.md",
     "Diritto/Prima Parte/Beni.md",
-    "Diritto/Prima Parte/Ordinamento Giuridico.md",
-    "Diritto/Prima Parte/Contratti Online.md",
     "Diritto/Prima Parte/Pasted image 20250326103658.png",
     "Diritto/Seconda Parte",
     "Diritto/Prima Parte",
