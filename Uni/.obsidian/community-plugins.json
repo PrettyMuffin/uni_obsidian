@@ -1,5 +1,7 @@
 [
   "obsidian-git",
   "obsidian-latex-suite",
-  "code-styler"
+  "code-styler",
+  "print",
+  "obsidian-functionplot"
 ]

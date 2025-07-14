@@ -22,6 +22,11 @@ div.mermaid {
   --callout-icon: lucide-help-circle;
 }
 
+.callout[data-callout="obj"] {
+  --callout-color: 30, 58, 138;
+  --callout-icon: lucide-lightbulb;
+}
+
 .callout {
   border-left: 3px solid rgb(var(--callout-color));
 }
