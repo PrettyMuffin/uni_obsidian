@@ -26,6 +26,9 @@ div.mermaid {
   --callout-color: 30, 58, 138;
   --callout-icon: lucide-lightbulb;
 }
+.callout[data-callout="quote"] .callout-content {
+     font-style: italic;
+}
 
 .callout {
   border-left: 3px solid rgb(var(--callout-color));

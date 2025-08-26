@@ -4,112 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "99130a1b1c7dfad8",
+        "id": "46e4e3869237a05f",
         "type": "tabs",
         "children": [
           {
-            "id": "0658e22dc7a293db",
+            "id": "89b39d32696d12d7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probabilità e Statistica/7.3 Variabili Aleatorie Assolutamente Continue.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "7.3 Variabili Aleatorie Assolutamente Continue"
-            }
-          },
-          {
-            "id": "1fe6149dd093231c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Probabilità e Statistica/8. Teoremi Limite.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "8. Teoremi Limite"
-            }
-          },
-          {
-            "id": "f15a2c0df53e64de",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Probabilità e Statistica/7.1.2 Varianza V.A..md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "7.1.2 Varianza V.A."
-            }
-          },
-          {
-            "id": "b828223eab6d35de",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Probabilità e Statistica/8. Teoremi Limite.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "8. Teoremi Limite"
-            }
-          },
-          {
-            "id": "425aa65267e3c85f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Probabilità e Statistica/7.1.1 Valor Medio Variabili Aleatorie.md",
+                "file": "PDP/Stream Paralleli.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,59 +28,20 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "7.1.1 Valor Medio Variabili Aleatorie"
+              "title": "Stream Paralleli"
             }
           },
           {
-            "id": "314db8347385b11b",
+            "id": "3b0948b8ed1745f3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Probabilità e Statistica/7.1 Variabili Aleatorie Discrete.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "7.1 Variabili Aleatorie Discrete"
-            }
-          },
-          {
-            "id": "79dff03aa383b63b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Probabilità e Statistica/7.1 Variabili Aleatorie Discrete.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "7.1 Variabili Aleatorie Discrete"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -195,7 +60,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "byCreatedTimeReverse",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -208,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Poiss",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -216,7 +81,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Ricerca"
+              "title": "Search"
             }
           },
           {
@@ -331,19 +196,38 @@
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
       "workspaces:Manage workspace layouts": false,
+      "bases:Create new base": false,
       "obsidian-git:Open Git source control": false,
       "print:Print note": false
     }
   },
-  "active": "b828223eab6d35de",
+  "active": "89b39d32696d12d7",
   "lastOpenFiles": [
-    "Senza nome.md",
-    "Probabilità e Statistica/7.1.1 Valor Medio Variabili Aleatorie.md",
+    "PDP/Sincronizzazione.md",
+    "PDP/Executors.md",
+    "PDP/Callables.md",
+    "PDP/Stream Paralleli.md",
+    "PDP/Thread Local Variables.md",
+    "PDP/Thread.md",
+    "PDP/Programmazione Distribuita.md",
+    "PDP/img/Pasted image 20250814161135.png",
+    "PDP/Dati Thread-Safe.md",
+    "PDP/img/Pasted image 20250815152014.png",
+    "PDP/img/Pasted image 20250815115220.png",
+    "PDP/img/Pasted image 20250815114459.png",
+    "PDP/img/Pasted image 20250815115616.png",
+    "PDP/img",
+    "Pasted image 20250815111307.png",
+    "Untitled",
+    "PDP/img/Thread_States.png",
+    "Pasted image 20250812164841.png",
+    "PDP",
     "Probabilità e Statistica/7.1 Variabili Aleatorie Discrete.md",
+    "Probabilità e Statistica/7.1.1 Valor Medio Variabili Aleatorie.md",
+    "Probabilità e Statistica/8. Teoremi Limite.md",
     "Probabilità e Statistica/7. Variabili Aleatorie.md",
     "Probabilità e Statistica/6. Probabilità Condizionali e Indipendenza.md",
     "Probabilità e Statistica/7.1.2 Varianza V.A..md",
-    "Probabilità e Statistica/8. Teoremi Limite.md",
     "Probabilità e Statistica/7.3 Variabili Aleatorie Assolutamente Continue.md",
     "Probabilità e Statistica/7.1.3 Legge Congiuta E Indipendenza V.A..md",
     "Probabilità e Statistica/7.2 Funzioni Di Ripartizione.md",
@@ -356,23 +240,7 @@
     "Probabilità e Statistica/Misura Di Probabilità.md",
     "Probabilità e Statistica/2. Disuguaglianza di Chebyshev (campionaria).md",
     "conflict-files-obsidian-git.md",
-    "Pasted image 20250609215844.png",
-    "Pasted image 20250609215802.png",
-    "Pasted image 20250609215731.png",
-    "Pasted image 20250609215005.png",
     "Esame Automi.md",
-    "Pasted image 20250609214438.png",
-    "Pasted image 20250609213601.png",
-    "Pasted image 20250609213203.png",
-    "Appunti 2 Parziale Automi.md",
-    "Diritto/Seconda Parte/Obblighi e modifiche di contratto.md",
-    "Diritto/Seconda Parte/Licenziamento (Recesso).md",
-    "Diritto/Seconda Parte/Potere Di Controllo.md",
-    "Diritto/Prima Parte/Capacità e Diritti della Personalità.md",
-    "Diritto/Prima Parte/Contratto.md",
-    "Diritto/Seconda Parte/Lavoro Subordinato.md",
-    "Diritto/Seconda Parte/Lavoro Autonomo.md",
-    "Diritto/Prima Parte/Pasted image 20250326103658.png",
     "Diritto/Seconda Parte",
     "Diritto/Prima Parte",
     "Diritto",
@@ -381,9 +249,6 @@
     "Statistica/Concetti Fondamentali.tex",
     "Statistica",
     "P.A.O./Canvas/Vtable_C.canvas",
-    "P.A.O./Tags",
-    "P.A.O./Canvas",
-    "P.A.O.",
     "Canvas/Vtable_C.canvas",
     "Untitled.canvas",
     "Canvas/PAO_C.canvas"
