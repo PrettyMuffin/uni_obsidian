@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PDP/Stream Paralleli.md",
-                "mode": "source",
+                "file": "PDP/Programmazione Distribuita.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,17 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Stream Paralleli"
-            }
-          },
-          {
-            "id": "3b0948b8ed1745f3",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Programmazione Distribuita"
             }
           }
         ]
@@ -98,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 269.5,
+    "collapsed": true
   },
   "right": {
     "id": "53e7b442ff53f276",
@@ -185,7 +176,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -203,23 +194,23 @@
   },
   "active": "89b39d32696d12d7",
   "lastOpenFiles": [
+    "PDP/img/Pasted image 20250815115220.png",
+    "PDP/Thread.md",
+    "PDP/Thread Local Variables.md",
     "PDP/Sincronizzazione.md",
     "PDP/Executors.md",
     "PDP/Callables.md",
-    "PDP/Stream Paralleli.md",
-    "PDP/Thread Local Variables.md",
-    "PDP/Thread.md",
-    "PDP/Programmazione Distribuita.md",
-    "PDP/img/Pasted image 20250814161135.png",
-    "PDP/Dati Thread-Safe.md",
-    "PDP/img/Pasted image 20250815152014.png",
-    "PDP/img/Pasted image 20250815115220.png",
     "PDP/img/Pasted image 20250815114459.png",
+    "PDP/img/Pasted image 20250814161135.png",
+    "PDP/img/Pasted image 20250815152014.png",
+    "PDP/img/Thread_States.png",
     "PDP/img/Pasted image 20250815115616.png",
+    "PDP/Programmazione Distribuita.md",
+    "PDP/Stream Paralleli.md",
+    "PDP/Dati Thread-Safe.md",
     "PDP/img",
     "Pasted image 20250815111307.png",
     "Untitled",
-    "PDP/img/Thread_States.png",
     "Pasted image 20250812164841.png",
     "PDP",
     "Probabilità e Statistica/7.1 Variabili Aleatorie Discrete.md",
