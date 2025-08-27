@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "89b39d32696d12d7",
+            "id": "e70586e523ad5dac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PDP/Programmazione Distribuita.md",
+                "file": "PDP/Primitive Di Networking.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -24,11 +24,11 @@
                   "showSearch": false,
                   "searchQuery": "",
                   "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
+                  "unlinkedCollapsed": false
                 }
               },
               "icon": "lucide-file",
-              "title": "Programmazione Distribuita"
+              "title": "Primitive Di Networking"
             }
           }
         ]
@@ -88,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5,
-    "collapsed": true
+    "width": 269.5
   },
   "right": {
     "id": "53e7b442ff53f276",
@@ -192,21 +191,23 @@
       "print:Print note": false
     }
   },
-  "active": "89b39d32696d12d7",
+  "active": "fe059a1037cc207d",
   "lastOpenFiles": [
-    "PDP/img/Pasted image 20250815115220.png",
+    "PDP/Sincronizzazione.md",
+    "PDP/Primitive Di Networking.md",
     "PDP/Thread.md",
     "PDP/Thread Local Variables.md",
-    "PDP/Sincronizzazione.md",
+    "PDP/Stream Paralleli.md",
+    "PDP/Programmazione Distribuita.md",
     "PDP/Executors.md",
+    "P.A.O./Ereditarietà.md",
+    "PDP/img/Pasted image 20250815115220.png",
     "PDP/Callables.md",
     "PDP/img/Pasted image 20250815114459.png",
     "PDP/img/Pasted image 20250814161135.png",
     "PDP/img/Pasted image 20250815152014.png",
     "PDP/img/Thread_States.png",
     "PDP/img/Pasted image 20250815115616.png",
-    "PDP/Programmazione Distribuita.md",
-    "PDP/Stream Paralleli.md",
     "PDP/Dati Thread-Safe.md",
     "PDP/img",
     "Pasted image 20250815111307.png",
@@ -231,7 +232,6 @@
     "Probabilità e Statistica/Misura Di Probabilità.md",
     "Probabilità e Statistica/2. Disuguaglianza di Chebyshev (campionaria).md",
     "conflict-files-obsidian-git.md",
-    "Esame Automi.md",
     "Diritto/Seconda Parte",
     "Diritto/Prima Parte",
     "Diritto",

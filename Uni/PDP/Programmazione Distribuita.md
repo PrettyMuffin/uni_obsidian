@@ -31,7 +31,7 @@ I nodi possono guastarsi o fallire indipendnetemente uno dall'altro. Un guasto �
 I nodi comunicano fra loro scambiandosi messaggi in quanto non condividono altra risorse che il collegamento alla rete.
 Le principali astrazioni disponibili riguardano quindi l'invio di un messaggio e l'attesa della ricezione di un messaggio.
 
-## Messaggi e metodi
+### Messaggi e metodi
 Uno dei primi tentativi di rendere più facile la gestione dell'invio e della ricezione dei messaggi in un sistema distribuito è stato quello di riportarlo a qualcosa di più simile ad una chiamata locale, mascherando la distinzione fisica fra le due macchine chiamante e chiamato.
 >[!def] RPC - _Remote Procedure Call_
 >Indica un sistema per rendere trasparente la localizzazione del codice chiamato, rendendolo il più possibile simile ad una chiamata locale, cioè far si che il più possibile fosse indistinguibile chiamare una procedura locale o chiamare una procedura remota.
@@ -82,3 +82,14 @@ Le problematiche che la serializzazione deve affrontare sono:
 Per tutte queste motivazione l'uso della serializzazione nativa di Java è sconsigliato nella pratica normale.
 Non solo, è particolarmente sconsigliato per problematiche di sicurezza.
 Inoltre, per il modo in cui funzionano reti e sistemi distribuiti oggi, sono diventati praticabili/preferibili in molte situazioni protocolli testuali trasportati da HTTP e umanamente leggibili
+Per questo motivo, non parleremo di serializzazione e useremo nei nostri esempi protocolli testuali semplici.
+
+## Classi Libreria Standard
+Utilizzeremo le classiche primitive del modello TCP/IP:
+- Sockets (Connessioni TCP)
+- Datagrams (Connessioni UDP)
+
+L'astrazione `Channel` per unificare le operazioni di I/O su canali differenti (file, rete, hardware).
+Le implementazioni asincrone di `java.nio` per un'esecuzione più efficiente sfruttando a fondo le funzionalità fornita dal SO opsite.
+Vedremo `HTTPClient` in tutte le sue modalità d'uso per fare richieste `HTTP` sincrone o meno. Ed eventualmente la classe `URL` per le richieste davvero più semplici.
+Su queste basi, l'ecosistema Java ha a disposizione una grande scelta di robuste ed efficaci librerie per la  realizzazione di topologie anche molto complesse.
