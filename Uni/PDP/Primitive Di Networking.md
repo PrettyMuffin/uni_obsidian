@@ -154,6 +154,90 @@ Con i `Datagam` la logica del protocollo è differente.
 >- Reciprocità: c'è una sola direzione; la risposta richiede mettersi in ascolto
 >- Dimensione: messaggi lunghi subiscono una forte penalità di affidabilità
 
+```java title:EchoServer
+public void run() {
+	byte[] buf = new byte[256];
+	DatagramPacket packet = new DatagramPacket(buf, buf.length);
+	System.out.println("Server setup. Receiving...");
+	try {
+		socket.receive(packet);
+		String received = new String(packet.getData(), 0, packet.getLength());
+		System.out.println("Received: " + received);
+	} catch (IOException e) { e.printStackTrace(); }
+	finally { socket.close(); }
+}
+```
+
+## HTTP Client
+`Socket` e `Datagrams` sono primitive di livello molto basso rispetto a quello con cui si lavorano di solito.
+Per l'appunto di solito si lavora con il protocollo HTTP. 
+Fin dalle prime versioni infatti Java ha a disposizione delle classi per rappresentare in modo molto fedele le URL e le URI.
+Tuttavia il loro uso oggi è scomodo. E tutti i costruttori di `java.net.URL` sono deprecati.
+La costruzione dell'HTTP Client e delle richieste seguono il `Builder Pattern`: vengono concatenate chiamate a metodi che ritornano un oggetto la cui configurazione viene via via completata, per poi concludersi con l'ultimo metodo che ottiene l'oggetto completamente configurato.
+==Una volta costruita la richiesta, la si può eseguire per ottenere una risposta.==
+Un `builder` non ancora completato può essere usato più volte, copiato per essere ulteriormente modificato, e così via.
+
+```java
+HttpClient client = HttpClient.newHttpClient();
+HttpRequest request = HttpRequest.newBuilder().uri(URI.create("https://httpbin.org/get")).build();
+HTTPResponse<String> response = client.send(request, BodyHandlers.ofString());
+
+System.out.println(response.statusCode());
+System.out.println(response.body());
+```
+
+Il parametro `BodyHandler` permette di gestire come trattare il corpo della risposta.
+Infatti la `HttpResponse<T>` è parametrizzata in `T` ed è proprio il `BodyHandler` che decide che tipo di `T`. Infatti usando `BodyHandlers.ofString()` abbiamo `T = String` dunque `HttpResponse<String>`.
+La classe `BodyHandlers` contiene alcune strategie comuni.
+Una richiesta può anche essere inviata in modo asincrono, in questo caso si ottiene un `CompletableFuture`, versione di `Future` che accetta istruzioni da eseguire al completamento del calcolo.
+```java
+client
+	.sendAsync(request, BodyHandlers.ofString())
+	.thenApply(HttpResponse::body)
+	.thenAccept(System.out::println)
+```
+
+- `thenApply`: quando è arrivata la risposta, applica il metodo passato, nell'esempio equivale a `response.body()`.  **`HttpResponse::body`** è un **method reference** che equivale alla lambda: `httpResponse -> httpResponse.body()`
+**`thenApply()`** prende il `HttpResponse<String>` completo e estrae solo il body (la stringa)
+- `thenAccept()` consuma il risultato tramite il consumer.
+
+tutto questo viene fatto quando la risposta è arrivata.
+Il metodo HTTP da usare viene definito nella costruzione della richiesta:
+```java
+HttpRequest delete = HttpRequest.newBuilder()
+	.DELETE() // può essere GET, POST, ....
+	.uri(URI.create("https://httpbin.org/delete"))
+	.build();
+```
+
+Per fornire il contenuto di una richiesta POST o PUT, si usa un parametro di tipo `BodyPublisher`, ovvero una classe che gestisce la "pubblicazione" del corpo della richiesta.
+```java
+HttpRequest post = HttpRequest.newBuilder()
+	.uri(URI.create("https://httpbin.org/post"))
+	.timeout(Duration.ofMinutes(2))
+	.header("Content-Type", "application/x-www-form-urlencoded")
+	.POST(BodyPublishers.ofString("foo=bar&baz=1"))
+	.build();
+```
+
+La classe `HttpClient` fornisce inoltre la possibilità di controllare in modo molto fine la gestione dell'`Executor` che esegue le richieste, il protocollo usato, e molto altri dettagli della comunicazione.
+
+## Tic-Tac-Toe 
+>[!obj] Obbiettivo
+>Realizzare un server che gestisce il gioco di TicTacToe fra due giocatori.
+>Realizzare quindi un client che gioca scegliendo una casella libera a caso.
+
+Il **Server** deve:
+1. Rispondere alla prima connessione salutando il primo giocatore.
+2. Rispondere alla seconda connessione salutando il secondo giocatore.
+3. Richiedere la mossa da ciascun giocatore al suo turno, mostrandogli lo stato del gioco
+4. Individuare la conclusione della partita e chiudere le connessioni.
+
+Il **Client** deve:
+1. Collegarsi al server
+2. Interpretare la risposta con lo stato della partita
+3. effettuare una mossa a caso fra quelle legali
+
 
 
 [^1]: Per maggiore info sugli stream: [[Stream Paralleli]]

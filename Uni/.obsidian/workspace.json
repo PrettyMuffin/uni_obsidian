@@ -30,8 +30,57 @@
               "icon": "lucide-file",
               "title": "Primitive Di Networking"
             }
+          },
+          {
+            "id": "cd7ab52dabe9d86f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PDP/Callables.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Callables"
+            }
+          },
+          {
+            "id": "fe2f39390f2e2b8c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PDP/Channels.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Channels"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -191,10 +240,13 @@
       "print:Print note": false
     }
   },
-  "active": "fe059a1037cc207d",
+  "active": "140b31c651f4bd7b",
   "lastOpenFiles": [
-    "PDP/Sincronizzazione.md",
+    "PDP/img/Pasted image 20250828172243.png",
+    "PDP/Callables.md",
+    "PDP/Channels.md",
     "PDP/Primitive Di Networking.md",
+    "PDP/Sincronizzazione.md",
     "PDP/Thread.md",
     "PDP/Thread Local Variables.md",
     "PDP/Stream Paralleli.md",
@@ -202,7 +254,6 @@
     "PDP/Executors.md",
     "P.A.O./Ereditarietà.md",
     "PDP/img/Pasted image 20250815115220.png",
-    "PDP/Callables.md",
     "PDP/img/Pasted image 20250815114459.png",
     "PDP/img/Pasted image 20250814161135.png",
     "PDP/img/Pasted image 20250815152014.png",
@@ -230,8 +281,6 @@
     "Probabilità e Statistica/4. Spazi di Probabilità.md",
     "Probabilità e Statistica/3. Dati d-Variati.md",
     "Probabilità e Statistica/Misura Di Probabilità.md",
-    "Probabilità e Statistica/2. Disuguaglianza di Chebyshev (campionaria).md",
-    "conflict-files-obsidian-git.md",
     "Diritto/Seconda Parte",
     "Diritto/Prima Parte",
     "Diritto",
