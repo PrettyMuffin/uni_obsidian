@@ -178,4 +178,34 @@ router.post("/game").produces("application/json").handler(ctx -> {
 })
 ```
 
-uso di link e strutture http per trasportare lo stato dell'applicazione: chiedere meglio a ChatGPT.
+>[!important] TODO
+==uso di link e strutture http per trasportare lo stato dell'applicazione: chiedere meglio a ChatGPT.==
+
+## Perché usare un Framework?
+Un framework fornisce un ambiente all'interno del quale un insieme di casi d'uso fondamentali è reso facile, efficiente e sicuro da implementare.
+Un framework per applicazioni web, per esempio, rende facile:
+- specificare le rotte a cui rispondere.
+- costruire le risposte.
+
+Lo stesso framework, cercherà di rendere trasparente, ed eventualmente configurabile:
+- la gestione dei dettagli del protocollo
+- la sicurezza nel trattamento della comunicazione
+- la suddivisione delle risorse fra le varie parti del sistema
+
+Gli autori del framework scelgono le loro priorità fra semplicità d'uso, sicurezza ed efficienza.
+Come utenti, noi otteniamo automaticamente ogni incremento su ciascuna di queste dimensioni.
+
+## Perché NON usare un Framwork?
+Un caso d'uso che non è fra quelli prescelti come importanti dagli autori del framework, può essere molto, molto complesso da implementare.
+Un framework per applicazioni web, per esempio, può rendere difficile:
+- rispondere a richieste esotiche.
+- controllare finemente l'erogazione della risposta.
+
+Lo stesso framework web, potrebbe rendere oscuro, oppure inaspettatamente:
+- fallire l'esecuzione di una richiesta a causa di un baco nella sua imlementazione
+- aprire una falladi sicurezza a causa di un default errato
+- permettere il sovraccarico del sistema a causa di una mancata limitazione delle risorse.
+
+Gli autori del framework scelgono le loro priorità fra semplicità d'uso, sicurezza ed efficienza.
+Come utenti, dipendiamo completamente da loro per l'ordine con cui queste caratteristiche sono implementate, e dobbiamo sopportare i costi di aggiornamento se l'interfaccia fra il framework ed il nostro codice cambia.
+
