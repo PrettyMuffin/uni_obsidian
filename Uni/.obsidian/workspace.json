@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PDP/Fallacies E Frameworks.md",
-                "mode": "preview",
+                "file": "PDP/Stato Distribuito.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Fallacies E Frameworks"
+              "title": "Stato Distribuito"
             }
           }
         ]
@@ -193,11 +193,11 @@
   },
   "active": "400fdea8f8283a96",
   "lastOpenFiles": [
+    "PDP/Thread Local Variables.md",
     "PDP/Stato Distribuito.md",
     "PDP/Sincronizzazione.md",
     "PDP/Fallacies E Frameworks.md",
     "PDP/Channels.md",
-    "PDP/Thread Local Variables.md",
     "PDP/Primitive Di Networking.md",
     "PDP/img/Pasted image 20250828172243.png",
     "PDP/Callables.md",
