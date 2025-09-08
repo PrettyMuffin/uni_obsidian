@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PDP/Stato Distribuito.md",
-                "mode": "source",
+                "file": "PDP/Reattività.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Stato Distribuito"
+              "title": "Reattività"
             }
           }
         ]
@@ -193,8 +193,12 @@
   },
   "active": "400fdea8f8283a96",
   "lastOpenFiles": [
-    "PDP/Thread Local Variables.md",
+    "Pasted image 20250908161805.png",
+    "PDP/Stream Paralleli.md",
+    "PDP/Reattività.md",
+    "PDP/img/Pasted image 20250908154619.png",
     "PDP/Stato Distribuito.md",
+    "PDP/Thread Local Variables.md",
     "PDP/Sincronizzazione.md",
     "PDP/Fallacies E Frameworks.md",
     "PDP/Channels.md",
@@ -202,7 +206,6 @@
     "PDP/img/Pasted image 20250828172243.png",
     "PDP/Callables.md",
     "PDP/Thread.md",
-    "PDP/Stream Paralleli.md",
     "PDP/Programmazione Distribuita.md",
     "PDP/Executors.md",
     "P.A.O./Ereditarietà.md",
@@ -229,9 +232,6 @@
     "Probabilità e Statistica/7.2 Funzioni Di Ripartizione.md",
     "Probabilità e Statistica/1. Concetti Fondamentali Statistica.md",
     "Probabilità e Statistica/5. Costruzione di misure di probabilità discrete.md",
-    "Pasted image 20250703180951.png",
-    "Probabilità e Statistica/4. Spazi di Probabilità.md",
-    "Probabilità e Statistica/3. Dati d-Variati.md",
     "Diritto/Seconda Parte",
     "Diritto/Prima Parte",
     "Diritto",
