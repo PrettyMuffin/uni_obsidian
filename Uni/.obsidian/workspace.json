@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PDP/Reattività.md",
+                "file": "PDP/Attori.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Reattività"
+              "title": "Attori"
             }
           }
         ]
@@ -191,12 +191,13 @@
       "print:Print note": false
     }
   },
-  "active": "fe059a1037cc207d",
+  "active": "deb7e569aad802e6",
   "lastOpenFiles": [
+    "PDP/img/Pasted image 20250911105709.png",
+    "PDP/Reattività.md",
     "PDP/Attori.md",
     "Untitled.md",
     "PDP/img/Pasted image 20250909152950.png",
-    "PDP/Reattività.md",
     "PDP/Executors.md",
     "PDP/img/Pasted image 20250909153551.png",
     "PDP/img/Pasted image 20250909153421.png",
@@ -231,7 +232,6 @@
     "Probabilità e Statistica/7.3 Variabili Aleatorie Assolutamente Continue.md",
     "Probabilità e Statistica/7.1.3 Legge Congiuta E Indipendenza V.A..md",
     "Probabilità e Statistica/7.2 Funzioni Di Ripartizione.md",
-    "Probabilità e Statistica/1. Concetti Fondamentali Statistica.md",
     "Diritto/Seconda Parte",
     "Diritto/Prima Parte",
     "Diritto",
