@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PDP/Esecuzione Alternata.md",
+                "file": "PDP/Protocolli.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Esecuzione Alternata"
+              "title": "Protocolli"
             }
           }
         ]
@@ -191,10 +191,14 @@
       "print:Print note": false
     }
   },
-  "active": "fe059a1037cc207d",
+  "active": "deb7e569aad802e6",
   "lastOpenFiles": [
-    "PDP/img/Pasted image 20250912115839.png",
+    "PDP/img/Pasted image 20250912164655.png",
+    "PDP/img/Pasted image 20250912153944.png",
+    "PDP/Protocolli.md",
+    "PDP/img/Pasted image 20250912154605.png",
     "PDP/Esecuzione Alternata.md",
+    "PDP/img/Pasted image 20250912115839.png",
     "PDP/img/Pasted image 20250912120631.png",
     "Pasted image 20250912120547.png",
     "PDP/img/Pasted image 20250912115105.png",
@@ -205,8 +209,6 @@
     "PDP/img/Pasted image 20250909152950.png",
     "PDP/Executors.md",
     "PDP/img/Pasted image 20250909153551.png",
-    "PDP/img/Pasted image 20250909153421.png",
-    "PDP/img/Pasted image 20250909153328.png",
     "PDP/Stream Paralleli.md",
     "PDP/Stato Distribuito.md",
     "PDP/Thread Local Variables.md",
@@ -230,7 +232,6 @@
     "Probabilità e Statistica/7.1.2 Varianza V.A..md",
     "Probabilità e Statistica/7.3 Variabili Aleatorie Assolutamente Continue.md",
     "Probabilità e Statistica/7.1.3 Legge Congiuta E Indipendenza V.A..md",
-    "Probabilità e Statistica/7.2 Funzioni Di Ripartizione.md",
     "Diritto/Seconda Parte",
     "Diritto/Prima Parte",
     "Diritto",
