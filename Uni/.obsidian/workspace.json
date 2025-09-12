@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PDP/Attori.md",
+                "file": "PDP/Esecuzione Alternata.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Attori"
+              "title": "Esecuzione Alternata"
             }
           }
         ]
@@ -191,30 +191,29 @@
       "print:Print note": false
     }
   },
-  "active": "deb7e569aad802e6",
+  "active": "fe059a1037cc207d",
   "lastOpenFiles": [
+    "PDP/img/Pasted image 20250912115839.png",
+    "PDP/Esecuzione Alternata.md",
+    "PDP/img/Pasted image 20250912120631.png",
+    "Pasted image 20250912120547.png",
+    "PDP/img/Pasted image 20250912115105.png",
+    "PDP/img/Pasted image 20250912103301.png",
+    "PDP/Attori.md",
     "PDP/img/Pasted image 20250911105709.png",
     "PDP/Reattività.md",
-    "PDP/Attori.md",
-    "Untitled.md",
     "PDP/img/Pasted image 20250909152950.png",
     "PDP/Executors.md",
     "PDP/img/Pasted image 20250909153551.png",
     "PDP/img/Pasted image 20250909153421.png",
     "PDP/img/Pasted image 20250909153328.png",
-    "PDP/img/Pasted image 20250909153232.png",
-    "PDP/img/Pasted image 20250909153157.png",
-    "PDP/img/Pasted image 20250909152855.png",
-    "PDP/img/Pasted image 20250908161805.png",
     "PDP/Stream Paralleli.md",
-    "PDP/img/Pasted image 20250908154619.png",
     "PDP/Stato Distribuito.md",
     "PDP/Thread Local Variables.md",
     "PDP/Sincronizzazione.md",
     "PDP/Fallacies E Frameworks.md",
     "PDP/Channels.md",
     "PDP/Primitive Di Networking.md",
-    "PDP/img/Pasted image 20250828172243.png",
     "PDP/Callables.md",
     "PDP/Thread.md",
     "PDP/Programmazione Distribuita.md",
