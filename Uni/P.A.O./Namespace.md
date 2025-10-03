@@ -1,4 +1,4 @@
-Tags: [[P.A.O]] [[Introduzione]]
+Tags: [[P.A.O]] [[P.A.O./Tags/Introduzione]]
 
 ## Perché?
 Uno dei problemi della [programmazione modulare](https://en.wikipedia.org/wiki/Modular_programming) è il problema dell'inquinamento dello spazio dei nomi

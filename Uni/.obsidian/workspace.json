@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PDP/Esecuzione Alternata.md",
+                "file": "SWE/Ciclo Di Vita.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Esecuzione Alternata"
+              "title": "Ciclo Di Vita"
             }
           }
         ]
@@ -191,11 +191,23 @@
       "print:Print note": false
     }
   },
-  "active": "140b31c651f4bd7b",
+  "active": "deb7e569aad802e6",
   "lastOpenFiles": [
+    "SWE/Introduzione.md",
+    "SWE/Ciclo Di Vita.md",
+    "SWE/img",
+    "SWE/img/Pasted image 20251003103113.png",
+    "P.A.O./Ereditarietà.md",
+    "P.A.O./Canvas/Vtable_C.canvas",
+    "PDP/Channels.md",
+    "Untitled.md",
+    "SWE/Untitled.base",
+    "PDP/Esecuzione Alternata.md",
+    "Ricerca Operativa",
+    "TecWeb",
+    "SWE",
     "PDP/Primitive Di Networking.md",
     "PDP/Protocolli.md",
-    "PDP/Esecuzione Alternata.md",
     "PDP/Attori.md",
     "PDP/Reattività.md",
     "PDP/Stato Distribuito.md",
@@ -204,7 +216,6 @@
     "PDP/Thread Local Variables.md",
     "PDP/Stream Paralleli.md",
     "PDP/Programmazione Distribuita.md",
-    "PDP/Channels.md",
     "PDP/Sincronizzazione.md",
     "PDP/img/Pasted image 20250912164655.png",
     "PDP/img/Pasted image 20250912153944.png",
@@ -215,13 +226,10 @@
     "PDP/img/Pasted image 20250912115105.png",
     "PDP/img/Pasted image 20250912103301.png",
     "PDP/img/Pasted image 20250911105709.png",
-    "PDP/img/Pasted image 20250909152950.png",
     "PDP/Executors.md",
     "PDP/Callables.md",
-    "P.A.O./Ereditarietà.md",
     "PDP/Dati Thread-Safe.md",
     "PDP/img",
-    "Untitled",
     "PDP",
     "Probabilità e Statistica/7.1 Variabili Aleatorie Discrete.md",
     "Probabilità e Statistica/7.1.1 Valor Medio Variabili Aleatorie.md",
@@ -229,16 +237,9 @@
     "Probabilità e Statistica/7. Variabili Aleatorie.md",
     "Probabilità e Statistica/6. Probabilità Condizionali e Indipendenza.md",
     "Probabilità e Statistica/7.1.2 Varianza V.A..md",
-    "Probabilità e Statistica/7.3 Variabili Aleatorie Assolutamente Continue.md",
-    "Probabilità e Statistica/7.1.3 Legge Congiuta E Indipendenza V.A..md",
     "Diritto/Seconda Parte",
     "Diritto/Prima Parte",
     "Diritto",
-    "Probabilità e Statistica/Concetti Fondamentali.tex",
-    "Probabilità e Statistica",
-    "Statistica/Concetti Fondamentali.tex",
-    "Statistica",
-    "P.A.O./Canvas/Vtable_C.canvas",
     "Canvas/Vtable_C.canvas",
     "Untitled.canvas",
     "Canvas/PAO_C.canvas"
