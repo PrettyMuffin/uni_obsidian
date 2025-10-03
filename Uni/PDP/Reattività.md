@@ -93,6 +93,7 @@ Il Reactive Manifesto definisce le caratteristiche dei sistemi _reattivi_.
 - Elastici (_Elastic_)
 - Orientati ai messaggi (_Message Driven_)
 ![[Pasted image 20250908161805.png]]
+
 Un sistema Reattivo deve essere _Pronto alla risposta_ in quanto la bassa latenza di interazione è un principio cardine dell'usabilità.
 Un sistema deve quindi privilegiare la possibilità di fornire una risposta sempre ed in un tempo prevedibile e costante. Un errore è una risposta come le altre; ed allo stesso modo deve essere individuato e comunicato con le stesse tempistiche.
 

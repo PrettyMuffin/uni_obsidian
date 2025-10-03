@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PDP/Protocolli.md",
+                "file": "PDP/Esecuzione Alternata.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Protocolli"
+              "title": "Esecuzione Alternata"
             }
           }
         ]
@@ -191,34 +191,33 @@
       "print:Print note": false
     }
   },
-  "active": "deb7e569aad802e6",
+  "active": "140b31c651f4bd7b",
   "lastOpenFiles": [
+    "PDP/Primitive Di Networking.md",
+    "PDP/Protocolli.md",
+    "PDP/Esecuzione Alternata.md",
+    "PDP/Attori.md",
+    "PDP/Reattività.md",
+    "PDP/Stato Distribuito.md",
+    "PDP/Fallacies E Frameworks.md",
+    "PDP/Thread.md",
+    "PDP/Thread Local Variables.md",
+    "PDP/Stream Paralleli.md",
+    "PDP/Programmazione Distribuita.md",
+    "PDP/Channels.md",
+    "PDP/Sincronizzazione.md",
     "PDP/img/Pasted image 20250912164655.png",
     "PDP/img/Pasted image 20250912153944.png",
-    "PDP/Protocolli.md",
     "PDP/img/Pasted image 20250912154605.png",
-    "PDP/Esecuzione Alternata.md",
     "PDP/img/Pasted image 20250912115839.png",
     "PDP/img/Pasted image 20250912120631.png",
     "Pasted image 20250912120547.png",
     "PDP/img/Pasted image 20250912115105.png",
     "PDP/img/Pasted image 20250912103301.png",
-    "PDP/Attori.md",
     "PDP/img/Pasted image 20250911105709.png",
-    "PDP/Reattività.md",
     "PDP/img/Pasted image 20250909152950.png",
     "PDP/Executors.md",
-    "PDP/img/Pasted image 20250909153551.png",
-    "PDP/Stream Paralleli.md",
-    "PDP/Stato Distribuito.md",
-    "PDP/Thread Local Variables.md",
-    "PDP/Sincronizzazione.md",
-    "PDP/Fallacies E Frameworks.md",
-    "PDP/Channels.md",
-    "PDP/Primitive Di Networking.md",
     "PDP/Callables.md",
-    "PDP/Thread.md",
-    "PDP/Programmazione Distribuita.md",
     "P.A.O./Ereditarietà.md",
     "PDP/Dati Thread-Safe.md",
     "PDP/img",
