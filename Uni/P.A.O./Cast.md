@@ -57,7 +57,6 @@ reinterpreted_cast <T*> (puntatore)
 reinterpreted_cast <T&> (puntatore)
 ```
 Il `reinterpreted_cast` si limita a reinterpretare a basso livello la sequenza di bit con cui è rappresentato il valore puntato da `puntatore` come fosse una valore di tipo `T`.
-
 ## [Dynamic Cast](Ereditarietà.md#dynamic_cast)
 Nel caso del `dynamic_cast` il "tipo dinamico" di `puntatore`/`riferimento` non è noto a
 tempo di compilazione ma soltanto a tempo di esecuzione.

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SWE/Ciclo Di Vita.md",
+                "file": "PDP/Sincronizzazione.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Ciclo Di Vita"
+              "title": "Sincronizzazione"
             }
           }
         ]
@@ -88,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 210.5
   },
   "right": {
     "id": "53e7b442ff53f276",
@@ -193,18 +193,21 @@
   },
   "active": "deb7e569aad802e6",
   "lastOpenFiles": [
-    "Pasted image 20251004104049.png",
-    "SWE/img/Pasted image 20251004103108.png",
+    "PDP/Esecuzione Alternata.md",
+    "PDP/Sincronizzazione.md",
+    "PDP/img/Pasted image 20251004160713.png",
     "SWE/Introduzione.md",
     "SWE/Ciclo Di Vita.md",
+    "P.A.O./Cast.md",
+    "P.A.O./Ereditarietà.md",
+    "SWE/img/Pasted image 20251004104049.png",
+    "SWE/img/Pasted image 20251004103108.png",
     "SWE/img",
     "SWE/img/Pasted image 20251003103113.png",
-    "P.A.O./Ereditarietà.md",
     "P.A.O./Canvas/Vtable_C.canvas",
     "PDP/Channels.md",
     "Untitled.md",
     "SWE/Untitled.base",
-    "PDP/Esecuzione Alternata.md",
     "Ricerca Operativa",
     "TecWeb",
     "SWE",
@@ -218,15 +221,12 @@
     "PDP/Thread Local Variables.md",
     "PDP/Stream Paralleli.md",
     "PDP/Programmazione Distribuita.md",
-    "PDP/Sincronizzazione.md",
     "PDP/img/Pasted image 20250912164655.png",
     "PDP/img/Pasted image 20250912153944.png",
     "PDP/img/Pasted image 20250912154605.png",
     "PDP/img/Pasted image 20250912115839.png",
     "PDP/img/Pasted image 20250912120631.png",
     "Pasted image 20250912120547.png",
-    "PDP/img/Pasted image 20250912115105.png",
-    "PDP/img/Pasted image 20250912103301.png",
     "PDP/Executors.md",
     "PDP/Callables.md",
     "PDP/Dati Thread-Safe.md",
@@ -236,7 +236,6 @@
     "Probabilità e Statistica/7.1.1 Valor Medio Variabili Aleatorie.md",
     "Probabilità e Statistica/8. Teoremi Limite.md",
     "Probabilità e Statistica/7. Variabili Aleatorie.md",
-    "Probabilità e Statistica/6. Probabilità Condizionali e Indipendenza.md",
     "Diritto/Seconda Parte",
     "Diritto/Prima Parte",
     "Diritto",
