@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "PDP/Sincronizzazione.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -88,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 210.5
+    "width": 210.5,
+    "collapsed": true
   },
   "right": {
     "id": "53e7b442ff53f276",
@@ -193,8 +194,9 @@
   },
   "active": "deb7e569aad802e6",
   "lastOpenFiles": [
-    "PDP/Esecuzione Alternata.md",
+    "PDP/Stato Distribuito.md",
     "PDP/Sincronizzazione.md",
+    "PDP/Esecuzione Alternata.md",
     "PDP/img/Pasted image 20251004160713.png",
     "SWE/Introduzione.md",
     "SWE/Ciclo Di Vita.md",
@@ -215,7 +217,6 @@
     "PDP/Protocolli.md",
     "PDP/Attori.md",
     "PDP/Reattività.md",
-    "PDP/Stato Distribuito.md",
     "PDP/Fallacies E Frameworks.md",
     "PDP/Thread.md",
     "PDP/Thread Local Variables.md",
