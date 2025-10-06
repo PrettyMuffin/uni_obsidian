@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PDP/Sincronizzazione.md",
-                "mode": "source",
+                "file": "TecWeb/HTML5.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Sincronizzazione"
+              "title": "HTML5"
             }
           }
         ]
@@ -88,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 210.5,
-    "collapsed": true
+    "width": 210.5
   },
   "right": {
     "id": "53e7b442ff53f276",
@@ -194,8 +193,9 @@
   },
   "active": "deb7e569aad802e6",
   "lastOpenFiles": [
-    "PDP/Stato Distribuito.md",
     "PDP/Sincronizzazione.md",
+    "TecWeb/HTML5.md",
+    "PDP/Stato Distribuito.md",
     "PDP/Esecuzione Alternata.md",
     "PDP/img/Pasted image 20251004160713.png",
     "SWE/Introduzione.md",
