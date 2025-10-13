@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ricerca Operativa/Modelli Di Programmazione Lineare.md",
-                "mode": "preview",
+                "file": "TecWeb/HTML5.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Modelli Di Programmazione Lineare"
+              "title": "HTML5"
             }
           }
         ]
@@ -193,8 +193,11 @@
   },
   "active": "deb7e569aad802e6",
   "lastOpenFiles": [
-    "PDP/Sincronizzazione.md",
+    "TecWeb/img",
+    "TecWeb/img/Pasted image 20251013161422.png",
+    "TecWeb/img/Pasted image 20251013161341.png",
     "Ricerca Operativa/Modelli Di Programmazione Lineare.md",
+    "PDP/Sincronizzazione.md",
     "TecWeb/HTML5.md",
     "PDP/Stato Distribuito.md",
     "PDP/Esecuzione Alternata.md",
@@ -227,8 +230,6 @@
     "PDP/img/Pasted image 20250912153944.png",
     "PDP/img/Pasted image 20250912154605.png",
     "PDP/img/Pasted image 20250912115839.png",
-    "PDP/img/Pasted image 20250912120631.png",
-    "Pasted image 20250912120547.png",
     "PDP/Executors.md",
     "PDP/Callables.md",
     "PDP/Dati Thread-Safe.md",
@@ -236,7 +237,6 @@
     "PDP",
     "Probabilità e Statistica/7.1 Variabili Aleatorie Discrete.md",
     "Probabilità e Statistica/7.1.1 Valor Medio Variabili Aleatorie.md",
-    "Probabilità e Statistica/8. Teoremi Limite.md",
     "Diritto/Seconda Parte",
     "Diritto/Prima Parte",
     "Diritto",

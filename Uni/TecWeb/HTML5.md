@@ -102,4 +102,58 @@ Piattaforme come Facebook e LinkedIn hanno creato i loro propri "nomi" standardi
 >```
 
 ## Corpo del Documento
-slide 38 html
+La parte contenuta tra i tag `<body></body>` viene chiamata corpo del documento o semplicemente la sezione, **body**.
+Questa sezione contiene la pagina vera e propria, o almeno quello che si vedrà a video.
+Qui vengono inserite le immagini, i suoni, i filmati e il testo, link e quant'altro.
+La sezione body contiene quindi tutti i tag che descrivono la **struttura** del documento: _non devono_ essere usati elementi relativi alla presentazione visuale.
+==Si devono usare gli elementi per il loro significato e non per come vengono visualizzati dal browser== (`<em>` vs `<i>`).
+Ci sono attributi comuni a tutti i tag, questi si dividono in 3 classi:
+- Core: Sono **class**, **id**, **title** e **style**.
+- i18n: Sono gli attributi **internationalization**: ovvero **dir** e **xml:lang**.
+- Attributi Evento: Gli attributi evento rappresentano gli eventi JavaScript: **onclick**, etc.
+
+>[!important] id vs class
+> **class** definisce un gruppo di appartenenza mentre **id** identifica un elemento in modo univoco.
+> Dare un **id** ad un elemento permette di usarlo:
+> - Come selettore in un foglio di stile
+> - All'interno di uno script
+> - Come ancora di destinazione di un link
+> - Come strumento generico nel trattamento dei dati
+> 
+> Un id deve cominciare con una lettera o con il carattere "\_". Per utilizzarlo all'interno di JavaScript non sono ammessi spazi, apostrofi e punteggiatura.
+> 
+
+### Tag Generalisti
+#### `<div>`
+L'elemento `<div>` è un contenitore generico per l'associazione con fogli di style e crea un nuovo blocco.
+Tutti gli attributi e le associazioni applicate al tag `<div>` saranno estese a tutto il blocco di codice interessato.
+```html
+<div class="center">
+	Questa riga di testo e anche eventuali altri elementi, se presenti,
+	subiranno in questo caso l'allineamento centrato
+</div>
+```
+
+#### `<span>`
+L'elemento `<span>` non ha alcuna caratteristica se non quella di fare da supporto per gli stili.
+==Diversamente da `<div>`, è un elemento in linea.== 
+
+### Markup Strutturale
+HTML5 introduce markup in grado di descrivere meglio la struttura interna di un documento, per questo motivo vengono introdotti nuovi tag:
+- `<header>` e `<footer>`: intestazione e piè di pagina di un documento. Possono essere usati più volte nella stessa pagina, anche all'interno delle sezioni
+  `<footer>` identifica le informazioni su chi ha scritto i contenuti
+- `<main>`: contenuto principale
+- `<nav>`: contiene elementi di supporto alla navigazione. Può comparire anche dentro un `<header>`
+- `<aside>`: sidebar, contenuto a parte, a supporto, non necessariamente a destra o a sinistra.
+  Identifica una parte di contenuto che può essere rimossa senza diminuire il significato della pagina (o della sezione), ma che è legata al contenuto del tag a cui è annidata
+- `<section>`: per raggruppare contenuti sullo stesso tema o logicamente collegati (ex. capitoli di un libro)
+- `<article>`: porzione di testo del documento che possa essere distribuito in modo autonomo (ex. post di un blog, articolo di giornale)
+
+![[Pasted image 20251013161341.png]]
+
+![[Pasted image 20251013161422.png]]
+
+È bene non ricorrere a `<section>` od `<article>` per soli motivi di stile o di scripting, in tal caso `<div>` è preferibile.
+**article, nav, section, e aside** sono _sectioning elements_, ovvero possono contenere **header, nav e footer**.
+
+slide 49
