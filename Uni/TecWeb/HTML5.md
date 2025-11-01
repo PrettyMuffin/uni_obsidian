@@ -155,5 +155,115 @@ HTML5 introduce markup in grado di descrivere meglio la struttura interna di un 
 
 È bene non ricorrere a `<section>` od `<article>` per soli motivi di stile o di scripting, in tal caso `<div>` è preferibile.
 **article, nav, section, e aside** sono _sectioning elements_, ovvero possono contenere **header, nav e footer**.
+>[!info] Controllare se struttura corretta
+>Per controllare se il documento è stato strutturato bene, una buona possibilità è verificare il sommario generato automaticamente da:
+>- [Gsnedders](http://gsnedders.html5.org/outliner/)
+>- Silktide
 
-slide 49
+### Il testo
+Il testo viene inserito tra i tag `<p><\p>`.
+Tra un paragrafo e l'altro il browser inserisce un po' di spazio.
+All'interno dello stesso paragrafo è possibile andare a capo con il tag. `<br/>`. In questo caso lo spazio di interlinea non viene inserito.
+Inoltre esiste il tag `<hr />` che inserisce una linea orizzontale.
+All'interno del codice html si possono inserire dei commenti che non vengono visualizzati dal browser. È sufficiente inserirli tra i tag `<!--<commento>-->`.
+#### Caratteri Speciali
+>[!question] Dato che "<" e ">" servono a distinguere i tag xhtml dalle parole del testo, come faccio ad inserire una di queste nel testo della mia pagina?
+>Lo stesso problema si pone con tutta una serie di caratteri speciali come lo spazio (in genere ignorato) o le vocali accentate, che vengono indicate con dei codici
+
+| Lettera | Codice   |
+| ------- | -------- |
+| "       | `&quot;` |
+| <       | `&lt;`   |
+| €       | `&euro;` |
+| &       | `&amp;`  |
+| >       | `&gt;`   |
+#### Cosmesi del testo
+Ci sono due tipi di markup: _strutturale_ e _di presentazione_.
+In quello strutturale, possiamo distinguere una insieme di tag che condizionano in qualche modo il contenuto all'interno di essi. Per questo vengono considerati **stili logici**, ovvero descrivono: il significato, il contesto o l'uso dell'elemento che racchiudono.
+Sostituiscono tag della prima formulazione di HTML troppo legati ad aspetti presentazionali.
+Per rendere una pagina più leggibile si fa spesso ricorso ad una specie di cosmesi del testo per dare enfasi ad una parte del paragrafo:
+- `<em></em>` = enfasi
+- `<strong></strong>` = forte enfasi
+
+Il modo in cui vengono utilizzati può essere manipolato tramite un foglio di stile, questi sono pensati per sostituire `<i>` e `<b>`, ==in quanto migliorano l'accessibilità (sono leggibili da uno screen reader)== e contribuiscono a separare contenuto e presentazione.
+
+#### Intestazioni
+Esistono diversi livelli di intestazione: **h1, h2, h3, h4, h5, h6**
+==Si devono utilizzare rispettando l'ordine e pensando alla struttura del documento== e non a come vengono visualizzati di default. La visualizzazione infatti può essere modificata.
+>[!nota] Regole per scrivere buoni titoli
+>- Scrivi un titolo unico per ogni pagina
+>- Cerca di essere conciso e descrittivo
+>- Evita titoli vaghi o generici
+>- Utilizza la maiuscola per la prima lettera della frase o la prima lettera di ogni parola
+>- Crea contenuti degni di click ed evita i _clickbait_
+>- Pensa all'intento della ricerca
+>- Includi la parola chiave principale quando ha senso farlo
+>- Max 60 caratteri
+
+#### Citazioni
+Per riportare un passo e citare l'autore si devono usare i tab _blockquote_, _q_ o _cite_.
+Dove _blockquote_ introduce un'ampia citazione che occupa un'intero blocco; _q_ introduce una citazione più ristretta in linea; la fonte può essere indicata tramite gli attributi _cite_ (obbligatoriamente un URI) o _title_, oppure con il tag `<cite>`.
+>[!warning] Attenzione
+>In HTML5 _cite_ indica il titolo di un lavoro (libro, film, ...)
+
+#### Altri tag per l'inserimento di testo particolare
+- **abbr** indica le abbreviazioni.
+- **address** identifica un indirizzo.
+- **acronym** (solo XHTML) indica gli acronimi.
+- **code** permette di inserire del codice all'interno di HTML.
+- **var** identifica delle variabili in un codice.
+- **samp** identifica un particolare output di un programma.
+- **pre** permette di inserire testo pre-formattato, dove spazi, tabulazioni e accapo hanno un valore.
+- **ins** identifica un inserimento redazionale. Solitamente è visualizzato sottolineato.
+- **del** identifica una cancellazione redazionale. Solitamente è visualizzata barrata.
+
+### Altri tag semantici
+- **figure/picture**
+- **mark**
+- **time** (con l'attributo _datetime_ che contiene la data o l'ora in formato XML)
+- **meter** per indicare una misura in una scala che a un minimo (**min**) ed un massimo (**max**)
+- **progress** per indicare un valore che sta cambiando
+- **small** per indicare le note a piè di pagina, i termini in piccolo dei contratti, etc...
+
+### Elenchi
+#### Elenchi non ordinati
+Sono elenchi puntati da utilizzare quando vogliamo dei punti per il nostro elenco, senza un ordine ben preciso.
+```html
+Oggi devo comprare:
+<ul>
+	<li>Mele</li>
+	<li>Pere</li>
+	<li>Angurie</li>
+	<li>Limoni</li>
+</ul>
+```
+#### Elenchi ordinati
+Elenchi numerati da utilizzare quando vogliamo dei punti che abbiano una gerarchia o un ordine ben preciso.
+```html
+Per piantare un chiodo devo:
+<ol>
+	<li>Prendere martello e chiodo</li>
+	<li>Sollevare il martello</li>
+	<li>Colpure ripetutamente il chiodo col martello finchè questo non è piantato</li>
+</ol>
+```
+
+L'HTML5 aggiunge al tag `<ol>` i seguenti attributi:
+- **reversed**
+- **start**: indica il numero con cui parte la lista
+- **type** specifica il tipo di marcatore
+
+Inoltre aggiunge al tag `<li>` l'attributo **value** che consente di impostare un numero arbitrario.
+
+#### Elenchi di definizioni
+Elenchi in cui non si utilizza alcun tipo di punto, utili soprattutto per definire dei termini.
+```html
+<dl>
+	<dt>Uomo</dt>
+	<dd>
+		Essere vivente, amante e desiderante. 
+		Bipede implume dotato di una intelligenza piùo meno 
+		grande che può usare o meno.
+	</dd>
+</dl>
+```

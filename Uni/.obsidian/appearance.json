@@ -1,10 +1,10 @@
 {
-  "cssTheme": "Border",
+  "cssTheme": "Obsidian Nord",
   "accentColor": "",
   "enabledCssSnippets": [
     "snippets",
     "callouts"
   ],
-  "theme": "moonstone",
+  "theme": "obsidian",
   "nativeMenus": false
 }

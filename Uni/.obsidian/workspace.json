@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "TecWeb/HTML5.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -54,7 +54,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Esplora risorse"
             }
           },
           {
@@ -179,13 +179,13 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false,
-      "workspaces:Manage workspace layouts": false,
+      "switcher:Apri selezione rapida": false,
+      "graph:Apri vista grafo": false,
+      "canvas:Crea nuova lavagna": false,
+      "templates:Inserisci modello": false,
+      "command-palette:Apri riquadro comandi": false,
+      "markdown-importer:Apri importazione Markdown": false,
+      "workspaces:Gestisci layout delle aree di lavoro": false,
       "bases:Create new base": false,
       "obsidian-git:Open Git source control": false,
       "print:Print note": false
@@ -193,12 +193,13 @@
   },
   "active": "deb7e569aad802e6",
   "lastOpenFiles": [
+    "Senza nome.md",
+    "TecWeb/HTML5.md",
+    "Ricerca Operativa/Modelli Di Programmazione Lineare.md",
     "TecWeb/img",
     "TecWeb/img/Pasted image 20251013161422.png",
     "TecWeb/img/Pasted image 20251013161341.png",
-    "Ricerca Operativa/Modelli Di Programmazione Lineare.md",
     "PDP/Sincronizzazione.md",
-    "TecWeb/HTML5.md",
     "PDP/Stato Distribuito.md",
     "PDP/Esecuzione Alternata.md",
     "PDP/img/Pasted image 20251004160713.png",
@@ -239,7 +240,6 @@
     "Probabilità e Statistica/7.1.1 Valor Medio Variabili Aleatorie.md",
     "Diritto/Seconda Parte",
     "Diritto/Prima Parte",
-    "Diritto",
     "Canvas/Vtable_C.canvas",
     "Untitled.canvas",
     "Canvas/PAO_C.canvas"
