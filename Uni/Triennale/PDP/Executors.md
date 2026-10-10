@@ -28,5 +28,5 @@ System.out.println("Done scheduling");
 - `ScheduledThreadPool` Esegue i compiti con una temporizzazione, quindi significa che possiamo dirgli "esegui questo runnable tra 10 minuti".
 - `WorkStealingPool` Punta ad usare tutti i processori disponibili. Specializzato per il framework di fork/join, ovvero un'attività ne genera delle altre.
 - `ThreadPerTask` Per ogni compito avvia un nuovo thread.
-- `VirtualThreadPerTask` Per ogni compito avvia un nuovo [virtual thread](Thread#Virtual%20Thread) per task.
+- `VirtualThreadPerTask` Per ogni compito avvia un nuovo [virtual thread](Thread.md#Virtual%20Thread) per task.
 

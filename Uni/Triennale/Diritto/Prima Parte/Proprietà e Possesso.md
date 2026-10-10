@@ -1,5 +1,5 @@
 ## Diritto di proprietà
-==Il diritto di proprietà è il [diritto reale](Diritti%20Reali) più importante.==
+==Il diritto di proprietà è il [diritto reale](Diritti%20Reali.md) più importante.==
 >[!quote] Art. 832
 > Il proprietario ha diritto di godere e disporre delle cose in modo pieno ed esclusivo, entro i limiti e con l'osservanza degli obblighi stabiliti dall'ordinamento giuridico
 
@@ -16,7 +16,7 @@ I limiti e obblighi stabiliti sono sia di natura privatistica che pubblicistica
 Proprietà che comincia o inizia con me, nello specifico: l'invenzione, rinvenimento e diritti d'autore.
 
 >[!important] Nota Bene
->La proprietà non si [prescrive](Diritto%20Privato#Prescrizione) per mancato utilizzo del mio [bene](Beni).
+>La proprietà non si [prescrive](Diritto%20Privato.md#Prescrizione) per mancato utilizzo del mio [bene](Beni.md).
 
 ---
 ## Possesso
@@ -25,17 +25,17 @@ Proprietà che comincia o inizia con me, nello specifico: l'invenzione, rinvenim
 Chi usucapisce deve detenere il possesso di tale cosa, dunque detiene il potere di tale cosa (stabilito da cc).
 
 ==Affinché il possesso vi sia, devono esserci 2 elementi:==
-1. ==Controllo **materiale**: avere una relazione materiale== con il [bene](Beni).
-2. ==**Comportamento** come se si fosse il titolare di tale [bene](Beni).==
+1. ==Controllo **materiale**: avere una relazione materiale== con il [bene](Beni.md).
+2. ==**Comportamento** come se si fosse il titolare di tale [bene](Beni.md).==
 
 Il possesso si può ottenere a titolo derivativo o a titolo originario.
 
 > Possesso a titolo originario si ottiene tramite la presa fisica di tale bene materiale, es prendo un libro.
 
 ### Usucapione
-Se vi è qualcun'altro che si comporta come se fosse proprietario di un [bene](Beni) non di sua proprietà, decorso un certo periodo di tempo, l'utilizzatore diventa il proprietario per ==usucapione==.
+Se vi è qualcun'altro che si comporta come se fosse proprietario di un [bene](Beni.md) non di sua proprietà, decorso un certo periodo di tempo, l'utilizzatore diventa il proprietario per ==usucapione==.
 >[!cor] **Nello Specifico**
-Per far si che entri in campo l'uso capione ci deve essere il **disinteresse** di tale [bene](Beni) da parte del proprietario.
+Per far si che entri in campo l'uso capione ci deve essere il **disinteresse** di tale [bene](Beni.md) da parte del proprietario.
 
 Il possesso per l'usucapione deve essere 
 - **Pacifico**: non commettendo furto o comunque appropriazione con violenza.
@@ -57,7 +57,7 @@ Se invece l'utilizzatore è un buona fede ovvero non intende ledere il proprieta
 
 Questa regola è fondamentale nel diritto dei beni mobili e riguarda l’**acquisto della proprietà da parte di un soggetto che compra un bene da chi non ne è il vero proprietario**.
 #### Requisiti per l'acquisto della proprietà
-Per ottenere la proprietà del [**bene mobile**](Beni#Mobili) in queste circostanze, devono esserci 3 condizioni:
+Per ottenere la proprietà del [**bene mobile**](Beni.md#Mobili) in queste circostanze, devono esserci 3 condizioni:
 1. **Buona fede al momento della consegna**:
    - L'acquirente non deve sapere che il venditore non fosse il proprietario.
    - La buona fede si valuta al momento della consegna del bene, non al momento del contratto.

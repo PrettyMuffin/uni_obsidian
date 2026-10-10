@@ -1,4 +1,4 @@
-Il paragirma [reattivo](Reattività) ci ha portato ad esaminare un modello di esecuzione particolare, con lo scopo di ottenere benefici specifici per un insieme di problemi con esigenze specifiche, anche se sempre più comuni.
+Il paragirma [reattivo](Reattività.md) ci ha portato ad esaminare un modello di esecuzione particolare, con lo scopo di ottenere benefici specifici per un insieme di problemi con esigenze specifiche, anche se sempre più comuni.
 L'implementazione esaminata, RxJava, non è tuttavia completamente conforme al _Reactive Manifesto_ perché non è basata sullo scambio di messaggi.
 Gli autori del manifesto avevano in mente un modello molto precedente, molto peculiare, nato per requisiti ancora più specifici, ma che si è rivelato estremamente utile negli ambiti in cui il paradigma reattivo si muoveva.
 Andiamo quindi ad esaminare un altro paradigma con la caratteristica però di essere in grado di fornire un'ottima implementazione del modello _Reactive_ e di soddisfare i requisiti del _Reactive Manifesto_.
@@ -91,7 +91,7 @@ static <T> Effect<T> die() {
 ```
 
 ---
-Costruzione dell'attore per la gestione della concorrenza, dato che appunto per definizione del paradigma, tutto quanto è concorrente, tranne gli attori, che sono [thread-safe](Sincronizzazione#Dati%20Thread-Safe).
+Costruzione dell'attore per la gestione della concorrenza, dato che appunto per definizione del paradigma, tutto quanto è concorrente, tranne gli attori, che sono [thread-safe](Sincronizzazione.md#Dati%20Thread-Safe).
 ```java
 abstract class AtomicRunnableAddress<T> implements Address<T>, Runnable {
 	AtomicInteger on = new AtomicInteger(0);
@@ -166,7 +166,7 @@ Le principali caratteristiche del framework sono:
 
 Gli attori comunicano fra loro in modo pilotato dai tipi: questo permette di codificare l'interazione nelle caratteristiche delle classi usate per guidare l'interazione.
 È il compilatore stesso ad impedirci di inviare messaggi che non possono essere ricevuti.
-Akka supporta una implementazione di [Reactive Streams](Reattività#Reactive%20Streams) che può sfruttare la scalabilità del sistema per raggiungere prestazioni considerevoli esponendo il modello di esecuzione degli stream.
+Akka supporta una implementazione di [Reactive Streams](Reattività.md#Reactive%20Streams) che può sfruttare la scalabilità del sistema per raggiungere prestazioni considerevoli esponendo il modello di esecuzione degli stream.
 
 ### Implementazione Completa (non distribuiti)
 ![[Pasted image 20250911105709.png]]

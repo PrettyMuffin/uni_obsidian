@@ -1,4 +1,4 @@
-Per completare la panoramica sui metodi di gestione dei [socket](Primitive%20Di%20Networking#Sockets) ci manca un'astrazione che ci permetta di ascoltare e reagire a più richieste di connessione.
+Per completare la panoramica sui metodi di gestione dei [socket](Primitive%20Di%20Networking.md#Sockets) ci manca un'astrazione che ci permetta di ascoltare e reagire a più richieste di connessione.
 ```java
 public interface Channel extends Closeable
 ```
@@ -70,7 +70,7 @@ public final < A > void write(ByteBuffer src, A attachment, CompletionHandler< I
 
 Questo richiede di riorganizzare il nostro codice, ma ci permette di gestire molte più connessioni.
 
-Un'alternativa all'uso di un `CompeltionHandler` è data dalla versione dei metodi che ritorna un [`Future`](Callables#`Future<V>`).
+Un'alternativa all'uso di un `CompeltionHandler` è data dalla versione dei metodi che ritorna un [`Future`](Callables.md#`Future<V>`).
 per cui ogni operazione ritorna un `Future`:
 
 ```java

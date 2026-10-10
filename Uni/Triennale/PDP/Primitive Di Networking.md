@@ -1,4 +1,4 @@
-Le astrazioni che abbiamo a disposizione per la comunicazione fra più JVM corrispondono direttamente alle caratteristiche del protocollo TCP/IP ([Programmazione Distribuita](Programmazione%20Distribuita#Classi%20Libreria%20Standard))
+Le astrazioni che abbiamo a disposizione per la comunicazione fra più JVM corrispondono direttamente alle caratteristiche del protocollo TCP/IP ([Programmazione Distribuita](Programmazione%20Distribuita.md#Classi%20Libreria%20Standard))
 - Sockets
 - Datagrams
 
@@ -51,7 +51,7 @@ public OutputStream getOutputStream() throws IOException;
 >`InputStream` e `OutputStream` sono stream di `byte` e non di testo.
 
 Questi stream sono sottoposti a diverse regole:
-- Sono [thread safe](Sincronizzazione#Dati%20Thread-Safe), ma un solo [thread](Thread) può scrivere o leggere per volta, pena eccezioni.
+- Sono [thread safe](Sincronizzazione.md#Dati%20Thread-Safe), ma un solo [thread](Thread.md) può scrivere o leggere per volta, pena eccezioni.
 - I buffer sono limitati, questo perché modellano caratteristiche fisiche e quindi possono riempirsi ed in alcuni casi i dati in eccesso possono essere **silenziosamente** (senza eccezioni) scartati.
 - lettura e scrittura possono bloccare il thread, per esempio bloccami se il buffer è vuoto (operazione di lettura).
 - Alcune connessioni possono avere caratteristiche particolari (per es. urgent data)

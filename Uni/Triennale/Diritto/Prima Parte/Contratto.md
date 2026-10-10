@@ -2,7 +2,7 @@
 > Diritti fatti valere contro uno specifico soggetto, es. diritto di credito.
 # Definizione
 >[!quote] **Vendita** ([Art. 1470](https://www.brocardi.it/codice-civile/libro-quarto/titolo-iii/capo-i/sezione-i/art1470.html))
->La vendita e' il contratto che ha per oggetto il trasferimento della [proprietà](Proprietà%20e%20Possesso) di una cosa o il trasferimento di un altro diritto verso il corrispettivo di un prezzo.
+>La vendita e' il contratto che ha per oggetto il trasferimento della [proprietà](Proprietà%20e%20Possesso.md) di una cosa o il trasferimento di un altro diritto verso il corrispettivo di un prezzo.
 
 >[!def] **Contratto** (Art. 1321 cc) 
 >L'accordo di due o più parti per costituire, regolare o estinguere tra loro un rapporto giuridico patrimoniale.

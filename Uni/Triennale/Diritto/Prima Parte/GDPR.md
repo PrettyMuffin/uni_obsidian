@@ -1,4 +1,4 @@
-Diritto protezione dei dati e riservatezza sono [diritti personali](Capacità%20e%20Diritti%20della%20Personalità#Diritti%20della%20personalità).
+Diritto protezione dei dati e riservatezza sono [diritti personali](Capacità%20e%20Diritti%20della%20Personalità.md#Diritti%20della%20personalità).
 >[!def] Diritto riservatezza (Europa)
 > Diritto che ha ogni individuo di avere una propria sfera di intimità personale che è preclusa agli altri, e gli altri devono astenersi a interferire con questa sfera. Nato e sviluppato negli anni '60 come contrappeso alla libertà di stampa e diritto di cronaca.
 
@@ -40,7 +40,7 @@ Si tratta della legislazione più all'avanguardia riguardo il trattamento della 
 > Idea di base: consentire sempre all'umano di controllare e tenere il controllo sul funzionamento dei strumenti informatici.
 > Espresso nell'articolo 13 GDPR.
 
-Dopo questo [regolamento](Ordinamento%20Giuridico#^ced798) le big tech hanno infatti preferito trasferire tutti i server all'interno dell'unione europea.
+Dopo questo [regolamento](Ordinamento%20Giuridico.md#^ced798) le big tech hanno infatti preferito trasferire tutti i server all'interno dell'unione europea.
 Ci sono 3 aspetti particolari che rendono questo regolamento così all'avanguardia
 1. **Accountability**
 2. **Nuovi Prerogative**: Diritti o meglio prerogative che prima non esistevano: 

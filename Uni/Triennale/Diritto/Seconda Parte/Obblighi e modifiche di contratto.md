@@ -10,8 +10,8 @@ Nel contratto di lavoro, il datore, ha dei poteri e può unilateralmente modific
 
 La modifica dell’organizzazione del lavoro da parte del datore è considerata lecita anche senza il consenso del lavoratore, a condizione che la nuova assegnazione rientri nello stesso livello e nella stessa categoria legale e gerarchica. 
 Con il termine “livello” si fa riferimento a una classificazione interna delle mansioni, ordinata in base alla loro complessità, autonomia e responsabilità. 
-Ogni categoria legale (come operai, impiegati, quadri, dirigenti) comprende diversi livelli professionali, che vengono definiti e regolati dai [contratti collettivi](Potere%20Disciplinare#Contratto%20Collettivo) applicabili a ciascun settore. 
-Questi [contratti](Contratto) stabiliscono in modo dettagliato le caratteristiche delle mansioni riconducibili a ciascun livello, offrendo così un parametro oggettivo per valutare la legittimità della modifica. 
+Ogni categoria legale (come operai, impiegati, quadri, dirigenti) comprende diversi livelli professionali, che vengono definiti e regolati dai [contratti collettivi](Potere%20Disciplinare.md#Contratto%20Collettivo) applicabili a ciascun settore. 
+Questi [contratti](Contratto.md) stabiliscono in modo dettagliato le caratteristiche delle mansioni riconducibili a ciascun livello, offrendo così un parametro oggettivo per valutare la legittimità della modifica. 
 > Pertanto, il datore può procedere a un cambiamento organizzativo, purché non si traduca in un demansionamento o in un'alterazione peggiorativa della posizione professionale del lavoratore.
 
 Art.2103:
