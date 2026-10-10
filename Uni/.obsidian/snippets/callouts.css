@@ -1,37 +1,35 @@
+/* --- 1. I tuoi callout personalizzati --- */
 .callout[data-callout="def"] {
-    --callout-color: 122, 158, 159;
+    --callout-color: rgb(122, 158, 159);
     --callout-icon: lucide-book-a;
 }
 
-div.mermaid {
-  text-align: center;
-}
-
 .callout[data-callout="teo"] {
-    --callout-color: 54, 97, 91;
+    --callout-color: rgb(54, 97, 91);
     --callout-icon: lucide-sigma;
 }
 
 .callout[data-callout="cor"] {
-  --callout-color: 118, 199, 224;
-  --callout-icon: lucide-arrow-right-from-line;
+    --callout-color: rgb(118, 199, 224);
+    --callout-icon: lucide-arrow-right-from-line;
 }
 
 .callout[data-callout="question"] {
-  --callout-color: 230, 180, 30;
-  --callout-icon: lucide-help-circle;
+    --callout-color: rgb(230, 180, 30);
+    --callout-icon: lucide-help-circle;
 }
 
 .callout[data-callout="obj"] {
-  --callout-color: 30, 58, 138;
-  --callout-icon: lucide-lightbulb;
+    --callout-color: rgb(30, 58, 138);
+    --callout-icon: lucide-lightbulb;
 }
+
 .callout[data-callout="quote"] .callout-content {
-     font-style: italic;
+    font-style: italic;
 }
 
 .callout {
-  border-left: 3px solid rgb(var(--callout-color));
+    border-left: 4px solid var(--callout-color);
 }
 
 .callout .callout {
@@ -40,6 +38,7 @@ div.mermaid {
 
 .callout-title-inner {
   font-weight: 700 !important;
+  color: rgb(var(--callout-color));
 }
 
 mark {

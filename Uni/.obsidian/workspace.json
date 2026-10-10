@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Triennale/TecWeb/HTML5.md",
+                "file": "Magistrale/Computability/Senza nome.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "HTML5"
+              "title": "Senza nome"
             }
           }
         ]
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Triennale/TecWeb/HTML5.md",
+                "file": "Magistrale/Computability/Senza nome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Triennale/TecWeb/HTML5.md",
+                "file": "Magistrale/Computability/Senza nome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Triennale/TecWeb/HTML5.md",
+                "file": "Magistrale/Computability/Senza nome.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -165,13 +165,23 @@
               "icon": "lucide-list",
               "title": "Struttura"
             }
+          },
+          {
+            "id": "d1722bdc9b34989d",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -186,8 +196,9 @@
       "print:Print note": false
     }
   },
-  "active": "aa4760214dd1ac75",
+  "active": "d9d0cb1a0c6df64b",
   "lastOpenFiles": [
+    "Triennale/TecWeb/HTML5.md",
     "Triennale/TecWeb/img/Pasted image 20251013161422.png",
     "Triennale/SWE/Ciclo Di Vita.md",
     "Triennale/SWE/img/Pasted image 20251004104049.png",

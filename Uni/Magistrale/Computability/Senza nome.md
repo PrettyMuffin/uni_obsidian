@@ -11,4 +11,3 @@
 >  - La computazione:
 >    - Termina dopo un numero finito di passi -> output
 >    - Diverge (non termina mai)  -> no output
-
