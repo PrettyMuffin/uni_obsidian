@@ -2,8 +2,8 @@
 >[!def] **Diritto Reale** #Definizione 
 >Un diritto reale è un diritto soggettivo che attribuisce al titolare un potere immediato e assoluto sulla cosa. Questo diritto, detto anche "ius in re", permette di utilizzare e godere della cosa, escludendo gli altri.
 
-Tutti i diritti reali (tranne [proprietà](Proprietà%20e%20Possesso)) sono limitati: perché **non danno un potere completo** sulla cosa, ma solo **alcune facoltà specifiche**, mentre il resto rimane al proprietario..
-==Tutti i diritti reali limitati coesistono con il diritto di proprietà==, quando il proprietario cede ad altri una o più [proprietà](Proprietà%20e%20Possesso), il proprietario rimane il proprietario, semplicemente il soggetto avrà una qualche forma di potere sulla stessa cosa.
+Tutti i diritti reali (tranne [proprietà](Proprietà%20e%20Possesso.md)) sono limitati: perché **non danno un potere completo** sulla cosa, ma solo **alcune facoltà specifiche**, mentre il resto rimane al proprietario..
+==Tutti i diritti reali limitati coesistono con il diritto di proprietà==, quando il proprietario cede ad altri una o più [proprietà](Proprietà%20e%20Possesso.md), il proprietario rimane il proprietario, semplicemente il soggetto avrà una qualche forma di potere sulla stessa cosa.
 >[!example] Per esempio:
 Un proprietario può dare una sua proprietà in pegno, in ipoteca. Entrambi sono diritti reali limitati, o meglio di garanzia.
 

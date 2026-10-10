@@ -222,7 +222,7 @@ Ciascuna implementazione fornisce degli schedulatori in relazione alla piattafor
 In RxJava, l'operatore `parallel()` permette di indicare che uno stream, da un certo punto in poi, va costruito come parallelo.
 In questa modalità solo alcuni operatori sono consentiti (per questioni di semantica) ed è necessario specificare lo schedulatore da usare con il metodo `.runOn(scheduler)`.
 Al contrario invece `sequential()` indica che da quel punto in poi la pipeline di elaborazione va nuovamente intesa come sequenziale.
-A differenza degli [stream](Stream%20Paralleli) della libreria di base, è possibile indicare una precisa sezione della pipeline che viene configurata parallelamente.
+A differenza degli [stream](Stream%20Paralleli.md) della libreria di base, è possibile indicare una precisa sezione della pipeline che viene configurata parallelamente.
 
 ```java
 System.out.println("Defining...");
@@ -240,9 +240,9 @@ System.out.println("Defined");
 while(!done[0]) Thread.sleep(1000);
 ```
 
-## RX vs [Virtual Threads](Thread#Virtual%20Thread)
+## RX vs [Virtual Threads](Thread.md#Virtual%20Thread)
 Le Reactive Extensions, nelle loro varie forme, ci hanno portato a livelli di espressività e performance che non si pensavano raggiungibili con i paradigmi tradizionali.
 Ma sono la soluzione definitiva? Come si comportano con i Virtual Threads?
-I [virtual threads](Thread#Virtual%20Thread) nascono come contrapposizione diretta al paradigma reattivo, in particolare alla necessità di riscrittura del codice per ottenere le elevate prestazioni.
+I [virtual threads](Thread.md#Virtual%20Thread) nascono come contrapposizione diretta al paradigma reattivo, in particolare alla necessità di riscrittura del codice per ottenere le elevate prestazioni.
 Quelle stesse prestazioni sono ora alla portata di codice scritto tradizionalmente.
 Quindi quello che fanno i virtual threads è alzare l'asticella da superare per passare alla programmazione reattiva.

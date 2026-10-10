@@ -3,7 +3,8 @@
   "accentColor": "",
   "enabledCssSnippets": [
     "snippets",
-    "callouts"
+    "callouts",
+    "unversals"
   ],
   "theme": "obsidian",
   "nativeMenus": false

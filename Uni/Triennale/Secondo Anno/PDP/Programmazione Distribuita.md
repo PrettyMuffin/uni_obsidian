@@ -12,7 +12,7 @@ Le attività possono proseguire sui nodi che sono (ancora) in linea, rispetto a 
 Una mole di lavoro più grande delle capacità di una sola macchine può essere suddivisa fra più nodi per essere eseguita in modo concorrente.
 Questo è oggi il caso d'uso più comune, perché, invece di affrontare problemi più grandi di una macchina grande, si vogliono affrontare problemi con più macchine piccole. 
 Perché il costo della capacità di calcolo è esponenziale in base al singolo nodo.
-Questo può voler dire riscrivere il problema in modo simile a come abbiamo visto nello [stream](Stream%20Paralleli).
+Questo può voler dire riscrivere il problema in modo simile a come abbiamo visto nello [stream](Stream%20Paralleli.md).
 
 #### Diffusione
 Gli utenti di più macchine possono accedere ai risultati del lavoro da uno qualsiasi dei nodi.

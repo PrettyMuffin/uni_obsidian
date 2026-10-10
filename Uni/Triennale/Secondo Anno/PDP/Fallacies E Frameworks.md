@@ -60,7 +60,7 @@ Il protocollo di comunicazione deve evitare di richiedere caratteristiche di tra
 ## Web Framework
 Framework che servono a costruire una parte di un programma distribuito dove ci sono molte parti che fanno richieste e di solito un insieme di nodi che rispondono a tali richieste.
 Con una comunicazione che si basa su HTTP.
-Normalmente non si lavora ad un livello così basso come può essere il [Socket](Primitive%20Di%20Networking#Sockets), ma si usano delle astrazioni:
+Normalmente non si lavora ad un livello così basso come può essere il [Socket](Primitive%20Di%20Networking.md#Sockets), ma si usano delle astrazioni:
 - per semplificare la struttura del codice.
 - per sfruttare implementazioni già testate e corrette.
 

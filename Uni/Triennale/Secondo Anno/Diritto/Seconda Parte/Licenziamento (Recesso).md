@@ -42,6 +42,6 @@ Nel caso del licenziamento ingiustificato, il lavoratore ha diritto a un’inden
 In alternativa, in determinati casi previsti dalla legge, il lavoratore può essere reintegrato nel proprio posto di lavoro con il riconoscimento della retribuzione arretrata.
 
 Il fine principale di questa norma è tutelare il lavoratore da licenziamenti arbitrari o ingiustificati, garantendo una forma di risarcimento o la possibilità di tornare al lavoro. 
-La misura dell’indennità risarcitoria non è fissa, ma è commisurata in base a parametri stabiliti dalla giurisprudenza e dalla [contrattazione collettiva](Potere%20Disciplinare#Contratto%20Collettivo), in modo da contemperare la tutela del lavoratore con le esigenze dell’impresa.
+La misura dell’indennità risarcitoria non è fissa, ma è commisurata in base a parametri stabiliti dalla giurisprudenza e dalla [contrattazione collettiva](Potere%20Disciplinare.md#Contratto%20Collettivo), in modo da contemperare la tutela del lavoratore con le esigenze dell’impresa.
 
 In sintesi, l’articolo 18 rappresenta una salvaguardia fondamentale nel sistema italiano di diritto del lavoro, assicurando un equilibrio tra il potere datoriale di risolvere il rapporto e la tutela del lavoratore da comportamenti ingiustificati.
