@@ -1,20 +1,34 @@
 {
   "main": {
-    "id": "3a2f89ef75937c70",
+    "id": "ab916efbeed854c6",
     "type": "split",
     "children": [
       {
-        "id": "0c4345545669c612",
+        "id": "cd551673dbac8c61",
         "type": "tabs",
         "children": [
           {
-            "id": "badf4d861cf1b365",
+            "id": "aa4760214dd1ac75",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Triennale/TecWeb/HTML5.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "Nuova scheda"
+              "title": "HTML5"
             }
           }
         ]
@@ -23,20 +37,20 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "41ff92f1d7ace9b2",
+    "id": "3f9d89718635dd4a",
     "type": "split",
     "children": [
       {
-        "id": "405c7aa571cbe416",
+        "id": "e5faf860a797f668",
         "type": "tabs",
         "children": [
           {
-            "id": "140b31c651f4bd7b",
+            "id": "81cc63941f54f24d",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTimeReverse",
+                "sortOrder": "alphabetical",
                 "autoReveal": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -46,7 +60,7 @@
             }
           },
           {
-            "id": "1945ef0b14746c95",
+            "id": "90e1cdcdbe239235",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -63,46 +77,39 @@
             }
           },
           {
-            "id": "c7dbc94c366c16c6",
+            "id": "c5e22143a4e6ad3b",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "title": "Segnalibri"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 210.5
+    "width": 300
   },
   "right": {
-    "id": "53e7b442ff53f276",
+    "id": "3496c3ade2124243",
     "type": "split",
     "children": [
       {
-        "id": "8fd1538800c729c4",
+        "id": "e803c44eeaf74e1a",
         "type": "tabs",
         "children": [
           {
-            "id": "fe059a1037cc207d",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
-          },
-          {
-            "id": "e5266e4179ddcad4",
+            "id": "ed8a98b20f0c09f5",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Diritto/Seconda Parte/Potere Disciplinare.md",
+                "file": "Triennale/TecWeb/HTML5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,25 +119,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Potere Disciplinare"
+              "title": "Riferimenti"
             }
           },
           {
-            "id": "1dc520d4e0cc52cb",
+            "id": "495447ab1703b985",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Diritto/Seconda Parte/Potere Disciplinare.md",
+                "file": "Triennale/TecWeb/HTML5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Potere Disciplinare"
+              "title": "Collegamenti in uscita"
             }
           },
           {
-            "id": "bba5490a0e4bdb23",
+            "id": "f6e8d9fbd363cc70",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -141,93 +148,52 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "Etichette"
             }
           },
           {
-            "id": "dcc09413f49754a6",
+            "id": "d9d0cb1a0c6df64b",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diritto/Seconda Parte/Potere Disciplinare.md",
+                "file": "Triennale/TecWeb/HTML5.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Potere Disciplinare"
+              "title": "Struttura"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300.5
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Apri selettore rapido": false,
-      "bases:Crea nuova Base": false,
       "graph:Apri vista grafo": false,
       "canvas:Crea nuova lavagna": false,
       "templates:Inserisci modello": false,
       "command-palette:Apri riquadro comandi": false,
       "workspaces:Gestisci layout delle aree di lavoro": false,
+      "bases:Crea nuova Base": false,
       "obsidian-git:Open Git source control": false,
       "print:Print note": false
     }
   },
-  "active": "140b31c651f4bd7b",
+  "active": "aa4760214dd1ac75",
   "lastOpenFiles": [
-    "Triennale/Secondo Anno/IML/img/Pasted image 20260302150525.png",
-    "Triennale/Secondo Anno/IML/2. Apprendimento Supervisionato.md",
-    "Triennale/Secondo Anno/IML/img/Pasted image 20260302150729.png",
-    "Triennale/Secondo Anno/IML/img/Pasted image 20260302150207.png",
-    "Triennale/Secondo Anno/IML/img/Pasted image 20260302150057.png",
-    "Triennale/Secondo Anno/IML/img/Pasted image 20260302145846.png",
-    "Triennale/Secondo Anno/IML/img/Pasted image 20260302145544.png",
-    "Triennale/Secondo Anno/IML/img/Pasted image 20260302145248.png",
-    "Triennale/Secondo Anno/IML/1. Introduzione ML.md",
-    "Triennale/Secondo Anno/P.A.O./Ereditarietà.md",
-    "Triennale/Secondo Anno/IML/img/Pasted image 20260210120325.png",
-    "Triennale/Secondo Anno/IML/img/Pasted image 20260210115740.png",
-    "Triennale/Secondo Anno/IML/img/Pasted image 20260210111406.png",
-    "Triennale/Secondo Anno/IML/img",
-    "Triennale/Terzo Anno/TecWeb/HTML5.md",
-    "Triennale/Secondo Anno/IML",
-    "Triennale/Terzo Anno",
-    "Triennale/Secondo Anno",
-    "Magistrale",
-    "Triennale",
-    "Triennale/Terzo Anno/Ricerca Operativa/Modelli Di Programmazione Lineare.md",
-    "Triennale/Terzo Anno/TecWeb/img",
-    "Triennale/Secondo Anno/PDP/Sincronizzazione.md",
-    "Triennale/Secondo Anno/PDP/Stato Distribuito.md",
-    "Triennale/Secondo Anno/PDP/Esecuzione Alternata.md",
-    "Triennale/Terzo Anno/SWE/Introduzione.md",
-    "Triennale/Terzo Anno/SWE/Ciclo Di Vita.md",
-    "Triennale/Secondo Anno/P.A.O./Cast.md",
-    "Triennale/Terzo Anno/SWE/img",
-    "Triennale/Secondo Anno/P.A.O./Canvas/Vtable_C.canvas",
-    "Triennale/Secondo Anno/PDP/Channels.md",
-    "Untitled.md",
-    "SWE/Untitled.base",
-    "Triennale/Terzo Anno/Ricerca Operativa",
-    "Triennale/Secondo Anno/PDP/Primitive Di Networking.md",
-    "Triennale/Secondo Anno/PDP/Protocolli.md",
-    "Triennale/Secondo Anno/PDP/Attori.md",
-    "Triennale/Secondo Anno/PDP/Reattività.md",
-    "Triennale/Secondo Anno/PDP/Fallacies E Frameworks.md",
-    "Triennale/Secondo Anno/PDP/Thread.md",
-    "Triennale/Secondo Anno/PDP/Thread Local Variables.md",
-    "Triennale/Secondo Anno/PDP/Stream Paralleli.md",
-    "Triennale/Secondo Anno/PDP/Programmazione Distribuita.md",
-    "Triennale/Secondo Anno/PDP/Executors.md",
-    "Triennale/Secondo Anno/PDP/Callables.md",
-    "PDP/Dati Thread-Safe.md",
-    "Canvas/Vtable_C.canvas",
-    "Untitled.canvas",
-    "Canvas/PAO_C.canvas"
+    "Triennale/TecWeb/img/Pasted image 20251013161422.png",
+    "Triennale/SWE/Ciclo Di Vita.md",
+    "Triennale/SWE/img/Pasted image 20251004104049.png",
+    "Triennale/SWE/img/Pasted image 20251004103108.png",
+    "Triennale/SWE/img/Pasted image 20251003103113.png",
+    "Magistrale/Computability/Senza nome.md",
+    "Triennale/SWE/Introduzione.md"
   ]
 }

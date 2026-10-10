@@ -1,11 +1,11 @@
 {
-  "cssTheme": "Obsidian Nord",
+  "cssTheme": "",
   "accentColor": "",
   "enabledCssSnippets": [
     "snippets",
     "callouts",
     "unversals"
   ],
-  "theme": "obsidian",
+  "theme": "moonstone",
   "nativeMenus": false
 }

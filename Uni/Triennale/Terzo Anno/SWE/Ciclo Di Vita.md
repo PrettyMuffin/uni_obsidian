@@ -27,7 +27,11 @@ Aderire a un modello di ciclo di vita consente di determinare quali processi ser
 > Insieme di attività **correlate** e **coese** che trasformano ingressi (bisogni) in uscite (prodotti) secondo regole date, consumando risorse nel farlo.
 > ![[Pasted image 20251004103108.png]]
 
+<<<<<<<< HEAD:Uni/Triennale/Terzo Anno/SWE/Ciclo Di Vita.md
 Come abbiamo detto nella [[Triennale/Terzo Anno/SWE/Introduzione|Introduzione]]: un insieme di attività è efficace quando raggiunge gli obiettivi attesi ed è efficiente quando raggiunge gli obiettivi senza sprecare risorse.
+========
+Come abbiamo detto nella [[Triennale/SWE/Introduzione|Introduzione]]: un insieme di attività è efficace quando raggiunge gli obiettivi attesi ed è efficiente quando raggiunge gli obiettivi senza sprecare risorse.
+>>>>>>>> e46337bbaac903b1f703d068ff760436c0851a83:Uni/Triennale/SWE/Ciclo Di Vita.md
 La combinazione di efficienza ed efficacia si chiama **economicità**.
 
 ## Standard

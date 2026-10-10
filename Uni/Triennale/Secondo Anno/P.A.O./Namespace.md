@@ -1,4 +1,8 @@
+<<<<<<<< HEAD:Uni/Triennale/Secondo Anno/P.A.O./Namespace.md
 Tags: [[P.A.O]] [[Triennale/Secondo Anno/P.A.O./Tags/Introduzione]]
+========
+Tags: [[P.A.O]] [[Triennale/P.A.O./Tags/Introduzione]]
+>>>>>>>> e46337bbaac903b1f703d068ff760436c0851a83:Uni/Triennale/P.A.O./Namespace.md
 
 ## Perché?
 Uno dei problemi della [programmazione modulare](https://en.wikipedia.org/wiki/Modular_programming) è il problema dell'inquinamento dello spazio dei nomi
